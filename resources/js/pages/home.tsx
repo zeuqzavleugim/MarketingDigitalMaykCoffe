@@ -15,7 +15,19 @@ export default function Home() {
             <hr />
             <Info />
             <hr />
+            <section className="desarrollos">
+                <h2>
+                    Diseño y SEO para atraer más clientes 
+                    sin depender solo de anuncios.
+                </h2>
+            </section>
             <Desarrollo/>
+            <section className="desarrollos">
+                <hr />
+                <h2>
+                    Desarrollo de páginas web rápidas y seguras
+                </h2>
+            </section>
             <Planes/>
             <section className="desarrollos">
                 <hr />

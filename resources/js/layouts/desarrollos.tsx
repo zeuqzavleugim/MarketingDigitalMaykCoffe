@@ -5,10 +5,6 @@ export default function Desarrollo() {
     return(
         <>
             <section id="desarrollos" className="desarrollos">
-                <h2>
-                    Diseño y SEO para atraer más clientes 
-                    sin depender solo de anuncios.
-                </h2>
                 <div className="carts-div">
                     <Cart
                         Image={Paginas.Decoracion}
@@ -59,10 +55,6 @@ export default function Desarrollo() {
                         Tipo={false}
                     />
                 </div>
-                <hr />
-                <h2>
-                    Desarrollo de páginas web rápidas y seguras
-                </h2>
             </section>
         </>
     );

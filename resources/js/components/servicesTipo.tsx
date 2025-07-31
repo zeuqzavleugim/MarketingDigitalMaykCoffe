@@ -19,8 +19,8 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
                             ))}
                         </div>
                         <div className="cart-services-butons">
-                            <Link href={props.Ruta} title="" className="butonEsp">Cotiza</Link>
-                            <Link href={props.RutaSitio} title="" className="butonEsp">Saber más</Link>
+                            <Link href={route(props.Ruta)} title={props.Titulo} className="butonEsp">Cotiza</Link>
+                            <Link href={route(props.RutaSitio)} title={props.Titulo} className="butonEsp">Saber más</Link>
                         </div>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
                         ))}
                     </div>
                     <div className="cart-services-butons"> 
-                        <Link href={props.Ruta} title="" className="butonEsp">Cotiza</Link>
-                        <Link href={props.RutaSitio} title="" className="butonEsp">Saber más</Link>
+                        <Link href={route(props.Ruta)} title={props.Titulo} className="butonEsp">Cotiza</Link>
+                        <Link href={route(props.RutaSitio)} title={props.Titulo} className="butonEsp">Saber más</Link>
                     </div>
                 </div>
                 <div className="cart-services-imag">

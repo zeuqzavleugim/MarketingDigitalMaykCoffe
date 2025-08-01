@@ -1,4 +1,4 @@
-import { Head } from "@inertiajs/react";
+import { Head, Link } from "@inertiajs/react";
 import Navbar from "@/layouts/navbar";
 import Footer from "@/layouts/footer";
 import Formulario from "@/layouts/formulario";
@@ -10,9 +10,23 @@ export default function Portafolio() {
         <>
         <Head title="Portafolio de Sitios Web Profesionales | MaykCoffe"/>
         <Navbar/>
+        <main></main>
         <Desarrollo/>
         <section>
             <hr />
+            <div>
+                <div>
+                    <h2>¿Quieres un sitio?</h2>
+                    <p>
+                        Agenda una llamada y empieza tu proyecto hoy, 
+                        Cotización gratuita y asesoramiento inicial 
+                        incluida.
+                    </p>
+                </div>
+                <div>
+                    <Link href={route("contacto")} className="butonEsp">Cotisa ¡YA!</Link>
+                </div>
+            </div>
         </section>
         <Planes/>
         <Formulario/>

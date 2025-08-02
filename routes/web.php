@@ -7,6 +7,11 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('home');
 })->name('home');
+
+Route::get('/portafolio', function () {
+    return Inertia::render('portafolio');
+})->name('portafolio');
+
 Route::get('/contacto', function () {
     return Inertia::render('contacto');
 })->name('contacto');

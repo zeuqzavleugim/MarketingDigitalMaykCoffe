@@ -16,7 +16,7 @@ export default function Navbar() {
                 </a>
                 <ul className="navbar-nava">
                     <li className="nav-item">
-                        <a className="nav-link" href={route("construccion")} title="portafolios">Portafolios</a>
+                        <a className="nav-link" href={route("portafolio")} title="portafolios">Portafolios</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" href={route("construccion")} title="conoceme">Conoceme</a>
@@ -52,7 +52,7 @@ export default function Navbar() {
                                 <a className="nav-link" href={route("home")} title="desarrollos">Inicio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={route('construccion')} title="desarrollos">Desarrollos</a>
+                                <a className="nav-link" href={route('portafolio')} title="desarrollos">Desarrollos</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href={route('construccion')} title="conoceme">Conoceme</a>

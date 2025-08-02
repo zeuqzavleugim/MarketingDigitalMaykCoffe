@@ -6,29 +6,29 @@ export default function Navbar() {
         <>
         <nav className="navbar navbar-contraint">
             <div className="container-fluid nav-var-expain">
-                <Link className="navbar-brand" href={route("home")} title="maykcoffe">
+                <a className="navbar-brand" href={route("home")} title="maykcoffe">
                     <img 
                         src={Icons.Logo} 
                         className="iconsLogo" 
                         alt="Logotipo" 
                         title="Logotipo" 
                         loading="lazy"/>
-                </Link>
+                </a>
                 <ul className="navbar-nava">
                     <li className="nav-item">
-                        <Link className="nav-link" href={route("construccion")} title="portafolios">Portafolios</Link>
+                        <a className="nav-link" href={route("construccion")} title="portafolios">Portafolios</a>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" href={route("construccion")} title="conoceme">Conoceme</Link>
+                    <a className="nav-link" href={route("construccion")} title="conoceme">Conoceme</a>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" href={route("construccion")} title="servicios">Servicios</Link>
+                        <a className="nav-link" href={route("construccion")} title="servicios">Servicios</a>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" href={route("construccion")} title="planes">Planes</Link>
+                        <a className="nav-link" href={route("construccion")} title="planes">Planes</a>
                     </li>
                     <li className="navbar-blue">
-                        <Link className="nav-link" href={route("contacto")} title="contacto">Contacto</Link>
+                        <a className="nav-link" href={route("contacto")} title="contacto">Contacto</a>
                     </li>
                 </ul>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -49,22 +49,22 @@ export default function Navbar() {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li className="nav-item">
-                                <Link className="nav-link" href={route("home")} title="desarrollos">Inicio</Link>
+                                <a className="nav-link" href={route("home")} title="desarrollos">Inicio</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href={route('construccion')} title="desarrollos">Desarrollos</Link>
+                                <a className="nav-link" href={route('construccion')} title="desarrollos">Desarrollos</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href={route('construccion')} title="conoceme">Conoceme</Link>
+                                <a className="nav-link" href={route('construccion')} title="conoceme">Conoceme</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href={route('construccion')} title="servicios">Servicios</Link>
+                                <a className="nav-link" href={route('construccion')} title="servicios">Servicios</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href={route('construccion')} title="planes">Planes</Link>
+                                <a className="nav-link" href={route('construccion')} title="planes">Planes</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href={route("contacto")} title="contacto">Contacto</Link>
+                                <a className="nav-link" href={route("contacto")} title="contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>

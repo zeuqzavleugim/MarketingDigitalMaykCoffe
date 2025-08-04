@@ -686,6 +686,9 @@ form > .formulario-div{
     width: 100%;
     margin: 5rem;
 }
+.pag-service{
+    background: linear-gradient(to right, #18242E 55%, #383335 75%);
+}
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
         font-size: 2.3vw;

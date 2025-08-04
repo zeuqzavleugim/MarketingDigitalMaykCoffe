@@ -603,6 +603,46 @@ form > .formulario-div{
         transform: translate(2px, 3px);
     }
 }
+.banner-portafolio{
+    background-image: url('/img/calides-de-pie.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 2rem;
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+.banner-portafolio-title{
+    text-align: center;
+    background: #1f293765;
+    display: grid;
+    justify-items: center;
+    color: #FF6B6B;
+    width: 80%;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.banner-portafolio-text{
+    background: #1f293765;
+    display: grid;
+    justify-items: center;
+    color: #FF6B6B;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 3.3vh;
+    padding: 2rem;
+}
+.banner-portafolio-text p{
+    color: #FFFFFF;
+}
+.banner-portafolio-button{
+    width: 80%;
+    padding: 2rem;
+}
+.banner-portafolio-button a{
+    justify-self: right;
+}
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
         font-size: 2.3vw;
@@ -883,5 +923,35 @@ form > .formulario-div{
     .butonEsp{
         width: 37%;
         height: 2.5rem;
+    }
+    .banner-portafolio{
+        background-image: url('/img/calides-de-pie.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        padding: 1rem;
+        display: grid;
+        gap: 1rem;
+        justify-items: center;
+    }
+    .banner-portafolio-title{
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        width: 100%;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    .banner-portafolio-text{
+        display: grid;
+        justify-items: center;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 3vh;
+        padding: 1rem;
+    }
+    .banner-portafolio-button{
+        width: 100%;
+        padding: 0rem;
     }
 }

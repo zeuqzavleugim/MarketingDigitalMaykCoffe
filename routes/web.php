@@ -12,6 +12,10 @@ Route::get('/portafolio', function () {
     return Inertia::render('portafolio');
 })->name('portafolio');
 
+Route::get('/servicios-desarrollo-web-seo-mexico', function () {
+    return Inertia::render('servicios');
+})->name('servicios');
+
 Route::get('/contacto', function () {
     return Inertia::render('contacto');
 })->name('contacto');

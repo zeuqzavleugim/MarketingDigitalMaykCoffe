@@ -9,7 +9,7 @@ import ButonContacto from "@/components/butonContacto";
 export default function Portafolio() {
     return(
         <>
-        <Head title="Portafolio de Sitios Web Profesionales | MaykCoffe"/>
+        <Head title="Portafolio de Sitios Web Profesionales"/>
         <Navbar/>
         <main className="banner-portafolio">
             <div className="banner-portafolio-title">

@@ -25,9 +25,9 @@ export default function Footer() {
                         <a href={route("construccion")} title="Servicios">Servicios</a>
                     </div>
                     <div className="footer-sitio">
-                        <Link href={route("construccion")} title="Planes">Planes</Link>
-                        <Link href={route("contacto")} title="contacto">Contacto</Link>
-                        <Link href={route("construccion")} title="Blogs">Blogs</Link>
+                        <a href={route("construccion")} title="Planes">Planes</a>
+                        <a href={route("contacto")} title="contacto">Contacto</a>
+                        <a href={route("construccion")} title="Blogs">Blogs</a>
                     </div>
                 </div>
             </footer>

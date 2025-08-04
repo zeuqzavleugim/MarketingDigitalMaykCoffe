@@ -38,7 +38,7 @@ export default function Info() {
                         negocio al siguiente nivel!.
                     </p>
                     <div className="seccion-icons">
-                        <Link href="" className="navbar-blue">Cotiza Aqui</Link>
+                        <a href={route("contacto")} className="navbar-blue">Cotiza Aqui</a>
                     </div>
                 </div>
             </header>

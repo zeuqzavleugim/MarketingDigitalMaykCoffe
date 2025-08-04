@@ -24,7 +24,7 @@ export default function Portafolio() {
                     </p>
                 </div>
                 <div>
-                    <Link href={route("contacto")} className="butonEsp">Cotisa ¡YA!</Link>
+                    <a href={route("contacto")} className="butonEsp">Cotisa ¡YA!</a>
                 </div>
             </div>
         </section>

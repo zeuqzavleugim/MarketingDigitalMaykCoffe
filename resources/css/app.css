@@ -643,6 +643,29 @@ form > .formulario-div{
 .banner-portafolio-button a{
     justify-self: right;
 }
+.info-pryect{
+    display: flex;
+    width: 100%;
+}
+.info-pryect-text, .info-pryect-button{
+    padding: 1rem;
+    width: 40rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info-pryect-text h2{
+    font-size: 5.2vh;
+}
+.info-pryect-text p{
+    font-size: 3.3vh;
+    text-align: center;
+}
+.info-pryect-button a{
+    width: 100%;
+    margin: 5rem;
+}
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
         font-size: 2.3vw;
@@ -953,5 +976,24 @@ form > .formulario-div{
     .banner-portafolio-button{
         width: 100%;
         padding: 0rem;
+    }
+    .info-pryect{
+        display: grid;
+        justify-content: center;
+        justify-self: center;
+    }
+    .info-pryect-text, .info-pryect-button{
+        padding: 0rem;
+        width: 100%;
+    }
+    .info-pryect-text h2{
+        font-size: 5.2vh;
+    }
+    .info-pryect-text p{
+        font-size: 3.3vh;
+    }
+    .info-pryect-button a{
+        width: 100%;
+        margin: 2rem;
     }
 }

@@ -42,8 +42,8 @@ export default function Portafolio() {
         <Desarrollo/>
         <section>
             <hr />
-            <div>
-                <div>
+            <div className="container info-pryect">
+                <div className="info-pryect-text">
                     <h2>¿Quieres un sitio?</h2>
                     <p>
                         Agenda una llamada y empieza tu proyecto hoy, 
@@ -51,7 +51,7 @@ export default function Portafolio() {
                         incluida.
                     </p>
                 </div>
-                <div>
+                <div className="info-pryect-button">
                     <ButonContacto 
                         Ruta="contacto"
                         Texto="Cotiza ¡YA!"

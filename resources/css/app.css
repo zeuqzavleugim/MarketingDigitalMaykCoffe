@@ -4,6 +4,9 @@
 
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *{
     color: #1F2937;

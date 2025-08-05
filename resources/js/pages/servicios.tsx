@@ -43,8 +43,8 @@ export default function Servicios() {
                     <img src={Banner.Servicios} alt="los servicios dan tranquilidad" />
                 </div>
             </div>
-            <section>
-                <div>
+            <section className="section-servicios-text">
+                <div className="main-services-div">
                     <h2>
                         ¿Por qué trabajar con nosotros?
                     </h2>
@@ -53,7 +53,7 @@ export default function Servicios() {
                         y aumentar sus conversiones gracias a nuestras soluciones.
                     </p>
                 </div>
-                <div>
+                <div className="main-services-div-buton">
                     <ButonContacto
                         Ruta="contacto"
                         Texto="Cotiza YA"

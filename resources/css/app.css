@@ -505,25 +505,25 @@ form > .formulario-div{
     background: #10151A;
     padding: 2rem;
 }
-.main-contacto{
+.main-contacto, .main-servises{
     display: flex;
     width: 95%;
     justify-content: center;
     justify-items: center;
     justify-self: center;
 }
-.main-contacto-div{
+.main-contacto-div, .main-services-info{
     display: grid;
     width: 90vh;
     padding: 0rem;
     justify-items: center;
     color: #FFFFFF;
 }
-.main-contacto-div h1{
+.main-contacto-div h1, .main-services-info h1{
     color: #FFFFFF;
     text-align: center;
 }
-.main-contacto-div p{
+.main-contacto-div p, .main-services-info p{
     font-size: 2.9vh;
     color: #FFFFFF;
 }
@@ -682,12 +682,33 @@ form > .formulario-div{
     font-size: 3.3vh;
     text-align: center;
 }
-.info-pryect-button a{
+.info-pryect-button a, .main-services-info a{
     width: 100%;
     margin: 5rem;
 }
 .pag-service{
     background: linear-gradient(to right, #18242E 55%, #383335 75%);
+    padding: 2.5rem 0rem;
+}
+.main-services-info{
+    padding: 1rem;
+}
+.img-services img{
+    display: grid;
+    width: 80vh;
+    justify-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px #1F2937;
+}
+.img-pie-pag{
+    display: grid;
+    justify-items: center;
+    margin: 2rem auto;
+}
+.img-pie-pag img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px #1F2937;
 }
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
@@ -760,15 +781,15 @@ form > .formulario-div{
     .inpud-text{
         width: 100%;
     }
-    .main-contacto-div{
+    .main-contacto-div, .main-services-info{
         width: 75vh;
     }
-    .main-contacto-div h1, .main-contacto-div h2{
+    .main-contacto-div h1, .main-contacto-div h2, .main-services-info h1{
         color: #FFFFFF;
         text-align: center;
         font-size: 2.8vh;
     }
-    .main-contacto-div p{
+    .main-contacto-div p, .main-services-info p{
         font-size: 1.9vh;
         color: #FFFFFF;
     }
@@ -899,22 +920,22 @@ form > .formulario-div{
         border-radius: 5px;
         width: 45%;
     }
-    .main-contacto{
+    .main-contacto, .main-servises{
         display: grid;
         width: 95%;
         justify-content: center;
         justify-items: center;
         justify-self: center;
     }
-    .main-contacto-div{
+    .main-contacto-div, .main-services-info{
         width: 45vh;
     }
-    .main-contacto-div h1, .main-contacto-div h2{
+    .main-contacto-div h1, .main-contacto-div h2, .main-services-info h1{
         color: #FFFFFF;
         text-align: center;
         font-size: 2.8vh;
     }
-    .main-contacto-div p{
+    .main-contacto-div p, .main-services-info p{
         font-size: 1.9vh;
         color: #FFFFFF;
     }
@@ -1015,7 +1036,7 @@ form > .formulario-div{
     .info-pryect-text p{
         font-size: 3.3vh;
     }
-    .info-pryect-button a{
+    .info-pryect-button a, .main-services-info a{
         width: 100%;
         margin: 2rem;
     }

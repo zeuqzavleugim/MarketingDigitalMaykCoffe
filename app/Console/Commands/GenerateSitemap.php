@@ -31,6 +31,7 @@ class GenerateSitemap extends Command
         Sitemap::create()
             ->add(Url::create('/'))
             ->add(Url::create('/contacto'))
+            ->add(Url::create('/portafolio'))
             ->writeToFile(public_path('sitemap.xml'));
 
         $this->info('✅ Sitemap generado correctamente en public/sitemap.xml');

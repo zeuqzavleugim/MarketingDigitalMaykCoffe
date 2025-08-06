@@ -8,8 +8,6 @@
         <title inertia>{{ config('app.name', 'Mayk Coffe') }}</title>
         @include('descripcion')
         <meta name="author" content="Miguel Angel Vazquez Aviles">
-        <!-- <link rel="icon" href="/favicon.ico" sizes="any">
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
         <link rel="icon" href="{{ Vite::asset('resources/assets/Logo3.png') }}" type="image/png">
 
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -21,14 +19,14 @@
 
 <!--  -->
         <!-- Google tag (gtag.js) -->
-        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-5F0NLRKDPR"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5F0NLRKDPR"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-5F0NLRKDPR');
-        </script> -->
+        </script>
 <!--  -->
         @routes
         @viteReactRefresh

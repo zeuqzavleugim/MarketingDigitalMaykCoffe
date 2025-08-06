@@ -215,6 +215,9 @@ footer{
 }
 .desarrollos{
     text-align: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
 }
 .desarrollos > h2{
     font-size: 3vw;
@@ -505,25 +508,25 @@ form > .formulario-div{
     background: #10151A;
     padding: 2rem;
 }
-.main-contacto{
+.main-contacto, .main-servises{
     display: flex;
     width: 95%;
     justify-content: center;
     justify-items: center;
     justify-self: center;
 }
-.main-contacto-div{
+.main-contacto-div, .main-services-info{
     display: grid;
     width: 90vh;
     padding: 0rem;
     justify-items: center;
     color: #FFFFFF;
 }
-.main-contacto-div h1{
+.main-contacto-div h1, .main-services-info h1{
     color: #FFFFFF;
     text-align: center;
 }
-.main-contacto-div p{
+.main-contacto-div p, .main-services-info p{
     font-size: 2.9vh;
     color: #FFFFFF;
 }
@@ -571,6 +574,7 @@ form > .formulario-div{
     border: 1px solid #FF6B6B;
     border-radius: 10px;
     padding: 2rem;
+    margin: auto;
     justify-content: space-between;
 }
 .cart-services-imag{
@@ -659,6 +663,10 @@ form > .formulario-div{
 .banner-portafolio-button{
     width: 80%;
     padding: 2rem;
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    justify-self: center;
 }
 .banner-portafolio-button a{
     justify-self: right;
@@ -682,12 +690,63 @@ form > .formulario-div{
     font-size: 3.3vh;
     text-align: center;
 }
-.info-pryect-button a{
+.info-pryect-button a, .main-services-info a{
     width: 100%;
     margin: 5rem;
 }
 .pag-service{
     background: linear-gradient(to right, #18242E 55%, #383335 75%);
+    padding: 2.5rem 0rem;
+}
+.main-services-info{
+    padding: 1rem;
+}
+.img-services img{
+    display: grid;
+    width: 80vh;
+    justify-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px #1F2937;
+}
+.section-servicios-text{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.main-services-div{
+    display: grid;
+    width: 90vh;
+    justify-items: center;
+    padding: 1rem;
+    color: #FFFFFF;
+}
+.main-services-div p{
+    font-size: 3.5vh;
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #FFFFFF;
+}
+.main-services-div-buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    margin: 1rem auto;
+}
+.main-services-div-buton a{
+    width: 100%;
+}
+.img-pie-pag{
+    display: grid;
+    justify-items: center;
+    margin: 2rem auto;
+}
+.img-pie-pag img{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px #1F2937;
 }
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
@@ -760,15 +819,15 @@ form > .formulario-div{
     .inpud-text{
         width: 100%;
     }
-    .main-contacto-div{
+    .main-contacto-div, .main-services-info{
         width: 75vh;
     }
-    .main-contacto-div h1, .main-contacto-div h2{
+    .main-contacto-div h1, .main-contacto-div h2, .main-services-info h1{
         color: #FFFFFF;
         text-align: center;
         font-size: 2.8vh;
     }
-    .main-contacto-div p{
+    .main-contacto-div p, .main-services-info p{
         font-size: 1.9vh;
         color: #FFFFFF;
     }
@@ -821,10 +880,19 @@ form > .formulario-div{
     .footer-info{
         justify-items: center;
     }
+    .form-control1{
+        width: 6vw;
+        height: 6vw;
+        border: 2px solid #333;
+        border-radius: 4px;
+    }
     .first-seccion{
         display: grid;
-        padding: 1rem;
+        padding: 0rem;
         width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
     }
     .seccion-img-perfil > picture > img{
         border-radius: 10px;
@@ -850,13 +918,17 @@ form > .formulario-div{
     .footer-sitio{
         width: 8rem;
     }
+    .planes > .carts-div{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
     .carts-div{
         gap: 1rem;
-        padding: 1rem;
+        padding: 0rem;
         justify-content: center;
+        max-width: 100%;
     }
     .carts{
-        width: 17rem;
+        width: 19rem;
     }
     .carts > h2{
         font-size: 7vw; 
@@ -866,7 +938,7 @@ form > .formulario-div{
         padding: 0 1rem;
     }
     .cartTipUno{
-        width: 16rem;
+        width: 18rem;
         border-radius: 20px;
         padding: 1rem;
     }
@@ -880,9 +952,9 @@ form > .formulario-div{
         font-size: 3.5vw;
     }
     .cartTipDos{
-        width: 18.4rem;
+        width: 19.4rem;
         border-radius: 15px;
-        padding: 0.5rem;
+        padding: 0rem;
     }
     .cartTipDos > h2{
         font-size: 7.8vw;
@@ -899,22 +971,22 @@ form > .formulario-div{
         border-radius: 5px;
         width: 45%;
     }
-    .main-contacto{
+    .main-contacto, .main-servises{
         display: grid;
         width: 95%;
         justify-content: center;
         justify-items: center;
         justify-self: center;
     }
-    .main-contacto-div{
+    .main-contacto-div, .main-services-info{
         width: 45vh;
     }
-    .main-contacto-div h1, .main-contacto-div h2{
+    .main-contacto-div h1, .main-contacto-div h2, .main-services-info h1{
         color: #FFFFFF;
         text-align: center;
         font-size: 2.8vh;
     }
-    .main-contacto-div p{
+    .main-contacto-div p, .main-services-info p{
         font-size: 1.9vh;
         color: #FFFFFF;
     }
@@ -949,17 +1021,18 @@ form > .formulario-div{
         padding: 0rem;
     }
     .cart-services-imag{
-        width: 15rem;
+        width: 17rem;
         display: grid;
         justify-items: center;
         margin: 1rem;
     }
     .cart-services-info-text{
         width: 100%;
+        margin: auto;
     }
     .cart-services-butons{
         display: flex;
-        justify-content: right;
+        justify-content: center;
         align-items: center;
         margin-top: 1rem;
     }
@@ -1015,7 +1088,7 @@ form > .formulario-div{
     .info-pryect-text p{
         font-size: 3.3vh;
     }
-    .info-pryect-button a{
+    .info-pryect-button a, .main-services-info a{
         width: 100%;
         margin: 2rem;
     }

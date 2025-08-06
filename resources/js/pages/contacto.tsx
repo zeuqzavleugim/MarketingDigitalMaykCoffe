@@ -7,7 +7,7 @@ import { General } from "@/imgs/general";
 export default function Contacto({}) {
     return(
         <>
-            <Head title="Agenda tu proyecto | Contacto con MaykCoffe - Desarrollo Web y SEO CDMX" />
+            <Head title="Agenda tu proyecto | Desarrollo Web y SEO CDMX | Contacto con" />
             <Navbar />
             <main className="main-principal-contacto">
                 <div className="main-contacto">

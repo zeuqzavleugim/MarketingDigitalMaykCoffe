@@ -30,7 +30,7 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/portafolio" />
         @break
-    {{-- @case("servicios-desarrollo-web-seo-mexico")
+    @case("servicios-desarrollo-web-seo-mexico")
         <meta name="description" content="Aumenta tu visibilidad online con servicios profesionales en desarrollo web, creación de landing pages y posicionamiento SEO. Genera más clientes desde Google con MaykCoffe." />
         <meta name="keywords" content="Servicios Web, SEO de Alto Impacto, Aumenta tu visibilidad online, servicios profesionales, desarrollo web, creación de landing pages, posicionamiento SEO, Genera más clientes, desde Google, MaykCoffe." />
         <meta property="og:title" content="Servicios Web y SEO de Alto Impacto | MaykCoffe Studio" />
@@ -39,7 +39,7 @@
         <meta name="twitter:description" content="Impulsa tu presencia online con diseño web, landing pages y SEO hechos para convertir" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios-desarrollo-web-seo-mexico" />
-        @break --}}
+        @break
 
     @default
         <meta name="description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />

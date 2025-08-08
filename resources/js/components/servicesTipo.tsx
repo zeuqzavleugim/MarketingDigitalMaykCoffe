@@ -1,4 +1,3 @@
-import { Link } from "@inertiajs/react";
 
 export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Texto: Array<string>, Ruta: string, RutaSitio: string, Imagen: string}) {
     if (props.Tipo === true) {

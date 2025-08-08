@@ -697,6 +697,10 @@ form > .formulario-div{
 .pag-service{
     background: linear-gradient(to right, #18242E 55%, #383335 75%);
     padding: 2.5rem 0rem;
+    color: #FFFFFF;
+}
+.pag-service section{
+    color: #FFFFFF;
 }
 .main-services-info{
     padding: 1rem;
@@ -707,6 +711,47 @@ form > .formulario-div{
     justify-items: center;
     border-radius: 10px;
     box-shadow: 2px 3px 5px 1px #1F2937;
+}
+.seccion-serviceses{
+    width: 95%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    justify-self: center;
+    gap: 2rem;
+}
+.seccion-serviceses .cart-services-imag{
+    width: 30rem;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+.seccion-serviceses .cart-services-imag img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px #1F2937;
+    &:hover{
+        transform: translateX(0px) scale(1.05);
+        box-shadow: 0px 0px 0px 0px #1F2937;
+    }
+}
+.seccion-serviceses .cart-services-info-text{
+    display: grid;
+    width: 65%;
+    text-align: left;
+    margin: 0.5rem;
+}
+.seccion-serviceses .cart-services-info-text h2, .seccion-serviceses .cart-services-info-text p{
+    color: #FFFFFF;
+}
+.seccion-serviceses .cart-services-info-text h2{
+    font-size: 5vh;
+}
+.seccion-serviceses .cart-services-info-text p{
+    font-size: 3.2vh;
 }
 .section-servicios-text{
     display: flex;
@@ -850,6 +895,34 @@ form > .formulario-div{
     .butonEsp{
         width: 33%;
         height: 2.5rem;
+    }
+    .seccion-serviceses{
+        width: 95%;
+        gap: 2rem;
+    }
+    .seccion-serviceses .cart-services-imag{
+        width: 20rem;
+    }
+    .seccion-serviceses .cart-services-imag img{
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 2px 3px 5px 1px #1F2937;
+        &:hover{
+            transform: translateX(0px);
+            box-shadow: 0px 0px 0px 0px #1F2937;
+        }
+    }
+    .seccion-serviceses .cart-services-info-text{
+        display: grid;
+        width: 55vh;
+        text-align: left;
+        margin: 0.5rem;
+    }
+    .seccion-serviceses .cart-services-info-text h2{
+        font-size: 4.5vh;
+    }
+    .seccion-serviceses .cart-services-info-text p{
+        font-size: 2.9vh;
     }
 }
 @media (max-width: 747px){
@@ -1091,5 +1164,55 @@ form > .formulario-div{
     .info-pryect-button a, .main-services-info a{
         width: 100%;
         margin: 2rem;
+    }
+    .main-services-info{
+        padding: 0rem;
+    }
+    .seccion-serviceses{
+        width: 95%;
+        gap: 1rem;
+    }
+    .seccion-serviceses .cart-services-imag{
+        width: 15rem;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    .seccion-serviceses .cart-services-info-text{
+        display: grid;
+        width: 55vh;
+        text-align: left;
+        margin: 0.5rem;
+    }
+    .seccion-serviceses .cart-services-info-text h2{
+        font-size: 4.5vh;
+    }
+    .seccion-serviceses .cart-services-info-text p{
+        font-size: 2.9vh;
+    }
+    .section-servicios-text{
+        display: grid;
+        width: 95%;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .main-services-div{
+        display: grid;
+        width: 60vh;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        padding: 1rem;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .main-services-div p{
+        font-size: 3.5vh;
+        text-align: center;
+        margin: 1.5rem 0;
+        color: #FFFFFF;
     }
 }

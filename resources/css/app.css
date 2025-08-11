@@ -290,6 +290,10 @@ footer{
     text-align: center;
     padding: 2rem;
 }
+.background-sin{
+    background: #b388eb00 !important;
+    color: #FFFFFF !important; 
+}
 .planes > .carts-div{
     display: grid;
     max-width: 100%;
@@ -706,6 +710,11 @@ form > .formulario-div{
     padding: 1rem;
     color: #FFFFFF;
 }
+.main-services-info ul li{
+    padding: 0.3rem;
+    list-style-type: disc;
+    color: #FFFFFF;
+}
 .main-services-info h2{
     color: #FFFFFF;
     text-align: center;
@@ -802,6 +811,7 @@ form > .formulario-div{
     background: #10151A;
     padding: 2.5rem 0rem;
     color: #FFFFFF;
+    display: grid;
 }
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
@@ -1061,6 +1071,9 @@ form > .formulario-div{
         justify-items: center;
         justify-self: center;
     }
+    .main-servises{
+        gap: 1rem;
+    }
     .main-contacto-div, .main-services-info{
         width: 45vh;
     }
@@ -1224,5 +1237,8 @@ form > .formulario-div{
         text-align: center;
         margin: 1.5rem 0;
         color: #FFFFFF;
+    }
+    .pag-landing{
+        gap: 1.5rem;
     }
 }

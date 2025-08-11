@@ -23,7 +23,7 @@ export default function Navbar() {
                     <li className="nav-item">
                         <a className="nav-link dropdown-toggle" id="navbarDropdown" href={route("servicios")} title="servicios">Servicios</a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a className="dropdown-item" href={route("construccion")}>Landing Page</a></li>
+                            <li><a className="dropdown-item" href={route("landingPage")}>Landing Page</a></li>
                             <li><a className="dropdown-item" href={route("construccion")}>Creación de sitios web</a></li>
                             <li><a className="dropdown-item" href={route("construccion")}>Consultoria SEO</a></li>
                             <li><a className="dropdown-item" href={route("construccion")}>Optimización para motores de búsqueda</a></li>

@@ -4,21 +4,18 @@ use App\Http\Controllers\ContactoController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-Route::get('/', function () {
-    return Inertia::render('home');
-})->name('home');
+Route::get('/', function () { return Inertia::render('home'); })->name('home');
 
-Route::get('/portafolio', function () {
-    return Inertia::render('portafolio');
-})->name('portafolio');
+Route::get('/portafolio', function () { return Inertia::render('portafolio'); })->name('portafolio');
 
 Route::get('/servicios-desarrollo-web-seo-mexico', function () {
-    return Inertia::render('servicios');
-})->name('servicios');
+    return Inertia::render('servicios'); })->name('servicios');
 
 Route::get('/contacto', function () {
-    return Inertia::render('contacto');
-})->name('contacto');
+    return Inertia::render('contacto'); })->name('contacto');
+
+Route::get('/crear-landing-page-profesional', function () {
+    return Inertia::render('services/landingPage'); })->name('landingPage');
 
 Route::get('/estamos-trabajando-para-ti', function () {
     return Inertia::render('construccion');

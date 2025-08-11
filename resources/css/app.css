@@ -704,6 +704,11 @@ form > .formulario-div{
 }
 .main-services-info{
     padding: 1rem;
+    color: #FFFFFF;
+}
+.main-services-info h2{
+    color: #FFFFFF;
+    text-align: center;
 }
 .img-services img{
     display: grid;
@@ -792,6 +797,11 @@ form > .formulario-div{
     width: 50%;
     border-radius: 10px;
     box-shadow: 2px 3px 5px 1px #1F2937;
+}
+.pag-landing{
+    background: #10151A;
+    padding: 2.5rem 0rem;
+    color: #FFFFFF;
 }
 @media (min-width: 748px) and (max-width: 1020px){
     footer{

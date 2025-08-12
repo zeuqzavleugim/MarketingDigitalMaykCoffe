@@ -55,8 +55,8 @@ export default function Servicios() {
                         'Diseñadas para una sola acción: convertir.',
                         'Integramos WhatsApp, CRMs, correos automáticos y analítica para medir resultados.'
                     ]}
-                    Ruta="construccion"
-                    RutaSitio="construccion"
+                    Ruta="contacto"
+                    RutaSitio="landingPage"
                 />
                 <ServiciosTipo
                     Imagen={servicio.CreacionSitiosWeb}
@@ -66,7 +66,7 @@ export default function Servicios() {
                         'Desde un sitio informativo hasta un ecommerce completo.',
                         'Código limpio, velocidad optimizada y diseño UX/UI que representa tu marca.'
                     ]}
-                    Ruta="construccion"
+                    Ruta="contacto"
                     RutaSitio="construccion"
                 />
                 <ServiciosTipo
@@ -76,7 +76,7 @@ export default function Servicios() {
                     Texto={[
                         'Auditamos, planificamos y ejecutamos estrategias SEO personalizadas para llevar tu sitio a los primeros lugares de Google.'
                     ]}
-                    Ruta="construccion"
+                    Ruta="contacto"
                     RutaSitio="construccion"
                 />
                 <ServiciosTipo

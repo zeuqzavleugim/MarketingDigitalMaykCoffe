@@ -16,7 +16,7 @@ export default function Servicios() {
                         'Tu página estará lista para vender desde el primer día, con un diseño único que refleja tu marca, optimizada para destacar en Google y con velocidad de carga ultrarrápida.',
                         'Para que tengas total tranquilidad, te ofrezco planes de soporte y mantenimiento. Así, tú te enfocas en hacer crecer tu negocio, y yo me encargo de toda la tecnología.',]}
                     Ruta="contacto"
-                    RutaSitio="construccion"
+                    RutaSitio="landingPage"
                 />
                 <ServiciosTipo
                     Tipo={false}

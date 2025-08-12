@@ -18,8 +18,7 @@ Route::get('/crear-landing-page-profesional', function () {
     return Inertia::render('services/landingPage'); })->name('landingPage');
 
 Route::get('/estamos-trabajando-para-ti', function () {
-    return Inertia::render('construccion');
-})->name('construccion');
+    return Inertia::render('construccion'); })->name('construccion');
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');
 

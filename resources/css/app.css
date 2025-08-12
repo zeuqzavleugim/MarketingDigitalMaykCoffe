@@ -338,7 +338,6 @@ footer{
 .cartTipoLista > ul{
     justify-items: baseline;
     list-style: inside;
-    /* color: #1F2937; */
 }
 .cartTipUno > a{
     text-decoration: none;
@@ -723,6 +722,9 @@ form > .formulario-div{
     display: grid;
     width: 80vh;
     justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
     border-radius: 10px;
     box-shadow: 2px 3px 5px 1px #1F2937;
 }
@@ -791,11 +793,11 @@ form > .formulario-div{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60vh;
+    width: 80%;
     margin: 1rem auto;
 }
 .main-services-div-buton a{
-    width: 100%;
+    width: 80%;
 }
 .img-pie-pag{
     display: grid;
@@ -803,7 +805,7 @@ form > .formulario-div{
     margin: 2rem auto;
 }
 .img-pie-pag img{
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
     box-shadow: 2px 3px 5px 1px #1F2937;
 }
@@ -835,6 +837,10 @@ form > .formulario-div{
         border-radius: 15px;
         width: 70%;
         justify-self: center;
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        align-items: center;
     }
     .seccion-info-perfil{
         font-size: 1.6vw;
@@ -990,6 +996,7 @@ form > .formulario-div{
     .seccion-img-perfil > picture > img{
         border-radius: 10px;
         width: 75%;
+        justify-self: center;
         justify-content: center;
         justify-items: center;
         display: flex;
@@ -1019,7 +1026,7 @@ form > .formulario-div{
         padding: 0rem;
     }
     .planes > .carts-div{
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
         gap: 1.5rem;
     }
     .carts-div{
@@ -1027,10 +1034,10 @@ form > .formulario-div{
         padding: 0rem;
         justify-content: center;
         max-width: 100%;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
     }
     .carts{
-        width: 8rem;
+        width: 10rem;
         border-radius: 10px;
     }
     .carts > h2{
@@ -1044,26 +1051,33 @@ form > .formulario-div{
         padding: 0 1rem;
     }
     .cartTipUno{
-        width: 18rem;
+        width: 80%;
         border-radius: 20px;
         padding: 1rem;
     }
     .cartTipUno > h2{
-        font-size: 6vw;
+        font-size: 4vh;
     }
     .cartTipoPrecio > p{
-        font-size: 6vh;
+        font-size: 4.8vh;
     }
     .cartTipoPrecio > span{
         font-size: 3.5vw;
     }
     .cartTipDos{
-        width: 19.4rem;
+        width: 85%;
         border-radius: 15px;
         padding: 0rem;
     }
     .cartTipDos > h2{
-        font-size: 7.8vw;
+        font-size: 4.8vh;
+    }
+    .cartTipoLista > ul, .cartTipoListaB > ul{
+        justify-items: left;
+        justify-content: left;
+        justify-self: left;
+        display: grid;
+        text-align: left;
     }
     form > .formulario-div{
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -1133,12 +1147,15 @@ form > .formulario-div{
         width: 17rem;
         display: grid;
         justify-items: center;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
         margin: 1rem;
     }
     .cart-services-info-text{
         width: 100%;
         margin: auto;
-        padding: 0.5rem;
+        padding: 0.9rem;
     }
     .cart-services-butons{
         display: flex;
@@ -1206,11 +1223,15 @@ form > .formulario-div{
         padding: 0rem;
     }
     .seccion-serviceses{
-        width: 95%;
+        width: 90%;
         gap: 1rem;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-items: center;
     }
     .seccion-serviceses .cart-services-imag{
-        width: 15rem;
+        width: 75%;
         justify-content: center;
         align-items: center;
         justify-items: center;
@@ -1218,7 +1239,7 @@ form > .formulario-div{
     }
     .seccion-serviceses .cart-services-info-text{
         display: grid;
-        width: 55vh;
+        width: 95%;
         text-align: left;
         margin: 0.5rem;
     }
@@ -1258,5 +1279,13 @@ form > .formulario-div{
     .img-service-landing{
         width: 85% !important;
         justify-self: center;
+    }
+    .img-services{
+        width: 95%;
+        justify-items: center;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        display: grid;
     }
 }

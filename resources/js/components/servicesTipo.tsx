@@ -5,7 +5,7 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
             <>
                 <div className="cart-services-uno">
                     <div className="cart-services-imag">
-                        <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} />
+                        <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} title={`Imagen-${props.Titulo}`}/>
                     </div>
                     <div className="cart-services-info-text">
                         <div>
@@ -45,7 +45,7 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
                     </div>
                 </div>
                 <div className="cart-services-imag">
-                    <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} />
+                    <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} title={`Imagen-${props.Titulo}`} />
                 </div>
             </div>
             </>

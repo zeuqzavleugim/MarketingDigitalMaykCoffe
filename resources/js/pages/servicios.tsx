@@ -42,7 +42,7 @@ export default function Servicios() {
                     </div>
                 </div>
                 <div className="img-services">
-                    <img src={Banner.Servicios} alt="los servicios dan tranquilidad" />
+                    <img src={Banner.Servicios} alt="los servicios dan tranquilidad"  title="los servicios dan tranquilidad"/>
                 </div>
             </div>
             <section className="seccion-serviceses">
@@ -108,7 +108,7 @@ export default function Servicios() {
                 </div>
             </section>
             <section className="img-pie-pag">
-                <img src={General.FuncoEnOficinaDePie} alt="" />
+                <img src={General.FuncoEnOficinaDePie} alt="Tranquilidad se confiar en los mejores" title="Tranquilidad se confiar en los mejores" />
             </section>
         </main>
         <Formulario/>

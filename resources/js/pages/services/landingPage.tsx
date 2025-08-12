@@ -46,7 +46,7 @@ export default function LandingPage() {
                 </div>
                 <div className="main-servises">
                     <div className="img-services">
-                        <img src={servicio.LandingPage} 
+                        <img src={servicio.PaginaDeAterrizajeLanding} 
                             alt="Ejemplo de landing page profesional diseñada para convertir visitantes en clientes" 
                             title="landing-page-profesional-mexico"
                             className="img-service-landing"/>

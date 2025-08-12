@@ -1,3 +1,4 @@
+import Swal from 'sweetalert2';
 import { useState, useEffect, FormEvent, ChangeEvent } from 'react';
 import axios from 'axios';
 
@@ -78,14 +79,41 @@ export default function Formulario() {
         e.preventDefault();
 
         try {
+
+             // 1. Mostrar loader mientras se envía
+            Swal.fire({
+                title: 'Enviando...',
+                text: 'Por favor, espera un momento.',
+                allowOutsideClick: false,
+                didOpen: () => {
+                    Swal.showLoading();
+                }
+            });
+
+            // 2. Enviar formulario
             const response = await axios.post('/contact', form);
 
+            // 3. Cerrar el loader
+            Swal.close();
+
             if (response.status === 200) {
+                await Swal.fire({
+                    title: 'Formulario Enviado',
+                    text: 'Gracias por contactarnos, pronto nos pondremos en contacto contigo.',
+                    icon: 'success',
+                    confirmButtonText: 'Entendido'
+                });
+
                 window.location.href = '/';
-                alert('gracias por contactarme, pronto me pondré en contacto contigo.');
+                // alert('gracias por contactarme, pronto me pondré en contacto contigo.');
             }
         } catch (error) {
-            alert('Hubo un error al enviar el formulario.');
+            await Swal.fire({
+                title:'Ups',
+                text:'Algo susedio',
+                icon:'error',
+                confirmButtonText:'OK'
+            })
             console.error('Error al enviar el formulario:', error);
         }
     };

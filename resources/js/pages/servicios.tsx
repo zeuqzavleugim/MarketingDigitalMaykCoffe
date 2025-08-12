@@ -5,6 +5,8 @@ import Formulario from "@/layouts/formulario"
 import { Banner } from "@/imgs/banners"
 import ButonContacto from "@/components/butonContacto"
 import { General } from "@/imgs/general"
+import ServiciosTipo from "@/components/servicesTipo"
+import { servicio } from "@/imgs/servises"
 
 export default function Servicios() {
     return (
@@ -43,6 +45,51 @@ export default function Servicios() {
                     <img src={Banner.Servicios} alt="los servicios dan tranquilidad" />
                 </div>
             </div>
+            <section className="seccion-serviceses">
+                <h3>¿Que servicios ofrecemos?</h3>
+                <ServiciosTipo
+                    Imagen={servicio.LandingPage}
+                    Tipo={true}
+                    Titulo="Landing Pages de Alto Rendimiento"
+                    Texto={[
+                        'Diseñadas para una sola acción: convertir.',
+                        'Integramos WhatsApp, CRMs, correos automáticos y analítica para medir resultados.'
+                    ]}
+                    Ruta="construccion"
+                    RutaSitio="construccion"
+                />
+                <ServiciosTipo
+                    Imagen={servicio.CreacionSitiosWeb}
+                    Tipo={false}
+                    Titulo="Desarrollo de Sitios Web Profesionales"
+                    Texto={[
+                        'Desde un sitio informativo hasta un ecommerce completo.',
+                        'Código limpio, velocidad optimizada y diseño UX/UI que representa tu marca.'
+                    ]}
+                    Ruta="construccion"
+                    RutaSitio="construccion"
+                />
+                <ServiciosTipo
+                    Imagen={servicio.ConsultoriaSEO}
+                    Tipo={true}
+                    Titulo="Consultoría SEO Técnica y Estratégica"
+                    Texto={[
+                        'Auditamos, planificamos y ejecutamos estrategias SEO personalizadas para llevar tu sitio a los primeros lugares de Google.'
+                    ]}
+                    Ruta="construccion"
+                    RutaSitio="construccion"
+                />
+                <ServiciosTipo
+                    Imagen={servicio.SEOOptimizacion}
+                    Tipo={false}
+                    Titulo=" Optimización SEO On-Page & Técnica"
+                    Texto={[
+                        'Velocidad, estructura, metas, sitemap, robots.txt, indexación, semántica y contenido optimizado sin perder estilo.'
+                    ]}
+                    Ruta="construccion"
+                    RutaSitio="construccion"
+                />
+            </section>
             <section className="section-servicios-text">
                 <div className="main-services-div">
                     <h2>

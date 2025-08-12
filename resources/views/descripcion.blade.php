@@ -40,6 +40,16 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios-desarrollo-web-seo-mexico" />
         @break
+    @case("crear-landing-page-profesional")
+        <meta name="description" content="Creamos landing pages diseñadas para vender, captar leads y posicionar tu negocio en Google. Diseño profesional, velocidad brutal y estrategia SEO desde el día uno." />
+        <meta name="keywords" content="landing pages que venden, diseño de landing page, SEO para landing, páginas de venta, páginas optimizadas, landing page profesional México, diseño web CDMX, desarrollador web freelance, captar clientes web, páginas para campañas de marketing" />
+        <meta property="og:title" content="Landing Pages que Convierten | Desarrollo Web SEO y Marketing - MaykCoffe" />
+        <meta property="og:description" content="Aumenta tus ventas con una landing page diseñada para captar clientes desde el primer clic. Sin distracciones, con velocidad y SEO profesional. Cotiza gratis." />
+        <meta name="twitter:title" content="Landing Pages Profesionales | SEO, Diseño y Conversión - MaykCoffe" />
+        <meta name="twitter:description" content="Haz crecer tu negocio con una landing page optimizada para Google y lista para vender. Diseño moderno, estructura técnica limpia y conversiones reales." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:url" content="https://maykcoffe.com.mx/crear-landing-page-profesional" />
+        @break
 
     @default
         <meta name="description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />

@@ -40,7 +40,7 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios-desarrollo-web-seo-mexico" />
         @break
-    @case("crear-landing-page-profesional")
+    @case("servicios/crear-landing-page-profesional")
         <meta name="description" content="Creamos landing pages diseñadas para vender, captar leads y posicionar tu negocio en Google. Diseño profesional, velocidad brutal y estrategia SEO desde el día uno." />
         <meta name="keywords" content="landing pages que venden, diseño de landing page, SEO para landing, páginas de venta, páginas optimizadas, landing page profesional México, diseño web CDMX, desarrollador web freelance, captar clientes web, páginas para campañas de marketing" />
         <meta property="og:title" content="Landing Pages que Convierten | Desarrollo Web SEO y Marketing - MaykCoffe" />
@@ -48,7 +48,17 @@
         <meta name="twitter:title" content="Landing Pages Profesionales | SEO, Diseño y Conversión - MaykCoffe" />
         <meta name="twitter:description" content="Haz crecer tu negocio con una landing page optimizada para Google y lista para vender. Diseño moderno, estructura técnica limpia y conversiones reales." />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:url" content="https://maykcoffe.com.mx/crear-landing-page-profesional" />
+        <meta property="og:url" content="https://maykcoffe.com.mx/servicios/crear-landing-page-profesional" />
+        @break
+    @case("servicios/creacion-de-sitios-web")
+        <meta name="description" content="Crea un sitio web profesional que genere ventas. Desarrollo web estratégico con diseño UX, SEO y velocidad. Cotiza gratis ahora." />
+        <meta name="keywords" content="Cotiza tu sitio web, Diseño UX, Diseño SEO, Diseño y velocidad, sitio web profesional, Hechos para vender desde el primer día." />
+        <meta property="og:title" content="Diseño de Sitios Web Profesionales que Venden | MaykCoffe" />
+        <meta property="og:description" content="Cotiza tu sitio web. Diseño UX + SEO + velocidad. Hechos para vender desde el primer día." />
+        <meta name="twitter:title" content="Diseño de Sitios Web Profesionales que Venden | MaykCoffe" />
+        <meta name="twitter:description" content="Cotiza tu sitio web. Diseño UX + SEO + velocidad. Hechos para vender desde el primer día." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:url" content="https://maykcoffe.com.mx/servicios/creacion-de-sitios-web" />
         @break
 
     @default

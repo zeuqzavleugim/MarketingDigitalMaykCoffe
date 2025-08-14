@@ -335,9 +335,10 @@ footer{
 .cartTipoPrecio > span{
     font-size: 1vw;
 }
-.cartTipoLista > ul{
+.cartTipoLista > ul, .cartTipoListaB > ul{
     justify-items: baseline;
     list-style: inside;
+    text-align: left;
 }
 .cartTipUno > a{
     text-decoration: none;
@@ -387,10 +388,6 @@ footer{
     display: flex;
     justify-content: center;
     color: #FFFFFF;
-}
-.cartTipoListaB > ul{
-    justify-items: baseline;
-    list-style: inside;
 }
 .cartTipoListaB > ul > li{
     color: #FFFFFF;
@@ -523,15 +520,25 @@ form > .formulario-div{
     width: 90vh;
     padding: 0rem;
     justify-items: center;
+    align-items: center;
     color: #FFFFFF;
 }
-.main-contacto-div h1, .main-services-info h1{
+.main-contacto-div h1, .main-services-info h1, .main-fute-page-services h2{
     color: #FFFFFF;
     text-align: center;
 }
-.main-contacto-div p, .main-services-info p{
+.main-contacto-div p, .main-services-info p, .main-fute-page-services p{
     font-size: 2.9vh;
     color: #FFFFFF;
+}
+.main-fute-page-services{
+    display: grid;
+    gap: 3rem;
+    padding: 4rem;
+    text-align: center;
+}
+.main-fute-page-services h2{
+    font-size: 4vh;
 }
 .clas-img-div{
     display: grid;
@@ -1287,5 +1294,13 @@ form > .formulario-div{
         justify-self: center;
         align-items: center;
         display: grid;
+    }
+    .main-fute-page-services{
+        gap: 1rem;
+        padding: 1rem;
+        text-align: justify;
+    }
+    .main-fute-page-services h2{
+        font-size: 3vh;
     }
 }

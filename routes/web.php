@@ -14,8 +14,11 @@ Route::get('/servicios-desarrollo-web-seo-mexico', function () {
 Route::get('/contacto', function () {
     return Inertia::render('contacto'); })->name('contacto');
 
-Route::get('/crear-landing-page-profesional', function () {
+Route::get('/servicios/crear-landing-page-profesional', function () {
     return Inertia::render('services/landingPage'); })->name('landingPage');
+
+Route::get('/servicios/creacion-de-sitios-web', function () {
+    return Inertia::render('services/creacionSitiosWeb'); })->name('creacionDeSitiosWeb');
 
 Route::get('/estamos-trabajando-para-ti', function () {
     return Inertia::render('construccion'); })->name('construccion');

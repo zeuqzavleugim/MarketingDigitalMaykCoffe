@@ -67,7 +67,7 @@ export default function Servicios() {
                         'Código limpio, velocidad optimizada y diseño UX/UI que representa tu marca.'
                     ]}
                     Ruta="contacto"
-                    RutaSitio="construccion"
+                    RutaSitio="creacionDeSitiosWeb"
                 />
                 <ServiciosTipo
                     Imagen={servicio.ConsultoriaSEO}

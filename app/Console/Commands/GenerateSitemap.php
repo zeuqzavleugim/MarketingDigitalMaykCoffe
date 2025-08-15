@@ -33,7 +33,8 @@ class GenerateSitemap extends Command
             ->add(Url::create('/contacto'))
             ->add(Url::create('/portafolio'))
             ->add(Url::create('/servicios-desarrollo-web-seo-mexico'))
-            ->add(Url::create('/crear-landing-page-profesional'))
+            ->add(Url::create('/servicios/crear-landing-page-profesional'))
+            ->add(Url::create('/servicios/creacion-de-sitios-web'))
             ->writeToFile(public_path('sitemap.xml'));
 
         $this->info('✅ Sitemap generado correctamente en public/sitemap.xml');

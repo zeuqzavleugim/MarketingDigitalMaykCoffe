@@ -180,10 +180,17 @@ footer{
     width: 95%;
     justify-self: center;
 }
-.seccion-img-perfil > picture > img{
+.seccion-img-perfil{
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+}
+.seccion-img-perfil > img{
     padding: 0rem;
     border-radius: 20px;
-    width: 80%;
+    width: 90%;
     justify-self: center;
     box-shadow: 3px 3px 7px 1px #1F2937 ;
 }
@@ -840,7 +847,7 @@ form > .formulario-div{
     .nav-link{
         font-size: 3vw;
     }
-    .seccion-img-perfil > picture > img{
+    .seccion-img-perfil > img{
         border-radius: 15px;
         width: 70%;
         justify-self: center;
@@ -992,6 +999,10 @@ form > .formulario-div{
         border: 2px solid #333;
         border-radius: 4px;
     }
+    .footer-icons > a{
+        padding: 0 0.5rem;
+        width: 15%;
+    }
     .first-seccion{
         display: grid;
         padding: 0rem;
@@ -1000,7 +1011,7 @@ form > .formulario-div{
         justify-items: center;
         align-items: center;
     }
-    .seccion-img-perfil > picture > img{
+    .seccion-img-perfil > img{
         border-radius: 10px;
         width: 75%;
         justify-self: center;
@@ -1044,7 +1055,7 @@ form > .formulario-div{
         grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
     }
     .carts{
-        width: 10rem;
+        width: 95%;
         border-radius: 10px;
     }
     .carts > h2{

@@ -77,7 +77,7 @@ export default function Servicios() {
                         'Auditamos, planificamos y ejecutamos estrategias SEO personalizadas para llevar tu sitio a los primeros lugares de Google.'
                     ]}
                     Ruta="contacto"
-                    RutaSitio="construccion"
+                    RutaSitio="consultoriaSEO"
                 />
                 <ServiciosTipo
                     Imagen={servicio.SEOOptimizacion}
@@ -87,7 +87,7 @@ export default function Servicios() {
                         'Velocidad, estructura, metas, sitemap, robots.txt, indexación, semántica y contenido optimizado sin perder estilo.'
                     ]}
                     Ruta="construccion"
-                    RutaSitio="construccion"
+                    RutaSitio="optimizacionSEO"
                 />
             </section>
             <section className="section-servicios-text">
@@ -108,7 +108,7 @@ export default function Servicios() {
                 </div>
             </section>
             <section className="img-pie-pag">
-                <img src={General.FuncoEnOficinaDePie} alt="Tranquilidad se confiar en los mejores" title="Tranquilidad se confiar en los mejores" />
+                <img src={General.FuncoEnOficinaDePie} alt="Tranquilidad se confiar en los mejores" title="Tranquilidad se confiar en los mejores" loading="lazy"/>
             </section>
         </main>
         <Formulario/>

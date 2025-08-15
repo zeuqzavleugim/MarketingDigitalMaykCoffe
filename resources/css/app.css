@@ -521,10 +521,11 @@ form > .formulario-div{
     justify-content: center;
     justify-items: center;
     justify-self: center;
+    padding: 1rem 0;
 }
 .main-contacto-div, .main-services-info{
     display: grid;
-    width: 90vh;
+    width: 50%;
     padding: 0rem;
     justify-items: center;
     align-items: center;

@@ -20,6 +20,12 @@ Route::get('/servicios/crear-landing-page-profesional', function () {
 Route::get('/servicios/creacion-de-sitios-web', function () {
     return Inertia::render('services/creacionSitiosWeb'); })->name('creacionDeSitiosWeb');
 
+Route::get('/servicios/consultoria-seo-tecnica-estrategica', function () {
+    return Inertia::render('services/consultoriaSEO'); })->name('consultoriaSEO');
+
+Route::get('/servicios/seo-onpage-tecnica', function () {
+    return Inertia::render('services/OptimizacionSEO'); })->name('optimizacionSEO');
+
 Route::get('/estamos-trabajando-para-ti', function () {
     return Inertia::render('construccion'); })->name('construccion');
 

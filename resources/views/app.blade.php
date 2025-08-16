@@ -28,6 +28,8 @@
         gtag('config', 'G-5F0NLRKDPR');
         </script> --}}
 <!--  -->
+        {{-- <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdnXKQrAAAAADBHSwFz-v9ocj3g5KKA95VHa0I5"></script> --}}
         @routes
         @viteReactRefresh
         @vite(['resources/js/app.tsx', "resources/js/pages/{$page['component']}.tsx"])
@@ -36,4 +38,12 @@
     <body class="font-sans antialiased">
         @inertia
     </body>
+    {{-- <script>
+    function onClick(e) {
+        e.preventDefault();
+        grecaptcha.enterprise.ready(async () => {
+        const token = await grecaptcha.enterprise.execute('6LdnXKQrAAAAADBHSwFz-v9ocj3g5KKA95VHa0I5', {action: 'LOGIN'});
+        });
+    }
+    </script> --}}
 </html>

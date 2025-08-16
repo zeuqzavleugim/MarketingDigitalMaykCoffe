@@ -29,7 +29,7 @@ export default function Servicios() {
                         'Además, te ofrezco soporte continuo y planes de mantenimiento para que tú te concentres en crecer tu negocio sin preocuparte por la parte técnica.'
                     ]}
                     Ruta="contacto"
-                    RutaSitio="construccion"
+                    RutaSitio="creacionDeSitiosWeb"
                 />
                 <ServiciosTipo
                     Tipo={true}
@@ -42,7 +42,7 @@ export default function Servicios() {
                         'Tú te enfocas en tu negocio, yo me encargo de que tu público te encuentre.'
                     ]}
                     Ruta="contacto"
-                    RutaSitio="construccion"
+                    RutaSitio="consultoriaSEO"
                 />
                 <ServiciosTipo
                     Tipo={false}
@@ -54,7 +54,7 @@ export default function Servicios() {
                         'Así tu página no solo recibe más visitas, sino que genera ventas sin depender únicamente de campañas pagadas.'
                     ]}
                     Ruta="contacto"
-                    RutaSitio="construccion"
+                    RutaSitio="optimizacionSEO"
                 />
             </section>
         </>

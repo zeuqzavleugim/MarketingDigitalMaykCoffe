@@ -7,13 +7,11 @@ export default function Info() {
         <>
             <header className="first-seccion" id="conoceme">
                 <div className="seccion-img-perfil">
-                    <picture>
-                        <img 
-                            src={General.Perfil} 
-                            alt="Foto estilo Funco" 
-                            title="Foto estilo Funco" 
-                            loading="lazy" />
-                    </picture>
+                    <img 
+                        src={General.Perfil} 
+                        alt="Foto estilo Funco" 
+                        title="Foto estilo Funco" 
+                        loading="lazy" />
                 </div>
                 <div className="seccion-info-perfil">
                     <h1>

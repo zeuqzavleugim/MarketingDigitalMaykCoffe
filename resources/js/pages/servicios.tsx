@@ -42,7 +42,7 @@ export default function Servicios() {
                     </div>
                 </div>
                 <div className="img-services">
-                    <img src={Banner.Servicios} alt="los servicios dan tranquilidad" />
+                    <img src={Banner.Servicios} alt="los servicios dan tranquilidad"  title="los servicios dan tranquilidad"/>
                 </div>
             </div>
             <section className="seccion-serviceses">
@@ -55,8 +55,8 @@ export default function Servicios() {
                         'Diseñadas para una sola acción: convertir.',
                         'Integramos WhatsApp, CRMs, correos automáticos y analítica para medir resultados.'
                     ]}
-                    Ruta="construccion"
-                    RutaSitio="construccion"
+                    Ruta="contacto"
+                    RutaSitio="landingPage"
                 />
                 <ServiciosTipo
                     Imagen={servicio.CreacionSitiosWeb}
@@ -66,8 +66,8 @@ export default function Servicios() {
                         'Desde un sitio informativo hasta un ecommerce completo.',
                         'Código limpio, velocidad optimizada y diseño UX/UI que representa tu marca.'
                     ]}
-                    Ruta="construccion"
-                    RutaSitio="construccion"
+                    Ruta="contacto"
+                    RutaSitio="creacionDeSitiosWeb"
                 />
                 <ServiciosTipo
                     Imagen={servicio.ConsultoriaSEO}
@@ -76,8 +76,8 @@ export default function Servicios() {
                     Texto={[
                         'Auditamos, planificamos y ejecutamos estrategias SEO personalizadas para llevar tu sitio a los primeros lugares de Google.'
                     ]}
-                    Ruta="construccion"
-                    RutaSitio="construccion"
+                    Ruta="contacto"
+                    RutaSitio="consultoriaSEO"
                 />
                 <ServiciosTipo
                     Imagen={servicio.SEOOptimizacion}
@@ -87,7 +87,7 @@ export default function Servicios() {
                         'Velocidad, estructura, metas, sitemap, robots.txt, indexación, semántica y contenido optimizado sin perder estilo.'
                     ]}
                     Ruta="construccion"
-                    RutaSitio="construccion"
+                    RutaSitio="optimizacionSEO"
                 />
             </section>
             <section className="section-servicios-text">
@@ -108,7 +108,7 @@ export default function Servicios() {
                 </div>
             </section>
             <section className="img-pie-pag">
-                <img src={General.FuncoEnOficinaDePie} alt="" />
+                <img src={General.FuncoEnOficinaDePie} alt="Tranquilidad se confiar en los mejores" title="Tranquilidad se confiar en los mejores" loading="lazy"/>
             </section>
         </main>
         <Formulario/>

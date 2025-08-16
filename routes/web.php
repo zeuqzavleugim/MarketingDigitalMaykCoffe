@@ -14,12 +14,23 @@ Route::get('/servicios-desarrollo-web-seo-mexico', function () {
 Route::get('/contacto', function () {
     return Inertia::render('contacto'); })->name('contacto');
 
-Route::get('/crear-landing-page-profesional', function () {
+Route::get('/servicios/crear-landing-page-profesional', function () {
     return Inertia::render('services/landingPage'); })->name('landingPage');
 
+Route::get('/servicios/creacion-de-sitios-web', function () {
+    return Inertia::render('services/creacionSitiosWeb'); })->name('creacionDeSitiosWeb');
+
+Route::get('/servicios/consultoria-seo-tecnica-estrategica', function () {
+    return Inertia::render('services/consultoriaSEO'); })->name('consultoriaSEO');
+
+Route::get('/servicios/seo-onpage-tecnica', function () {
+    return Inertia::render('services/OptimizacionSEO'); })->name('optimizacionSEO');
+
+Route::get('/servicios/seo-onpage-tecnica', function () {
+    return Inertia::render('blogs'); })->name('blogs');
+
 Route::get('/estamos-trabajando-para-ti', function () {
-    return Inertia::render('construccion');
-})->name('construccion');
+    return Inertia::render('construccion'); })->name('construccion');
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');
 

@@ -830,6 +830,28 @@ form > .formulario-div{
     color: #FFFFFF;
     display: grid;
 }
+.politicasDePrivacidad{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4rem;
+    font-size: 3vh;
+    text-align: justify;
+}
+.politicasDePrivacidad h1, .politicasDePrivacidad h2{
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+.politicasDePrivacidad ul{
+    list-style: inside;
+    padding: 1rem 2rem;
+}
+.politicasDePrivacidad p a img{
+    width: 3rem;
+}
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
         font-size: 2.3vw;
@@ -1314,5 +1336,8 @@ form > .formulario-div{
     }
     .main-fute-page-services h2{
         font-size: 3vh;
+    }
+    .politicasDePrivacidad{
+        padding: 1rem;
     }
 }

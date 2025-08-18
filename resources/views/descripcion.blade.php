@@ -5,8 +5,9 @@
         <meta property="og:title" content="Agencia de Marketing Digital y SEO en CDMX | MaykCoffe" />
         <meta property="og:description" content="Diseñamos sitios web y estrategias SEO que posicionan tu negocio en Google. Incrementa tus ventas con MaykCoffe, agencia digital en CDMX." />
         <meta property="og:type" content="website" />
-         <meta name="twitter:title" content="Desarrollador Web | Sitios, SEO y Marketing Digital" />
+        <meta name="twitter:title" content="Desarrollador Web | Sitios, SEO y Marketing Digital" />
         <meta name="twitter:description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />
+        <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx" />
         <link rel="canonical" href="https://maykcoffe.com.mx" />
@@ -18,6 +19,7 @@
         <meta property="og:description" content="Transforma tu negocio con un sitio web que vende. Contáctanos y descubre cómo podemos ayudarte con desarrollo web, SEO y marketing digital." />
         <meta name="twitter:title" content="Cotiza tu proyecto web con MaykCoffe | Desarrollo Web y SEO CDMX" />
         <meta name="twitter:description" content="Transforma tu negocio con un sitio web que vende. Contáctanos y descubre cómo podemos ayudarte con desarrollo web, SEO y marketing digital." />
+        <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/contacto" />
         <link rel="canonical" href="https://maykcoffe.com.mx/contacto" />
@@ -29,6 +31,7 @@
         <meta property="og:description" content="Sitios reales, resultados reales. Conoce nuestros trabajos de diseño web y posicionamiento SEO para empresas mexicanas." />
         <meta name="twitter:title" content="Proyectos de Diseño Web que Generan Resultados" />
         <meta name="twitter:description" content="Sitios reales, resultados reales. Conoce nuestros trabajos de diseño web y posicionamiento SEO para empresas mexicanas." />
+        <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/portafolio" />
         <link rel="canonical" href="https://maykcoffe.com.mx/portafolio" />
@@ -40,6 +43,7 @@
         <meta property="og:description" content="Impulsa tu negocio con sitios web bien diseñados, SEO optimizado y estrategias digitales enfocadas en resultados." />
         <meta name="twitter:title" content="Servicios Web y SEO de Alto Impacto | MaykCoffe Studio" />
         <meta name="twitter:description" content="Impulsa tu presencia online con diseño web, landing pages y SEO hechos para convertir" />
+        <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios-desarrollo-web-seo-mexico" />
         <link rel="canonical" href="https://maykcoffe.com.mx/servicios-desarrollo-web-seo-mexico" />
@@ -51,6 +55,7 @@
         <meta property="og:description" content="Aumenta tus ventas con una landing page diseñada para captar clientes desde el primer clic. Sin distracciones, con velocidad y SEO profesional. Cotiza gratis." />
         <meta name="twitter:title" content="Landing Pages Profesionales | SEO, Diseño y Conversión - MaykCoffe" />
         <meta name="twitter:description" content="Haz crecer tu negocio con una landing page optimizada para Google y lista para vender. Diseño moderno, estructura técnica limpia y conversiones reales." />
+        <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios/crear-landing-page-profesional" />
         <link rel="canonical" href="https://maykcoffe.com.mx/servicios/crear-landing-page-profesional" />
@@ -62,6 +67,7 @@
         <meta property="og:description" content="Cotiza tu sitio web. Diseño UX + SEO + velocidad. Hechos para vender desde el primer día." />
         <meta name="twitter:title" content="Diseño de Sitios Web Profesionales que Venden | MaykCoffe" />
         <meta name="twitter:description" content="Cotiza tu sitio web. Diseño UX + SEO + velocidad. Hechos para vender desde el primer día." />
+        <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios/creacion-de-sitios-web" />
         <link rel="canonical" href="https://maykcoffe.com.mx/servicios/creacion-de-sitios-web" />
@@ -73,6 +79,7 @@
         <meta property="og:description" content="Eleva tu sitio web con una consultoría SEO completa. Auditamos, optimizamos y diseñamos estrategias que generan tráfico y ventas. ¡Empieza hoy!" />
         <meta name="twitter:title" content="Consultoría SEO Técnica y Estratégica | Mejora tu posicionamiento en Google" />
         <meta name="twitter:description" content="Consultoría completa para escalar en Google. Auditoría técnica, estrategia y resultados reales." />
+        <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios/consultoria-seo-tecnica-estrategica" />
         <link rel="canonical" href="https://maykcoffe.com.mx/servicios/consultoria-seo-tecnica-estrategica" />
@@ -84,9 +91,34 @@
         <meta property="og:description" content="Haz que tu sitio web cargue rápido, se entienda mejor y escale posiciones en Google. Solicita tu auditoría gratuita y mejora tu tráfico orgánico." />
         <meta name="twitter:title" content="Optimización SEO On-Page & Técnica | Aumenta tu Visibilidad en Google" />
         <meta name="twitter:description" content="Haz que tu sitio web cargue rápido, se entienda mejor y escale posiciones en Google. Solicita tu auditoría gratuita y mejora tu tráfico orgánico." />
+        <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios/seo-onpage-tecnica" />
         <link rel="canonical" href="https://maykcoffe.com.mx/servicios/seo-onpage-tecnica" />
+        @break
+    @case("blogs")
+        <meta name="description" content="Explora nuestro blog con estrategias de marketing digital, tips de desarrollo web, tendencias y consejos prácticos para hacer crecer tu negocio." />
+        <meta name="keywords" content="blog marketing digital, blog desarrollo web, blog impresión 3D, estrategias de marketing, tendencias impresión 3D, tips desarrollo web, diseño web, SEO, marketing en redes sociales" />
+        <meta property="og:title" content="Blog de Marketing Digital, Desarrollo Web" />
+        <meta property="og:description" content="Estrategias, tendencias y consejos prácticos para crecer tu negocio en marketing digital, desarrollo web" />
+        <meta name="twitter:title" content="Blog de Marketing Digital, Desarrollo Web" />
+        <meta name="twitter:description" content="Estrategias y consejos prácticos para crecer tu negocio en marketing digital, desarrollo web" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs" />
+        @break
+    @case("Aviso-de-privacidad-Terminos-y-condiciones")
+        <meta name="description" content="Consulta los Términos y Condiciones de MaykCoffe. Transparencia y confianza en el uso de nuestros servicios de marketing digital, SEO y publicidad online." />
+        <meta name="keywords" content="términos y condiciones marketing digital, agencia marketing legal, políticas de uso, condiciones servicio SEO, contratos digitales" />
+        <meta property="og:title" content="Términos y Condiciones | MaykCoffe" />
+        <meta property="og:description" content="Conoce los términos y condiciones de uso de nuestros servicios de marketing digital, SEO y publicidad online." />
+        <meta name="twitter:title" content="Términos y Condiciones | MaykCoffe" />
+        <meta name="twitter:description" content="Transparencia y confianza en el uso de nuestros servicios digitales." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:url" content="https://maykcoffe.com.mx/Aviso-de-privacidad-Terminos-y-condiciones" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/Aviso-de-privacidad-Terminos-y-condiciones" />
         @break
 
     @default

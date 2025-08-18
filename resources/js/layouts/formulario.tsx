@@ -211,7 +211,7 @@ export default function Formulario() {
                                     onChange={handleChange}
                                     className="form-control1"
                                 />
-                                Acepto las Políticas de Privacidad
+                                Acepto las <a href={route("politicas")}>Políticas de Privacidad</a>
                             </label>
                             <span>{errors.checked}</span>
                         </div>

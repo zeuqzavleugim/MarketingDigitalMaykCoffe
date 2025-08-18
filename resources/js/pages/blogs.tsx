@@ -9,42 +9,36 @@ import ButonContacto from "@/components/butonContacto";
 export default function Blogs() {
     return(
         <>
-        <Head title="..."/>
+        <Head title="Blog de Marketing Digital"/>
         <Navbar/>
         <main className="banner-portafolio">
             <div className="banner-portafolio-title">
                 <h1>
-                    ...
+                    ¿Listo para transformar tu negocio? 
                 </h1>
+                <h2>
+                    ¡Hablemos hoy mismo!
+                </h2>
             </div>
             <div className="banner-portafolio-text">
                 <p>
-                    ...
+                    En MaykCoffe, somos una agencia digital en 
+                    CDMX especializada en desarrollo web, SEO 
+                    y marketing digital para empresas en México. 
                 </p>
                 <p>
-                    ...
+                    Creamos páginas web rápidas, optimizadas para 
+                    Google, y estrategias personalizadas para que 
+                    tu negocio aparezca primero en buscadores y 
+                    aumente sus ventas.
+                </p>
+                <p>
+                    Cotiza gratis tu proyecto y descubre cuánto 
+                    puede crecer tu empresa con un sitio web que 
+                    realmente vende.
                 </p>
             </div>
         </main>
-        <section>
-            <hr />
-            <div className="container info-pryect">
-                <div className="info-pryect-text">
-                    <h2>¿Quieres un sitio?</h2>
-                    <p>
-                        Agenda una llamada y empieza tu proyecto hoy, 
-                        Cotización gratuita y asesoramiento inicial 
-                        incluida.
-                    </p>
-                </div>
-                <div className="info-pryect-button">
-                    <ButonContacto 
-                        Ruta="contacto"
-                        Texto="Cotiza ¡YA!"
-                    />
-                </div>
-            </div>
-        </section>
         <Formulario/>
         <Footer/>
         </>

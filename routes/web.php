@@ -26,6 +26,9 @@ Route::get('/servicios/consultoria-seo-tecnica-estrategica', function () {
 Route::get('/servicios/seo-onpage-tecnica', function () {
     return Inertia::render('services/OptimizacionSEO'); })->name('optimizacionSEO');
 
+Route::get('/servicios/seo-onpage-tecnica', function () {
+    return Inertia::render('blogs'); })->name('blogs');
+
 Route::get('/estamos-trabajando-para-ti', function () {
     return Inertia::render('construccion'); })->name('construccion');
 

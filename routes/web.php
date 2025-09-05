@@ -35,6 +35,10 @@ Route::get('/Aviso-de-privacidad-Terminos-y-condiciones', function () {
 Route::get('/estamos-trabajando-para-ti', function () {
     return Inertia::render('construccion'); })->name('construccion');
 
+// Blogs
+Route::get('/blogs/SEO-el-activo-invisible-que-genera-ventas-a-largo-plazo', function () {
+    return Inertia::render('blogs/SEOActivoInvisible'); })->name('SEOActivoInvisible');
+
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');
 
 

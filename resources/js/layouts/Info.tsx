@@ -1,8 +1,7 @@
 import { General } from "@/imgs/general";
-import { Link } from "@inertiajs/react";
 import { Icons } from "@/imgs/Icons";
 
-export default function Info() {
+export default function Info(props: {Tit: string;}) {
     return(
         <>
             <header className="first-seccion" id="conoceme">
@@ -14,10 +13,9 @@ export default function Info() {
                         loading="lazy" />
                 </div>
                 <div className="seccion-info-perfil">
-                    <h1>
-                        Agencia de Desarrollo Web y SEO en CDMX para 
-                        Impulsar tu Negocio Online
-                    </h1>
+                    <h2>
+                        {props.Tit}
+                    </h2>
                     <p>
                         Creamos páginas web y aplicaciones modernas, 
                         rápidas y optimizadas para Google. 

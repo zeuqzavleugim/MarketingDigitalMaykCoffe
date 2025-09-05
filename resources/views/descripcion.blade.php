@@ -120,6 +120,18 @@
         <meta property="og:url" content="https://maykcoffe.com.mx/Aviso-de-privacidad-Terminos-y-condiciones" />
         <link rel="canonical" href="https://maykcoffe.com.mx/Aviso-de-privacidad-Terminos-y-condiciones" />
         @break
+    @case("blogs/SEO-el-activo-invisible-que-genera-ventas-a-largo-plazo")
+        <meta name="description" content="Descubre cómo el SEO se convierte en el activo invisible que genera ventas a largo plazo. Aprende sobre SEO técnico, On-Page y Off-Page para posicionar tu negocio digital con visibilidad y confianza." />
+        <meta name="keywords" content="SEO, marketing digital, SEO técnico, SEO On-Page, SEO Off-Page, posicionamiento web, ventas online, estrategias digitales, tráfico orgánico, marketing de contenidos" />
+        <meta property="og:title" content="SEO: el activo invisible que genera ventas a largo plazo" />
+        <meta property="og:description" content="El SEO no es opcional: es la base de toda estrategia digital. Conoce sus pilares y cómo impacta en la confianza, la visibilidad y las ventas de tu negocio." />
+        <meta name="twitter:title" content="SEO: el activo invisible que genera ventas a largo plazo" />
+        <meta name="twitter:description" content="Más que posicionamiento, el SEO es experiencia de usuario, visibilidad y confianza. Descubre cómo se convierte en un motor de ventas sostenibles." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/SEO-el-activo-invisible-que-genera-ventas-a-largo-plazo" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/SEO-el-activo-invisible-que-genera-ventas-a-largo-plazo" />
+        @break
 
     @default
         <meta name="description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />

@@ -119,7 +119,7 @@ export default function Formulario() {
     };
 
     return (
-        <main className="secForm">
+        <main className="secForm background-imag-contac">
             <div className="formulario" id="contacto">
                 <h2>Contáctame</h2>
                 <form onSubmit={handleSubmit} autoComplete="off">
@@ -211,7 +211,7 @@ export default function Formulario() {
                                     onChange={handleChange}
                                     className="form-control1"
                                 />
-                                Acepto las <a href={route("politicas")}>Políticas de Privacidad</a>
+                                Acepto las <a href={route("politicas")} title='Políticas de Privacidad'>Políticas de Privacidad</a>
                             </label>
                             <span>{errors.checked}</span>
                         </div>

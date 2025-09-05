@@ -1,10 +1,9 @@
-import { Head, Link } from "@inertiajs/react";
+import { Head } from "@inertiajs/react";
 import Navbar from "@/layouts/navbar";
 import Footer from "@/layouts/footer";
 import Formulario from "@/layouts/formulario";
-import Desarrollo from "@/layouts/desarrollos";
-import Planes from "@/layouts/planes";
-import ButonContacto from "@/components/butonContacto";
+import TarjetaBlog from "@/components/tarjetaBlog";
+import { Paginas } from "@/imgs/pag";
 
 export default function Blogs() {
     return(
@@ -38,6 +37,13 @@ export default function Blogs() {
                     realmente vende.
                 </p>
             </div>
+        </main>
+        <main className="blogs-tarjet">
+            <TarjetaBlog
+                Tit="SEO: el activo invisible que genera ventas a largo plazo"
+                Img= {Paginas.TuDesarrollo}
+                Rut= "SEOActivoInvisible"
+            />
         </main>
         <Formulario/>
         <Footer/>

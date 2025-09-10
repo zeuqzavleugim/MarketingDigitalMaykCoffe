@@ -244,9 +244,9 @@ export default function CreacionSitiosWeb() {
             <Planes
                 TitulH="Planes de renta mensual para tu Sitio Web"
                 plans={[
-                    {id: "plan1SitioWeb", titulo: "Starter", presio1: 600, presio2: 1100, datos: ["Sitio de 1-3 secciones", "Diseño básico", "Hosting", "Correo", "SEO básico", "Dominio"], tipo: false},
-                    {id: "plan2SitioWeb", titulo: "Plus", presio1: 2000, presio2: 3500, datos: ["Sitio completo", "Diseño premium con animaciones", "SEO avanzado, Optimizacion con Google, Formulario + WhatsApp", "Reportes mensuales", "Reportes mensuales", "Prioridad en soporte","Hosting", "Correo", "Dominio"], tipo: true},
-                    {id: "plan3SitioWeb", titulo: "Pro", presio1: 1200, presio2: 1900, datos: ["Sitio completo (5-7 secciones)", "Diseño a medida", "Optimizacion Google", "Formulario + WhatsApp","Hosting", "Correo", "Dominio"], tipo: false}
+                    {id: "plan1SitioWeb", titulo: "Starter", presio1: 600, datos: ["Sitio de 1-3 secciones", "Diseño básico", "Hosting", "Correo", "SEO básico", "Dominio"], tipo: false},
+                    {id: "plan2SitioWeb", titulo: "Plus", presio1: 2000, datos: ["Sitio completo", "Diseño premium con animaciones", "SEO avanzado, Optimizacion con Google, Formulario + WhatsApp", "Reportes mensuales", "Reportes mensuales", "Prioridad en soporte","Hosting", "Correo", "Dominio"], tipo: true},
+                    {id: "plan3SitioWeb", titulo: "Pro", presio1: 1200, datos: ["Sitio completo (5-7 secciones)", "Diseño a medida", "Optimizacion Google", "Formulario + WhatsApp","Hosting", "Correo", "Dominio"], tipo: false}
                 ]}
                 bakColor="background-sin"
             />

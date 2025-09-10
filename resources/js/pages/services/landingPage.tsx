@@ -81,9 +81,9 @@ export default function LandingPage() {
                 <Planes
                     TitulH="Planes de renta mensuales para tu Landing Page"
                     plans={[
-                        {id: "plan1Landing", titulo: "Starter", presio1: 600, presio2: 900, datos: ["Sitio de 1-3 secciones", "Diseño básico", "Hosting", "Correo", "SEO básico", "Dominio"], tipo: false},
-                        {id: "plan2Landing", titulo: "Plus", presio1: 1500, presio2: 2000, datos: ["Sitio de 1-3 secciones", "Diseño premium con animaciones", "SEO avanzado", "Reportes mensuales", "Prioridad en soporte", "Hosting", "Correo", "Dominio"], tipo: true},
-                        {id: "plan3Landing", titulo: "Pro", presio1: 1000, presio2: 1400, datos: ["Sitio de 1-3 secciones", "Diseño a medida", "Optimizacion Google", "Formulario + WhatsApp","Hosting", "Correo", "Dominio"], tipo: false}
+                        {id: "plan1Landing", titulo: "Starter", presio1: 600, datos: ["Sitio de 1-3 secciones", "Diseño básico", "Hosting", "Correo", "SEO básico", "Dominio"], tipo: false},
+                        {id: "plan2Landing", titulo: "Plus", presio1: 1500, datos: ["Sitio de 1-3 secciones", "Diseño premium con animaciones", "SEO avanzado", "Reportes mensuales", "Prioridad en soporte", "Hosting", "Correo", "Dominio"], tipo: true},
+                        {id: "plan3Landing", titulo: "Pro", presio1: 1000, datos: ["Sitio de 1-3 secciones", "Diseño a medida", "Optimizacion Google", "Formulario + WhatsApp","Hosting", "Correo", "Dominio"], tipo: false}
                     ]}
                     bakColor="background-sin"
                 />

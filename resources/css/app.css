@@ -251,19 +251,24 @@ footer{
     justify-items: center;
     justify-content: center;
 }
-.desarrollos > h1{
-    font-size: 2.8vw;
+.desarrollos > h1, .desarrollos > h2{
+    font-size: 5vh;
     width: 90%;
+    display: grid;
     text-align: center;
     justify-self: center;
     justify-content: center;
+    margin: 6rem 0;
 }
 .desarrollos > h2{
-    font-size: 2.8vw;
     width: 80%;
-    text-align: center;
+}
+.desarrollos img{
+    width: 30%;
+    margin: 3rem 0;
+    border-radius: 15px;
     justify-self: center;
-    justify-content: center;
+    box-shadow: 3px 3px 7px 1px #1F2937 ;
 }
 .carts-div{
     display: grid;
@@ -289,9 +294,7 @@ footer{
     }
 }
 .carts > img{
-    width: 100%;
-    border-radius: 25px 25px 0 0;
-    padding: 1rem;
+    width: 90%;
 }
 .carts > h2{
     text-align: center;
@@ -365,7 +368,7 @@ footer{
 }
 .cartTipUno{
     display: grid;
-    width: 85%;
+    width: 65%;
     border: 1px solid #FF6B6B;
     background: #FFFFFF;
     border-radius: 15px;
@@ -379,14 +382,14 @@ footer{
     }
 }
 .cartTipUno > h2{
-    font-size: 1.6vw;
+    font-size: 3.5vh;
 }
 .cartTipoPrecio{
     display: flex;
     justify-content: center;
 }
 .cartTipoPrecio > p{
-    font-size: 2.5vw;
+    font-size: 4.5vh;
 }
 .cartTipoPrecio > span{
     font-size: 1vw;
@@ -395,6 +398,7 @@ footer{
     justify-items: baseline;
     list-style: inside;
     text-align: left;
+    font-size: 1.7vh;
 }
 .cartTipUno > a{
     text-decoration: none;
@@ -421,7 +425,7 @@ footer{
 }
 .cartTipDos{
     display: grid;
-    width: 85%;
+    width: 70%;
     border: 1px solid #1F2937;
     border-radius: 15px;
     padding: 1.5rem;
@@ -435,7 +439,7 @@ footer{
     }
 }
 .cartTipDos > h2{
-    font-size: 1.6vw;
+    font-size: 4vh;
 }
 .cartTipDos > p{
     color: #FFFFFF;
@@ -661,7 +665,7 @@ form > .formulario-div{
 }
 .services-in-home{
     width: 100%;
-    margin: 4rem;
+    margin: 4rem 0;
     padding: 3rem 1rem;
     display: grid;
     gap: 2.3rem;
@@ -683,6 +687,7 @@ form > .formulario-div{
     width: 15rem;
     display: grid;
     justify-items: center;
+    align-items: center;
     margin: 1rem;
 }
 .cart-services-imag img{
@@ -699,6 +704,10 @@ form > .formulario-div{
     width: 70%;
     text-align: left;
     margin: 0.5rem;
+    font-size: 1.8vh;
+}
+.cart-services-info-text h2{
+    font-size: 3vh;
 }
 .cart-services-butons{
     display: flex;
@@ -748,6 +757,7 @@ form > .formulario-div{
     width: 80%;
     border-radius: 10px;
     padding: 2rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); 
 }
 .banner-portafolio-text{
     background: #1f293765;
@@ -797,16 +807,13 @@ form > .formulario-div{
     margin: 5rem;
 }
 .pag-service{
-    /* background: linear-gradient(to right, #18242E 55%, #383335 75%); */
     padding: 2.5rem 0rem;
-    /* color: #FFFFFF; */
 }
 .pag-service section{
     color: #FFFFFF;
 }
 .main-services-info{
     padding: 1rem;
-    /* color: #FFFFFF; */
     padding: 0 3rem;
 }
 .main-services-info ul{
@@ -815,14 +822,11 @@ form > .formulario-div{
 .main-services-info ul li{
     padding: 0.3rem;
     list-style-type: disc;
-    /* color: #FFFFFF; */
 }
 .main-services-info ul li b{
-    /* color: #FFFFFF; */
     text-decoration: underline;
 }
 .main-services-info h2{
-    /* color: #FFFFFF; */
     text-align: center;
     font-size: 4.5vh;
 }
@@ -869,9 +873,6 @@ form > .formulario-div{
     width: 65%;
     text-align: left;
     margin: 0.5rem;
-}
-.seccion-serviceses .cart-services-info-text h2, .seccion-serviceses .cart-services-info-text p{
-    /* color: #FFFFFF; */
 }
 .seccion-serviceses .cart-services-info-text h2{
     font-size: 3vh;
@@ -920,7 +921,6 @@ form > .formulario-div{
 .pag-landing{
     background: #F4F5F6;
     padding: 2.5rem 0rem;
-    /* color: #FFFFFF; */
     display: grid;
 }
 .politicasDePrivacidad{
@@ -982,8 +982,13 @@ form > .formulario-div{
 
 }
 .tarjet-blog img{
-    width: 100%;
+    width: 40vh;
+    height: 40vh;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
 }
 .tarjet-blog h2{
     font-size: 3.5vh;
@@ -1003,19 +1008,26 @@ form > .formulario-div{
     object-fit: cover;
 }
 .blog-body{
-    padding: 3rem 4rem;
+    padding: 3rem 5rem;
     font-size: 4vh;
     text-align: justify;
 }
-.blog-body h2{
-    font-size: 5vh;
+.blog-body h1, .blog-body h2{
+    font-size: 4vh;
     padding: 2rem 0;
+}
+.blog-body h3{
+    font-size: 3vh;
+}
+.blog-body p{
+    font-size: 2vh;
 }
 .blog-body ul{
     padding: 0 5rem;
 }
 .blog-body ul li{
     list-style: decimal;
+    font-size: 2vh;
 }
 .padContend{
     padding: 2rem;
@@ -1068,21 +1080,21 @@ form > .formulario-div{
         margin: 1.5rem 0;
     }
     .cartTipUno{
-        width: 16rem;
+        width: 80%;
         border-radius: 20px;
-        padding: 1rem;
+        padding: 0.5rem;
     }
     .cartTipUno > h2{
-        font-size: 2.6vw;
+        font-size: 3vh;
     }
     .cartTipoPrecio > p{
-        font-size: 3.5vw;
+        font-size: 3.5vh;
     }
     .cartTipoPrecio > span{
         font-size: 1.3vw;
     }
     .cartTipDos{
-        width: 18.5rem;
+        width: 85%;
         border-radius: 20px;
         padding: 0.5rem;
     }
@@ -1091,8 +1103,8 @@ form > .formulario-div{
     }
     .planes > .carts-div{
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        gap: 2rem;
-        padding: 1rem;
+        gap: 1rem;
+        padding: 1rem 0;
     }
     form > .formulario-div{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1180,6 +1192,25 @@ form > .formulario-div{
     .padContend{
         padding: 1.5rem;
     }
+    .blogs-tarjet{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        padding: 4rem;
+    }
+    .tarjet-blog{
+        width: 30vh;
+        padding: 1rem;
+        display: grid;
+        gap: 1rem;
+
+    }
+    .tarjet-blog img{
+        width: 20vh;
+        height: 20vh;
+    }
+    .tarjet-blog h2{
+        font-size: 2vh;
+    }
 }
 @media (max-width: 747px){
     .nav-var-expain .navbar-nava{
@@ -1262,6 +1293,10 @@ form > .formulario-div{
     .planes > .carts-div{
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
         gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        justify-self: center;
     }
     .carts-div{
         gap: 0.5rem;
@@ -1285,26 +1320,26 @@ form > .formulario-div{
         padding: 0 1rem;
     }
     .cartTipUno{
-        width: 80%;
+        width: 65%;
         border-radius: 20px;
         padding: 1rem;
     }
     .cartTipUno > h2{
-        font-size: 4vh;
+        font-size: 3vh;
     }
     .cartTipoPrecio > p{
-        font-size: 4.8vh;
+        font-size: 4vh;
     }
     .cartTipoPrecio > span{
         font-size: 3.5vw;
     }
     .cartTipDos{
-        width: 85%;
+        width: 70%;
         border-radius: 15px;
-        padding: 0rem;
+        padding: 0.5rem;
     }
     .cartTipDos > h2{
-        font-size: 4.8vh;
+        font-size: 4vh;
     }
     .cartTipoLista > ul, .cartTipoListaB > ul{
         justify-items: left;
@@ -1386,7 +1421,7 @@ form > .formulario-div{
         padding: 0rem;
     }
     .cart-services-imag{
-        width: 17rem;
+        width: 10rem;
         display: grid;
         justify-items: center;
         justify-content: center;
@@ -1406,7 +1441,7 @@ form > .formulario-div{
         margin-top: 1rem;
     }
     .cart-services-info-text p{
-        font-size: 2.6vh;
+        font-size: 2vh;
     }
     .butonEsp{
         width: 40%;
@@ -1577,6 +1612,24 @@ form > .formulario-div{
     }
     .blog-body ul{
         padding: 0 2rem;
+    }
+    .blogs-tarjet{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    .tarjet-blog{
+        width: 30vh;
+        padding: 1rem;
+        display: grid;
+        gap: 1rem;
+
+    }
+    .tarjet-blog img{
+        width: 20vh;
+        height: 20vh;
+    }
+    .tarjet-blog h2{
+        font-size: 2vh;
     }
     .padContend{
         padding: 1.5rem;

@@ -40,6 +40,7 @@ class GenerateSitemap extends Command
             ->add(Url::create('/blogs'))
             ->add(Url::create('/Aviso-de-privacidad-Terminos-y-condiciones'))
             ->add(Url::create('/blogs/SEO-el-activo-invisible-que-genera-ventas-a-largo-plazo'))
+            ->add(Url::create('/blogs/razones-para-contratar-una-agencia-de-marketing-digital'))
             ->writeToFile(public_path('sitemap.xml'));
 
         $this->info('✅ Sitemap generado correctamente en public/sitemap.xml');

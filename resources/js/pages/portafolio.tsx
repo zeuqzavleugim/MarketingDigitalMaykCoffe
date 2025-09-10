@@ -62,9 +62,9 @@ export default function Portafolio() {
         <Planes
             TitulH="Planes de renta mensual para tu sitio web, con mantenimiento incluido"
             plans={[
-                {id: "plan1", titulo: "Portafolio personal / Landing Page", presio1: 600, presio2: 900, datos: ["Hosting", "Dominio", "Correo", "Sitio de 1 a 3 secciones", "SEO básico"], tipo: false},
-                {id: "plan2", titulo: "Pequeñas Empresas", presio1: 1200, presio2: 1800, datos: ["Hosting", "Dominio", "Correo", "Sitio completo (5 a 7 secciones)", "SEO on-page", "Diseño a medida", "Soporte mensual"], tipo: true},
-                {id: "plan3", titulo: "Medianas Empresas", presio1: 2000, presio2: 3500, datos: ["Hosting", "Dominio", "Correo", "Sitio Completo", "SEO básico", "Diseño Premium", "SEO avanzado", "Reportes mensuales", "Prioridad en soporte"], tipo: false}
+                {id: "plan1", titulo: "Portafolio personal / Landing Page", presio1: 600, datos: ["Hosting", "Dominio", "Correo", "Sitio de 1 a 3 secciones", "SEO básico"], tipo: false},
+                {id: "plan2", titulo: "Pequeñas Empresas", presio1: 1200, datos: ["Hosting", "Dominio", "Correo", "Sitio completo (5 a 7 secciones)", "SEO on-page", "Diseño a medida", "Soporte mensual"], tipo: true},
+                {id: "plan3", titulo: "Medianas Empresas", presio1: 2000, datos: ["Hosting", "Dominio", "Correo", "Sitio Completo", "SEO básico", "Diseño Premium", "SEO avanzado", "Reportes mensuales", "Prioridad en soporte"], tipo: false}
             ]}
         />
         <Formulario/>

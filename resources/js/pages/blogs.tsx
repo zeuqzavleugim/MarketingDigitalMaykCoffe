@@ -4,6 +4,7 @@ import Footer from "@/layouts/footer";
 import Formulario from "@/layouts/formulario";
 import TarjetaBlog from "@/components/tarjetaBlog";
 import { Paginas } from "@/imgs/pag";
+import { General } from "@/imgs/general";
 
 export default function Blogs() {
     return(
@@ -13,29 +14,11 @@ export default function Blogs() {
         <main className="banner-portafolio">
             <div className="banner-portafolio-title">
                 <h1>
-                    ¿Listo para transformar tu negocio? 
+                    Blog
                 </h1>
                 <h2>
-                    ¡Hablemos hoy mismo!
+                    ¿Listo para transformar tu negocio? 
                 </h2>
-            </div>
-            <div className="banner-portafolio-text">
-                <p>
-                    En MaykCoffe, somos una agencia digital en 
-                    CDMX especializada en desarrollo web, SEO 
-                    y marketing digital para empresas en México. 
-                </p>
-                <p>
-                    Creamos páginas web rápidas, optimizadas para 
-                    Google, y estrategias personalizadas para que 
-                    tu negocio aparezca primero en buscadores y 
-                    aumente sus ventas.
-                </p>
-                <p>
-                    Cotiza gratis tu proyecto y descubre cuánto 
-                    puede crecer tu empresa con un sitio web que 
-                    realmente vende.
-                </p>
             </div>
         </main>
         <main className="blogs-tarjet">
@@ -43,6 +26,11 @@ export default function Blogs() {
                 Tit="SEO: el activo invisible que genera ventas a largo plazo"
                 Img= {Paginas.TuDesarrollo}
                 Rut= "SEOActivoInvisible"
+            />
+            <TarjetaBlog
+                Tit="Razones para contratar una agencia de marketing digital"
+                Img= {General.Analytics}
+                Rut= "RazonesContratarAgencia"
             />
         </main>
         <Formulario/>

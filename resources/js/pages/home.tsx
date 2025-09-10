@@ -8,17 +8,26 @@ import Formulario from "@/layouts/formulario";
 import Servicios from "@/layouts/servicios";
 import Carrousel from "@/components/carrousel";
 import { Paginas } from "@/imgs/pag";
+import { General } from "@/imgs/general";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import ButonContacto from "@/components/butonContacto";
 
 export default function Home() {
+    
+    useEffect(() => {
+            AOS.init({
+                duration: 1200, // duración de animación en ms
+                once: false,    // animacion
+                easing: "ease-in-out"
+            });
+        }, []);
+
     return(
         <>
-            <Head title="Agencia de Desarrollo Web y SEO en CDMX" />
+            <Head title="Agencia de Desarrollo Web en CDMX |Sitios que Venden" />
             <Navbar />
-            <section className="desarrollos">
-                <h1>
-                    Agencia de Desarrollo Web y SEO en CDMX para Impulsar tu Negocio Online
-                </h1>
-            </section>
             <Carrousel
                 Banners={[
                     {Img: Paginas.Decoracion, Alt: 'Diseño de página web para empresa de decoración corporativa enfocada en medianas y grandes empresas', Titulo: 'Decoración de Oficinas', Parrafo: 'Diseño web para empresa de decoración que transforma espacios corporativos. ¡Descubre el proyecto!'},
@@ -30,42 +39,59 @@ export default function Home() {
                 ]}
                 height={420}
             />
+            <section className="desarrollos">
+                <h1>
+                    Agencia de Desarrollo Web y SEO en CDMX para Impulsar tu Negocio Online
+                </h1>
+            </section>
             <Info 
-                Tit="Desarrollo de páginas web rápidas y seguras"
+                Tit="Desarrollo de páginas web rápidas, seguras y optimizadas"
             />
             <section className="desarrollos">
-                <hr />
                 <h2>
-                    Diseño y SEO para atraer más clientes 
-                    sin depender solo de anuncios.
+                    SEO Técnico en CDMX para posicionarte en Google
                 </h2>
             </section>
+            <section className="desarrollos" data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
+                <img src={General.Analytics} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" />
+            </section>
+            <div>
+                <ButonContacto
+                    Ruta="contacto"
+                    Texto="Agenda una consulta"
+                />
+            </div>
             <Planes
-                TitulH="Planes de renta mensual para tu sitio web, con mantenimiento incluido"
+                TitulH="Planes mensuales flexibles para PyMEs y emprendedores"
                 plans={[
-                    {id: "plan1", titulo: "Portafolio personal / Landing Page", presio1: 600, presio2: 900, datos: ["Hosting", "Dominio", "Correo", "Sitio de 1 a 3 secciones", "SEO básico"], tipo: false},
-                    {id: "plan2", titulo: "Pequeñas Empresas", presio1: 1200, presio2: 1800, datos: ["Hosting", "Dominio", "Correo", "Sitio completo (5 a 7 secciones)", "SEO on-page", "Diseño a medida", "Soporte mensual"], tipo: true},
-                    {id: "plan3", titulo: "Medianas Empresas", presio1: 2000, presio2: 3500, datos: ["Hosting", "Dominio", "Correo", "Sitio Completo", "SEO básico", "Diseño Premium", "SEO avanzado", "Reportes mensuales", "Prioridad en soporte"], tipo: false}
+                    {id: "plan1", titulo: "Portafolio personal / Landing Page", presio1: 600, datos: ["Hosting", "Dominio", "Correo", "Sitio de 1 a 3 secciones", "SEO básico"], tipo: false},
+                    {id: "plan2", titulo: "PyMEs", presio1: 1200, datos: ["Hosting", "Dominio", "Correo", "Sitio completo (5 a 7 secciones)", "SEO on-page", "Diseño a medida", "Soporte mensual"], tipo: true},
+                    {id: "plan3", titulo: "Medianas Empresas", presio1: 2000, datos: ["Hosting", "Dominio", "Correo", "Sitio Completo", "SEO básico", "Diseño Premium", "SEO avanzado", "Reportes mensuales", "Prioridad en soporte"], tipo: false}
                 ]}
                 bakColor="background-imag"
             />
             <section className="desarrollos">
-                <hr />
                 <h2>
-                    Páginas web modernas, SEO técnico y 
-                    marketing digital que posiciona tu 
-                    empresa en Google.
+                    Diseño web estratégico para atraer más clientes
                 </h2>
-                <hr />
             </section>
+            <section className="desarrollos" data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
+                <img src={General.MonitorBienIluminado} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" />
+            </section>
+            <div>
+                <ButonContacto
+                    Ruta="contacto"
+                    Texto="Agenda una consulta"
+                />
+            </div>
             <Servicios/>
             <section className="desarrollos">
-                <hr />
                 <h2>
-                    Consultoría en marketing digital para 
-                    escalar tu negocio
+                    ¿Listo para vender más con tu sitio web?
                 </h2>
-                <hr />
+            </section>
+            <section className="desarrollos">
+                <h3>Cotiza hoy</h3>
             </section>
             <section className=" ">
                 <Formulario/>

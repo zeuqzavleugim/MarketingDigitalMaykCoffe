@@ -231,9 +231,9 @@ export default function ConsultoriaSEO() {
             <Planes
                 TitulH="Planes de renta mensual para tu Consultoria"
                 plans={[
-                    {id: "plan1OptimizacionSEO", titulo: "Básico", presio1: 600, presio2: 900, datos: ["Optimización velocidad", "keywords", "meta etiquetas", "Reporte básico"], tipo: false},
-                    {id: "plan2OptimizacionSEO", titulo: "Premium", presio1: 1600, presio2: 2000, datos: ["Optimización avanzada + link", "building inicial", "auditoría trimestral completa", "Google Analytics", "Search Console", "Reportes mensuales"], tipo: true},
-                    {id: "plan3OptimizacionSEO", titulo: "Avanzado", presio1: 1000, presio2: 1500, datos: ["SEO técnico + estrategia on-page", "Google Analytics", "Search Console", "Reportes mensuales"], tipo: false}
+                    {id: "plan1OptimizacionSEO", titulo: "Básico", presio1: 600, datos: ["Optimización velocidad", "keywords", "meta etiquetas", "Reporte básico"], tipo: false},
+                    {id: "plan2OptimizacionSEO", titulo: "Premium", presio1: 1600, datos: ["Optimización avanzada + link", "building inicial", "auditoría trimestral completa", "Google Analytics", "Search Console", "Reportes mensuales"], tipo: true},
+                    {id: "plan3OptimizacionSEO", titulo: "Avanzado", presio1: 1000, datos: ["SEO técnico + estrategia on-page", "Google Analytics", "Search Console", "Reportes mensuales"], tipo: false}
                 ]}
                 bakColor="background-sin"
             />

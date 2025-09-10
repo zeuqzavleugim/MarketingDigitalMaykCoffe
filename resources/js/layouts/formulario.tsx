@@ -121,7 +121,7 @@ export default function Formulario() {
     return (
         <main className="secForm background-imag-contac">
             <div className="formulario" id="contacto">
-                <h2>Contáctame</h2>
+                <h2>Contacto</h2>
                 <form onSubmit={handleSubmit} autoComplete="off">
                     <div className="formulario-div">
 

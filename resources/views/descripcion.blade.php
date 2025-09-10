@@ -1,12 +1,12 @@
 @switch(Request::path())
     @case("/")
-        <meta name="description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />
-        <meta name="keywords" content="desarrollador web freelance, creación de sitios web, landing pages, SEO, optimización para Google, consultoría SEO, maquetación web, marketing digital, posicionamiento web, México" />
-        <meta property="og:title" content="Agencia de Marketing Digital y SEO en CDMX | MaykCoffe" />
-        <meta property="og:description" content="Diseñamos sitios web y estrategias SEO que posicionan tu negocio en Google. Incrementa tus ventas con MaykCoffe, agencia digital en CDMX." />
+        <meta name="description" content="Creamos páginas web rápidas, seguras y optimizadas con SEO en CDMX. Convierte tu sitio en un imán de clientes con diseño estratégico, posicionamiento en Google y planes accesibles. Cotiza gratis hoy con MaykCoffe." />
+        <meta name="keywords" content="agencia de desarrollo web cdmx, diseño web cdmx, seo cdmx, páginas web para negocios, landing pages méxico, agencia digital ciudad de méxico, posicionamiento web méxico, consultoría seo méxico, marketing digital cdmx" />
+        <meta property="og:title" content="Agencia de Desarrollo Web y SEO en CDMX | Sitios que Venden 24/7 | MaykCoffe" />
+        <meta property="og:description" content="Diseñamos sitios web que venden: rápidos, seguros y con SEO en CDMX. Posiciona tu negocio en Google y atrae más clientes. Cotiza gratis tu proyecto con MaykCoffe." />
         <meta property="og:type" content="website" />
-        <meta name="twitter:title" content="Desarrollador Web | Sitios, SEO y Marketing Digital" />
-        <meta name="twitter:description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />
+        <meta name="twitter:title" content="Agencia de Desarrollo Web y SEO en CDMX | MaykCoffe" />
+        <meta name="twitter:description" content="Páginas web rápidas, seguras y con SEO en CDMX. Aumenta tu visibilidad en Google y genera más clientes. Cotiza gratis con MaykCoffe." />
         <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx" />
@@ -130,8 +130,22 @@
         <meta name="twitter:description" content="Más que posicionamiento, el SEO es experiencia de usuario, visibilidad y confianza. Descubre cómo se convierte en un motor de ventas sostenibles." />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
         <meta property="og:url" content="https://maykcoffe.com.mx/blogs/SEO-el-activo-invisible-que-genera-ventas-a-largo-plazo" />
         <link rel="canonical" href="https://maykcoffe.com.mx/blogs/SEO-el-activo-invisible-que-genera-ventas-a-largo-plazo" />
+        @break
+    @case("blogs/razones-para-contratar-una-agencia-de-marketing-digital")
+        <meta name="description" content="Descubre las principales razones para contratar una agencia de marketing digital en México. Aumenta la visibilidad de tu negocio, genera más clientes y multiplica tus ventas con estrategias SEO y campañas efectivas." />
+        <meta name="keywords" content="agencia de marketing digital, contratar agencia marketing, agencia SEO México, beneficios marketing digital, aumentar ventas online, estrategias digitales" />
+        <meta property="og:title" content="Razones para contratar una agencia de marketing digital | Aumenta tu visibilidad y ventas" />
+        <meta property="og:description" content="Conoce por qué una agencia de marketing digital en México es clave para crecer tu negocio. Estrategias SEO, SEM, redes sociales y campañas que generan resultados." />
+        <meta name="twitter:title" content="Razones para contratar una agencia de marketing digital | Impulsa tu negocio online" />
+        <meta name="twitter:description" content="Descubre cómo una agencia de marketing digital puede posicionar tu negocio en Google, atraer más clientes y aumentar tus ventas de forma sostenible." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/razones-para-contratar-una-agencia-de-marketing-digital" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/razones-para-contratar-una-agencia-de-marketing-digital" />
         @break
 
     @default

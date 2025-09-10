@@ -73,7 +73,7 @@ export default function Carrousel({ Banners, intervalMs = 5000, height = 480 }: 
                     <img
                         src={banner.Img}
                         className="d-block w-100"
-                        alt={banner.Alt}
+                        alt={banner.Alt} title={banner.Alt}
                         // Mantén encuadre bonito si la imagen no tiene la misma relación de aspecto
                         style={{ objectFit: "cover", height: "100%" }}
                         // Rendimiento de carga:

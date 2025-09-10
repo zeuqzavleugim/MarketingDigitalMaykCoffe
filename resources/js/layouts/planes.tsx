@@ -8,7 +8,6 @@ interface PlanItem {
   id?: string;         // opcional, pero recomendable para usar como key
   titulo: string;
   presio1: number;
-  presio2: number;
   datos: string[];
   tipo: boolean;
 }
@@ -47,7 +46,6 @@ export default function Planes({
             key={plan.id ?? index}          // usa id si existe, si no fallback a index
             Titulo={plan.titulo}
             Presio1={plan.presio1}
-            Presio2={plan.presio2}
             Datos={plan.datos}
             Tipo={plan.tipo}
           />

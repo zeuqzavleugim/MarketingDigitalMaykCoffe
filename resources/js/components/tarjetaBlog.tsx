@@ -1,9 +1,9 @@
 export default function TarjetaBlog(props: { Tit: string, Img: string, Rut: string}) {
     return(
         <>
-            <a href={route(props.Rut)} className="tarjet-blog">
+            <a href={route(props.Rut)} className="tarjet-blog" title={props.Tit}>
                 <div>
-                    <img src={props.Img} alt={props.Tit} />
+                    <img src={props.Img} alt={props.Tit} title={props.Tit} />
                     <div>
                         <h2>{props.Tit}</h2>
                     </div>

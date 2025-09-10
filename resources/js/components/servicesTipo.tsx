@@ -1,9 +1,21 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Texto: Array<string>, Ruta: string, RutaSitio: string, Imagen: string}) {
+    
+    useEffect(() => {
+            AOS.init({
+                duration: 1200, // duración de animación en ms
+                once: false,    // animacion
+                easing: "ease-in-out"
+            });
+        }, []);
+    
     if (props.Tipo === true) {
         return(
             <>
-                <div className="cart-services-uno">
+                <div className="cart-services-uno" data-aos="fade-down-right">
                     <div className="cart-services-imag">
                         <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} title={`Imagen-${props.Titulo}`} loading="lazy"/>
                     </div>
@@ -28,7 +40,7 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
     }else if (props.Tipo === false){
         return(
             <>
-            <div className="cart-services-uno">
+            <div className="cart-services-uno" data-aos="fade-up-left">
                 <div className="cart-services-info-text">
                     <div>
                         <h2> {props.Titulo} </h2>

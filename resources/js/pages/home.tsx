@@ -28,7 +28,7 @@ export default function Home() {
                     {Img: Paginas.Impresos, Alt: 'Página web para empresa de decoración dirigida a pequeñas empresas', Titulo: 'Magic pop Impresos', Parrafo: 'Así luce una página web creada para negocios de decoración que venden a pymes.'},
                     {Img: Paginas.TuDesarrollo, Alt: 'Ejemplo de página web, tu próximo proyecto puede lucir así', Titulo: '¿Listo para ver cómo puede lucir tu próximo proyecto digital?', Parrafo: 'Tu próximo sitio web podría verse así. ¡Descúbrelo!'}
                 ]}
-                height={350}
+                height={420}
             />
             <Info 
                 Tit="Desarrollo de páginas web rápidas y seguras"

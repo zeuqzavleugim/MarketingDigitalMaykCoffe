@@ -20,7 +20,7 @@
 }
 .nav-var-expain .navbar-nava{
     display: flex;
-    width: 75%;
+    width: 60%;
     justify-content: space-evenly;
 }
 .nav-var-expain .navbar-nava li{
@@ -42,7 +42,7 @@
     justify-content: flex-end;
 }
 .navbar{
-    font-size: 1.6vw;
+    font-size: 1.2vw;
 }
 .nav-item{
     margin: 0 1rem;
@@ -102,7 +102,7 @@
     }
 }
 .iconsLogo{
-    width: 5vw;
+    width: 3vw;
 }
 /*  */
 .btn-flotante {
@@ -141,7 +141,6 @@ footer{
 }
 .footer-info{
     display: grid;
-    /* width: 2rem; */
 }
 .footer-info > .footer-icons{
     display: flex;
@@ -176,9 +175,11 @@ footer{
 }
 .first-seccion{
     display: flex;
-    padding: 0 2rem;
+    margin: 5rem;
+    padding: 5rem 2rem;
     width: 100%;
     justify-self: center;
+    justify-content: space-between;
 }
 .seccion-img-perfil{
     justify-content: center;
@@ -186,6 +187,7 @@ footer{
     justify-items: center;
     justify-self: center;
     align-items: center;
+    width: 40%;
 }
 .seccion-img-perfil > img{
     padding: 0rem;
@@ -195,16 +197,17 @@ footer{
     box-shadow: 3px 3px 7px 1px #1F2937 ;
 }
 .seccion-info-perfil{
-    width: 100%;
-    padding: 1rem 0rem;
+    width: 50%;
+    padding: 2rem 1rem;
     color: #1F2937;
 }
 .seccion-info-perfil > h2{
     text-align: center;
     color: #1F2937;
+    font-size: 5vh;
 }
 .seccion-info-perfil > p{
-    font-size: 2.2dvh;
+    font-size: 2vh;
     font-weight: 600;
     margin: 1rem 0;
 }
@@ -214,7 +217,7 @@ footer{
     border-radius: 25px;
 }
 .carousel-item{
-    height: 40dvh;
+    height: 40vh;
 }
 .carousel-caption{
     color: #FFFFFF;
@@ -223,10 +226,10 @@ footer{
     border-radius: 30px;
 }
 .carousel-caption h2{
-    font-size: 6dvh;
+    font-size: 6vh;
 }
 .carousel-caption p{
-    font-size: 3dvh;
+    font-size: 3vh;
     color: #FFFFFF;
 }
 .seccion-icons{
@@ -329,6 +332,7 @@ footer{
 .background-sin{
     background: #b388eb00 !important;
     color: #FFFFFF !important; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 .background-imag{
     background-image: url('/img/tuDesarrollo.png') !important;
@@ -579,36 +583,53 @@ form > .formulario-div{
 }
 .main-contacto, .main-servises{
     display: flex;
-    width: 95%;
-    justify-content: center;
+    width: 90%;
+    justify-content: space-between;
     justify-items: center;
     justify-self: center;
-    padding: 1rem 0;
 }
 .main-contacto-div, .main-services-info{
     display: grid;
-    width: 50%;
+    width: 60%;
     padding: 0rem;
     justify-items: center;
     align-items: center;
     color: #FFFFFF;
+    gap: 2rem;
+}
+.main-services-info div{
+    display: grid;
 }
 .main-contacto-div h1, .main-services-info h1, .main-fute-page-services h2{
-    color: #FFFFFF;
     text-align: center;
+    font-size: 4.2vh;
+    padding: 2rem 0;
 }
 .main-contacto-div p, .main-services-info p, .main-fute-page-services p{
-    font-size: 2.9vh;
-    color: #FFFFFF;
+    font-size: 1.9vh;
+    font-weight: 700;
+    text-align: justify;
 }
 .main-fute-page-services{
     display: grid;
-    gap: 3rem;
-    padding: 4rem;
+    gap: 1rem;
+    margin: 5rem;
+    padding: 3rem 7rem;
     text-align: center;
 }
 .main-fute-page-services h2{
     font-size: 4vh;
+}
+.accordion{
+    --bs-accordion-bg: #d4d4d44b;
+}
+.accordion-item, .accordion-button{
+    border-radius: 20px !important;
+    border: 1px solid #FFFFFF;
+    /* color: #fff; */
+}
+.collapse{
+    justify-content: flex-start;
 }
 .clas-img-div{
     display: grid;
@@ -640,25 +661,26 @@ form > .formulario-div{
 }
 .services-in-home{
     width: 100%;
-    padding: 1rem;
+    margin: 4rem;
+    padding: 3rem 1rem;
     display: grid;
-    gap: 2rem;
+    gap: 2.3rem;
     text-align: center;
     justify-items: center;
     justify-self: center;
     justify-content: center;
 }
 .cart-services-uno{
-    width: 100%;
+    width: 85%;
     display: flex;
     border: 1px solid #FF6B6B;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 1rem 2rem;
     margin: auto;
     justify-content: space-between;
 }
 .cart-services-imag{
-    width: 20rem;
+    width: 15rem;
     display: grid;
     justify-items: center;
     margin: 1rem;
@@ -674,7 +696,7 @@ form > .formulario-div{
 }
 .cart-services-info-text{
     display: grid;
-    width: 110vh;
+    width: 70%;
     text-align: left;
     margin: 0.5rem;
 }
@@ -775,34 +797,45 @@ form > .formulario-div{
     margin: 5rem;
 }
 .pag-service{
-    background: linear-gradient(to right, #18242E 55%, #383335 75%);
+    /* background: linear-gradient(to right, #18242E 55%, #383335 75%); */
     padding: 2.5rem 0rem;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 .pag-service section{
     color: #FFFFFF;
 }
 .main-services-info{
     padding: 1rem;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
+    padding: 0 3rem;
+}
+.main-services-info ul{
+    padding: 0 3rem;
 }
 .main-services-info ul li{
     padding: 0.3rem;
     list-style-type: disc;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
+}
+.main-services-info ul li b{
+    /* color: #FFFFFF; */
+    text-decoration: underline;
 }
 .main-services-info h2{
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     text-align: center;
+    font-size: 4.5vh;
 }
-.img-services img{
+.img-services, .img-services img{
     display: grid;
-    width: 80vh;
+    width: 60vh;
     justify-items: center;
     justify-content: center;
     justify-self: center;
     align-items: center;
     border-radius: 10px;
+}
+.img-services img{
     box-shadow: 2px 3px 5px 1px #1F2937;
 }
 .seccion-serviceses{
@@ -815,7 +848,7 @@ form > .formulario-div{
     gap: 2rem;
 }
 .seccion-serviceses .cart-services-imag{
-    width: 30rem;
+    width: 17rem;
     display: grid;
     justify-items: center;
     justify-content: center;
@@ -838,13 +871,13 @@ form > .formulario-div{
     margin: 0.5rem;
 }
 .seccion-serviceses .cart-services-info-text h2, .seccion-serviceses .cart-services-info-text p{
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 .seccion-serviceses .cart-services-info-text h2{
-    font-size: 5vh;
+    font-size: 3vh;
 }
 .seccion-serviceses .cart-services-info-text p{
-    font-size: 3.2vh;
+    font-size: 1.9vh;
 }
 .section-servicios-text{
     display: flex;
@@ -858,13 +891,11 @@ form > .formulario-div{
     width: 90vh;
     justify-items: center;
     padding: 1rem;
-    color: #FFFFFF;
 }
 .main-services-div p{
-    font-size: 3.5vh;
+    font-size: 2vh;
     text-align: center;
     margin: 1.5rem 0;
-    color: #FFFFFF;
 }
 .main-services-div-buton{
     display: flex;
@@ -882,14 +913,14 @@ form > .formulario-div{
     margin: 2rem auto;
 }
 .img-pie-pag img{
-    width: 60%;
+    width: 30%;
     border-radius: 10px;
     box-shadow: 2px 3px 5px 1px #1F2937;
 }
 .pag-landing{
-    background: #10151A;
+    background: #F4F5F6;
     padding: 2.5rem 0rem;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     display: grid;
 }
 .politicasDePrivacidad{
@@ -933,7 +964,7 @@ form > .formulario-div{
     mask-size: cover;
 }
 .tarjet-blog{
-    width: 50dvh;
+    width: 50vh;
     border-radius: 20px;
     padding: 1rem;
     border: 1px solid #10151A;
@@ -955,7 +986,7 @@ form > .formulario-div{
     border-radius: 20px;
 }
 .tarjet-blog h2{
-    font-size: 3.5dvh;
+    font-size: 3.5vh;
 }
 .div-baner-img{
     display: flex;
@@ -963,7 +994,7 @@ form > .formulario-div{
     justify-self: center;
     justify-items: center;
     width: 100%;
-    height: 40dvh; /* altura fija */
+    height: 40vh; /* altura fija */
     overflow: hidden;
 }
 .div-baner-img img{
@@ -973,13 +1004,12 @@ form > .formulario-div{
 }
 .blog-body{
     padding: 3rem 4rem;
-    font-size: 4dvh;
+    font-size: 4vh;
     text-align: justify;
 }
 .blog-body h2{
-    font-size: 5dvh;
+    font-size: 5vh;
     padding: 2rem 0;
-    /* text-align: center; */
 }
 .blog-body ul{
     padding: 0 5rem;
@@ -1075,15 +1105,30 @@ form > .formulario-div{
     .main-contacto-div, .main-services-info{
         width: 75vh;
     }
-    .main-contacto-div h1, .main-contacto-div h2, .main-services-info h1{
-        color: #FFFFFF;
+    .main-servises{
+        display: flex;
+        padding: 1rem 0rem;
+        gap: 0rem;
+    }
+    .main-services-info{
+        width: 75%;
+        padding: 0 0.83rem;
+    }
+    .main-services-info a{
+        margin: 2rem;
+    }
+    .main-contacto-div h1, .main-contacto-div h2, .main-services-info h1, .main-services-info h2{
         text-align: center;
-        font-size: 2.8vh;
+        font-size: 2.5vh;
+        font-weight: 600;
     }
-    .main-contacto-div p, .main-services-info p{
-        font-size: 1.9vh;
-        color: #FFFFFF;
+    .main-contacto-div p, .main-services-info p, .main-services-info ul li, .main-services-info h3 button{
+        font-size: 1.5vh;
     }
+    .main-services-info ul li{
+        font-weight: 700;
+    }
+    
     .cart-services-uno{
         padding: 1rem;
     }
@@ -1109,7 +1154,7 @@ form > .formulario-div{
         gap: 2rem;
     }
     .seccion-serviceses .cart-services-imag{
-        width: 20rem;
+        width: 11rem;
     }
     .seccion-serviceses .cart-services-imag img{
         width: 100%;
@@ -1122,15 +1167,15 @@ form > .formulario-div{
     }
     .seccion-serviceses .cart-services-info-text{
         display: grid;
-        width: 55vh;
+        width: 50%;
         text-align: left;
         margin: 0.5rem;
     }
     .seccion-serviceses .cart-services-info-text h2{
-        font-size: 4.5vh;
+        font-size: 3vh;
     }
     .seccion-serviceses .cart-services-info-text p{
-        font-size: 2.9vh;
+        font-size: 2vh;
     }
     .padContend{
         padding: 1.5rem;
@@ -1152,7 +1197,7 @@ form > .formulario-div{
         font-size: 6vw;
     }
     .iconsLogo{
-        width: 20vw;
+        width: 12vw;
     }
     footer{
         font-size: 1.4rem;
@@ -1192,16 +1237,16 @@ form > .formulario-div{
         align-items: center;
     }
     .seccion-info-perfil{
-        width: 90%;
+        width: 100%;
         padding: 0 1rem;
         justify-self: center;
     }
-    .seccion-info-perfil >h1{
-        font-size: 5.5vw;
+    .seccion-info-perfil >h1, .seccion-info-perfil >h2{
+        font-size: 5vw;
         margin: 1rem 0;
     }
     .seccion-info-perfil > p{
-        font-size: 2.5vh;
+        font-size: 2vh;
         margin: 1.5rem 0;
     }
     .desarrollos > h2, .desarrollos > h1{
@@ -1292,15 +1337,23 @@ form > .formulario-div{
     }
     .main-contacto-div, .main-services-info{
         width: 45vh;
+        gap: 0rem;
+    }
+    .main-services-info div{
+        gap: 0rem;
     }
     .main-contacto-div h1, .main-contacto-div h2, .main-services-info h1{
-        color: #FFFFFF;
         text-align: center;
         font-size: 2.8vh;
     }
-    .main-contacto-div p, .main-services-info p{
+    .main-contacto-div p, .main-services-info p, .main-services-info ul li, .main-services-info h3 button{
         font-size: 1.9vh;
-        color: #FFFFFF;
+    }
+    .main-services-info ul li{
+        font-weight: 700;
+    }
+    .main-services-info ul{
+        padding: 0 1rem;
     }
     .clas-img-div{
         display: grid;
@@ -1420,7 +1473,7 @@ form > .formulario-div{
         align-items: center;
     }
     .seccion-serviceses .cart-services-imag{
-        width: 75%;
+        width: 50%;
         justify-content: center;
         align-items: center;
         justify-items: center;
@@ -1428,15 +1481,15 @@ form > .formulario-div{
     }
     .seccion-serviceses .cart-services-info-text{
         display: grid;
-        width: 95%;
+        width: 90%;
         text-align: left;
         margin: 0.5rem;
     }
     .seccion-serviceses .cart-services-info-text h2{
-        font-size: 4.5vh;
+        font-size: 3vh;
     }
     .seccion-serviceses .cart-services-info-text p{
-        font-size: 2.9vh;
+        font-size: 2vh;
     }
     .section-servicios-text{
         display: grid;
@@ -1448,19 +1501,17 @@ form > .formulario-div{
     }
     .main-services-div{
         display: grid;
-        width: 60vh;
+        width: 45vh;
         justify-content: center;
         justify-self: center;
         justify-items: center;
         padding: 1rem;
-        color: #FFFFFF;
         text-align: center;
     }
     .main-services-div p{
-        font-size: 3.5vh;
+        font-size: 2vh;
         text-align: center;
         margin: 1.5rem 0;
-        color: #FFFFFF;
     }
     .pag-landing{
         gap: 1.5rem;
@@ -1503,7 +1554,7 @@ form > .formulario-div{
         border-radius: 25px;
     }
     .carousel-item{
-        height: 30dvh !important;
+        height: 30vh !important;
     }
     .carousel-caption{
         border: 1px solid #10151A;
@@ -1511,17 +1562,17 @@ form > .formulario-div{
         border-radius: 20px;
     }
     .carousel-caption h2{
-        font-size: 3dvh;
+        font-size: 3vh;
     }
     .carousel-caption p{
-        font-size: 2dvh;
+        font-size: 2vh;
     }
     .blog-body{
         padding: 1rem 1rem;
-        font-size: 3dvh;
+        font-size: 3vh;
     }
     .blog-body h2{
-        font-size: 4dvh;
+        font-size: 4vh;
         padding: 1rem 0;
     }
     .blog-body ul{

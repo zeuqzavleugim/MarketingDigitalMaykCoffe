@@ -1,18 +1,27 @@
 import { General } from "@/imgs/general";
-import { Icons } from "@/imgs/Icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Info(props: {Tit: string;}) {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200, // duración de animación en ms
+            once: false,    // animacion
+            easing: "ease-in-out"
+            });
+    }, []);
     return(
         <>
-            <header className="first-seccion" id="conoceme">
-                <div className="seccion-img-perfil">
+            <header className="first-seccion" id="conoceme" data-aos="fade-up">
+                <div className="seccion-img-perfil" data-aos="zoom-in" >
                     <img 
                         src={General.Perfil} 
                         alt="Foto estilo Funco" 
                         title="Foto estilo Funco" 
                         loading="lazy" />
                 </div>
-                <div className="seccion-info-perfil">
+                <div className="seccion-info-perfil" data-aos="fade-left">
                     <h2>
                         {props.Tit}
                     </h2>

@@ -7,8 +7,20 @@ import ButonContacto from "@/components/butonContacto"
 import { General } from "@/imgs/general"
 import ServiciosTipo from "@/components/servicesTipo"
 import { servicio } from "@/imgs/servises"
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Servicios() {
+
+    useEffect(() => {
+                AOS.init({
+                    duration: 1200, // duración de animación en ms
+                    once: false,    // animacion
+                    easing: "ease-in-out"
+                });
+            }, []);
+
     return (
         <>
         <Head title="Servicios de Desarrollo Web, Landing Pages y SEO" />
@@ -107,7 +119,7 @@ export default function Servicios() {
                     />
                 </div>
             </section>
-            <section className="img-pie-pag">
+            <section className="img-pie-pag" data-aos="fade-up" data-aos-anchor-placement="center-center">
                 <img src={General.FuncoEnOficinaDePie} alt="Tranquilidad se confiar en los mejores" title="Tranquilidad se confiar en los mejores" loading="lazy"/>
             </section>
         </main>

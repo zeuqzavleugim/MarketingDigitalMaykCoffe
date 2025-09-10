@@ -61,12 +61,13 @@
         <link rel="canonical" href="https://maykcoffe.com.mx/servicios/crear-landing-page-profesional" />
         @break
     @case("servicios/creacion-de-sitios-web")
-        <meta name="description" content="Crea un sitio web profesional que genere ventas. Desarrollo web estratégico con diseño UX, SEO y velocidad. Cotiza gratis ahora." />
-        <meta name="keywords" content="Cotiza tu sitio web, Diseño UX, Diseño SEO, Diseño y velocidad, sitio web profesional, Hechos para vender desde el primer día." />
-        <meta property="og:title" content="Diseño de Sitios Web Profesionales que Venden | MaykCoffe" />
-        <meta property="og:description" content="Cotiza tu sitio web. Diseño UX + SEO + velocidad. Hechos para vender desde el primer día." />
-        <meta name="twitter:title" content="Diseño de Sitios Web Profesionales que Venden | MaykCoffe" />
-        <meta name="twitter:description" content="Cotiza tu sitio web. Diseño UX + SEO + velocidad. Hechos para vender desde el primer día." />
+        <meta name="description" content="Creamos páginas web profesionales en México, optimizadas con SEO, UX y velocidad. Convierte más clientes con un sitio que vende 24/7. Cotiza gratis." />
+        <meta name="keywords" content="diseño web profesional México, páginas web para empresas, creación de sitios web, agencia diseño web CDMX, desarrollo web con SEO, diseño UX/UI, páginas web que venden, diseño web responsivo México" />
+        <meta property="og:title" content="Diseño Web Profesional en México | Páginas que Venden 24/7" />
+        <meta property="og:description" content="Creamos sitios web optimizados con SEO, UX y velocidad. Convierte más clientes con un portal profesional que trabaja por ti día y noche." />
+        <meta property="og:image" content="https://maykcoffe.com.mx/build/assets/Creacion-de-sitio-web-B8Kd-VG0.png" />
+        <meta name="twitter:title" content="Diseño Web Profesional en México | Páginas que Venden 24/7" />
+        <meta name="twitter:description" content="Sitios web profesionales con SEO, UX y velocidad. Convierte más clientes con páginas que venden 24/7. Cotiza gratis ahora." />
         <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios/creacion-de-sitios-web" />
@@ -85,12 +86,12 @@
         <link rel="canonical" href="https://maykcoffe.com.mx/servicios/consultoria-seo-tecnica-estrategica" />
         @break
     @case("servicios/seo-onpage-tecnica")
-        <meta name="description" content="Mejora el posicionamiento de tu sitio web con nuestro servicio de Optimización SEO On-Page y Técnica. Atrae más clientes, carga más rápido y aparece en Google." />
-        <meta name="keywords" content="optimización SEO on-page, SEO técnico, SEO para sitios web, posicionamiento web, auditoría SEO, mejorar ranking en Google, SEO para negocios, SEO freelance México" />
-        <meta property="og:title" content="Optimización SEO On-Page & Técnica | Aumenta tu Visibilidad en Google" />
-        <meta property="og:description" content="Haz que tu sitio web cargue rápido, se entienda mejor y escale posiciones en Google. Solicita tu auditoría gratuita y mejora tu tráfico orgánico." />
-        <meta name="twitter:title" content="Optimización SEO On-Page & Técnica | Aumenta tu Visibilidad en Google" />
-        <meta name="twitter:description" content="Haz que tu sitio web cargue rápido, se entienda mejor y escale posiciones en Google. Solicita tu auditoría gratuita y mejora tu tráfico orgánico." />
+        <meta name="description" content="¿Tu web no aparece en Google? Con nuestra Optimización SEO On-Page y Técnica en México mejoramos velocidad, indexación y autoridad para atraer más clientes orgánicos y aumentar tus conversiones. Solicita tu auditoría SEO gratis." />
+        <meta name="keywords" content="SEO On-Page México, SEO Técnico México, optimización web, posicionamiento SEO en Google, agencia SEO en México, auditoría SEO, mejorar ranking Google, SEO negocios, consultoría SEO profesional" />
+        <meta property="og:title" content="Optimización SEO On-Page y Técnica en México | Aumenta tu Visibilidad en Google" />
+        <meta property="og:description" content="Haz que tu sitio web cargue rápido, se entienda mejor y suba posiciones en Google. Somos expertos en SEO On-Page y Técnico en México. ¡Solicita tu auditoría gratuita hoy!" />
+        <meta name="twitter:title" content="Optimización SEO On-Page y Técnica en México | Posiciona tu Negocio en Google" />
+        <meta name="twitter:description" content="Haz que tu sitio web cargue rápido, se entienda mejor y escale posiciones en Google. Especialistas en SEO On-Page y Técnico en México. Solicita tu auditoría gratuita." />
         <meta name="robots" content="index, follow">
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://maykcoffe.com.mx/servicios/seo-onpage-tecnica" />

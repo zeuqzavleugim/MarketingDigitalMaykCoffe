@@ -1,4 +1,7 @@
 import CartPlans from "@/components/cartsPlans";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 // 1) Definimos la forma de las props con TypeScript
 interface PlanItem {
@@ -23,11 +26,19 @@ export default function Planes({
   bakColor = ""      // valor por defecto si no pasas bakColor
 }: PlanesProps) {
 
+  useEffect(() => {
+          AOS.init({
+              duration: 1200, // duración de animación en ms
+              once: false,    // animacion
+              easing: "ease-in-out"
+              });
+      }, []);
+
   // 3) Construimos la clase del section de forma segura (evita "undefined")
   const sectionClass = ["planes", bakColor].filter(Boolean).join(" ");
 
   return (
-    <section className={sectionClass}>
+    <section className={sectionClass}  data-aos="fade-up">
       <h3 id="planes">{TitulH}</h3>
 
       <div className="carts-div">

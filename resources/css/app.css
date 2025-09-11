@@ -11,6 +11,10 @@
 *{
     color: #1F2937;
     transition: 500ms;
+    /* overflow-x: hidden; */
+}
+body{
+    /* overflow: hidden; */
 }
 .nav-var-expain{
     display: flex;
@@ -176,9 +180,10 @@ footer{
     display: flex;
     margin: 5rem;
     padding: 5rem 2rem;
-    width: 100%;
+    width: 95%;
     justify-self: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    overflow: hidden;
 }
 .seccion-img-perfil{
     justify-content: center;
@@ -214,6 +219,8 @@ footer{
     justify-self: center;
     justify-items: center;
     align-items: center;
+    justify-content: center;
+    display: flex;
     width: 90%;
 }
 .carousel-inner{
@@ -604,6 +611,7 @@ form > .formulario-div{
     justify-content: space-between;
     justify-items: center;
     justify-self: center;
+    overflow: hidden;
 }
 .main-contacto-div, .main-services-info{
     display: grid;
@@ -682,13 +690,14 @@ form > .formulario-div{
 .services-in-home{
     width: 100%;
     margin: 4rem 0;
-    padding: 3rem 1rem;
+    padding: 3rem 0rem;
     display: grid;
     gap: 2.3rem;
     text-align: center;
     justify-items: center;
     justify-self: center;
     justify-content: center;
+    overflow: hidden;
 }
 .cart-services-uno{
     width: 85%;
@@ -866,6 +875,7 @@ form > .formulario-div{
     text-align: center;
     justify-self: center;
     gap: 2rem;
+    overflow: hidden;
 }
 .seccion-serviceses .cart-services-imag{
     width: 17rem;
@@ -1055,7 +1065,7 @@ form > .formulario-div{
 .breadcrumb-item+.breadcrumb-item::before {
     content: var(--bs-breadcrumb-divider, ">");
 }
-@media (min-width: 748px) and (max-width: 1020px){
+@media (min-width: 748px) and (max-width: 1025px){
     footer{
         font-size: 3vh;
     }

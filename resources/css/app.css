@@ -13,7 +13,6 @@
     transition: 500ms;
 }
 .nav-var-expain{
-    /* height: 10vw; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +41,7 @@
     justify-content: flex-end;
 }
 .navbar{
-    font-size: 1.2vw;
+    font-size: 2vh;
 }
 .nav-item{
     margin: 0 1rem;
@@ -102,7 +101,7 @@
     }
 }
 .iconsLogo{
-    width: 3vw;
+    width: 5vh;
 }
 /*  */
 .btn-flotante {
@@ -133,7 +132,7 @@
 /*  */
 footer{
     background: #FF6B6B;
-    font-size: 1.7vw;
+    font-size: 1.7vh;
     display: flex;
     justify-content: space-evenly;
     padding: 4rem 0;
@@ -211,8 +210,16 @@ footer{
     font-weight: 600;
     margin: 1rem 0;
 }
+.carousel{
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+}
 .carousel-inner{
     justify-self: center;
+    justify-items: center;
+    align-items: center;
     width: 90%;
     border-radius: 25px;
 }
@@ -298,7 +305,7 @@ footer{
 }
 .carts > h2{
     text-align: center;
-    font-size: 1.6vw; 
+    font-size: 2.5vh; 
 }
 .carts > p{
     padding: 1rem;
@@ -363,8 +370,8 @@ footer{
     justify-self: center;
 }
 .planes > h3{
-    font-size: 4vw;
-    padding: 0 1rem;
+    font-size: 4.5vh;
+    padding: 1rem;
 }
 .cartTipUno{
     display: grid;
@@ -392,7 +399,7 @@ footer{
     font-size: 4.5vh;
 }
 .cartTipoPrecio > span{
-    font-size: 1vw;
+    font-size: 1.5vh;
 }
 .cartTipoLista > ul, .cartTipoListaB > ul{
     justify-items: baseline;
@@ -507,7 +514,8 @@ footer{
 .formulario > h2{
     text-align: center;
     color: #1F2937;
-    font-size: 3.5vw;
+    font-size: 5vh;
+    margin: 1rem 0;
 }
 form{
     width: 100%;
@@ -566,13 +574,18 @@ form > .formulario-div{
 .form-control1{
     appearance: none;
     -webkit-appearance: none;
-    width: 2vw;
-    height: 2vw;
+    width: 2.5vh;
+    height: 2.5vh;
+    margin: 1rem;
     border: 2px solid #333;
     border-radius: 4px;
     cursor: pointer;
     position: relative;
 } 
+.contac-formul-div-politics{
+    display: flex;
+    align-items: center;
+}
 .form-control1:checked::after {
     content: '✔';
     position: absolute;
@@ -613,6 +626,9 @@ form > .formulario-div{
     font-size: 1.9vh;
     font-weight: 700;
     text-align: justify;
+}
+.main-contacto-div p{
+    color: #FFFFFF;
 }
 .main-fute-page-services{
     display: grid;
@@ -1041,7 +1057,7 @@ form > .formulario-div{
 }
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
-        font-size: 2.3vw;
+        font-size: 3vh;
     }
     .nav-var-expain .navbar-nava{
         display: none;
@@ -1055,7 +1071,7 @@ form > .formulario-div{
         text-align: center;
     }
     .nav-link{
-        font-size: 3vw;
+        font-size: 3vh;
     }
     .seccion-img-perfil > img{
         border-radius: 15px;
@@ -1067,16 +1083,16 @@ form > .formulario-div{
         align-items: center;
     }
     .seccion-info-perfil{
-        font-size: 1.6vw;
+        font-size: 2vh;
         width: 100%;
         padding: 0 0rem;
         margin: 0 auto;
     }
-    .seccion-info-perfil >h1{
-        font-size: 2.6vw;
+    .seccion-info-perfil >h1, .seccion-info-perfil >h2{
+        font-size: 3vh;
     }
     .seccion-info-perfil > p{
-        font-size: 2.5vh;
+        font-size: 2vh;
         margin: 1.5rem 0;
     }
     .cartTipUno{
@@ -1091,7 +1107,7 @@ form > .formulario-div{
         font-size: 3.5vh;
     }
     .cartTipoPrecio > span{
-        font-size: 1.3vw;
+        font-size: 1.5vh;
     }
     .cartTipDos{
         width: 85%;
@@ -1099,7 +1115,7 @@ form > .formulario-div{
         padding: 0.5rem;
     }
     .cartTipDos > h2{
-        font-size: 3.5vw;
+        font-size: 4vh;
     }
     .planes > .carts-div{
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1110,6 +1126,15 @@ form > .formulario-div{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1rem;
         justify-items: baseline;
+    }
+    .first-seccion{
+        display: grid;
+        gap: 1rem;
+        margin: 1rem 0;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
     }
     .inpud-text{
         width: 100%;
@@ -1225,10 +1250,10 @@ form > .formulario-div{
         text-align: center;
     }
     .nav-link{
-        font-size: 6vw;
+        font-size: 2vh;
     }
     .iconsLogo{
-        width: 12vw;
+        width: 6vh;
     }
     footer{
         font-size: 1.4rem;
@@ -1241,8 +1266,8 @@ form > .formulario-div{
         justify-items: center;
     }
     .form-control1{
-        width: 6vw;
-        height: 6vw;
+        width: 4vh;
+        height: 4vh;
         border: 2px solid #333;
         border-radius: 4px;
     }
@@ -1253,6 +1278,7 @@ form > .formulario-div{
     .first-seccion{
         display: grid;
         padding: 1rem 0;
+        margin: 5rem 0;
         width: 100%;
         justify-content: center;
         justify-items: center;
@@ -1273,7 +1299,7 @@ form > .formulario-div{
         justify-self: center;
     }
     .seccion-info-perfil >h1, .seccion-info-perfil >h2{
-        font-size: 5vw;
+        font-size: 3vh;
         margin: 1rem 0;
     }
     .seccion-info-perfil > p{
@@ -1281,7 +1307,7 @@ form > .formulario-div{
         margin: 1.5rem 0;
     }
     .desarrollos > h2, .desarrollos > h1{
-        font-size: 5.5vw;
+        font-size: 2vh;
         width: 95%;
     }
     .footer-sitio{
@@ -1316,7 +1342,7 @@ form > .formulario-div{
         display: none;
     }
     .planes > h3{
-        font-size: 6.2vw;
+        font-size: 3vh;
         padding: 0 1rem;
     }
     .cartTipUno{
@@ -1331,7 +1357,7 @@ form > .formulario-div{
         font-size: 4vh;
     }
     .cartTipoPrecio > span{
-        font-size: 3.5vw;
+        font-size: 1.5vh;
     }
     .cartTipDos{
         width: 70%;

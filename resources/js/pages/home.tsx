@@ -55,7 +55,7 @@ export default function Home() {
             <section className="desarrollos" data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
                 <img src={General.Analytics} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" />
             </section>
-            <div>
+            <div className="desarrollos">
                 <ButonContacto
                     Ruta="contacto"
                     Texto="Agenda una consulta"
@@ -78,7 +78,7 @@ export default function Home() {
             <section className="desarrollos" data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
                 <img src={General.MonitorBienIluminado} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" />
             </section>
-            <div>
+            <div className="desarrollos">
                 <ButonContacto
                     Ruta="contacto"
                     Texto="Agenda una consulta"

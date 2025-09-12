@@ -5,8 +5,22 @@ import Formulario from "@/layouts/formulario";
 import Desarrollo from "@/layouts/desarrollos";
 import Planes from "@/layouts/planes";
 import ButonContacto from "@/components/butonContacto";
+import Carrousel from "@/components/carrousel";
+import { Banner } from "@/imgs/banners";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Portafolio() {
+    
+    useEffect(() => {
+        AOS.init({
+            duration: 1200, // duración de animación en ms
+            once: false,    // animacion
+            easing: "ease-in-out"
+        });
+    }, []);
+
     return(
         <>
         <Head title="Portafolio de Sitios Web Profesionales"/>
@@ -39,6 +53,19 @@ export default function Portafolio() {
                 />
             </div>
         </main>
+        <div className="pag-service">
+            <Carrousel
+                Banners={[
+                    {Img: Banner.BocetoUnaPaginaPapel, Alt: 'Todo inicia desde una idea', Titulo: 'Todo inicia desde una idea'},
+                    {Img: Banner.OrganizacionUnEquipo, Alt: 'Cumplimos desde la organización', Titulo: 'Cumplimos desde la organización'},
+                    {Img: Banner.DisenoFigmaUnaPagina, Alt: 'Lo diseñamos y planeamos a la medida de tu negocio', Titulo: 'Lo diseñamos y planeamos a la medida de tu negocio'},
+                    {Img: Banner.PaginaModernaLap, Alt: 'Plasma tu idea en el mundo digital', Titulo: 'Plasma tu idea en el mundo digital'},
+                    {Img: Banner.AnalisisMostradasLap, Alt: 'Mide tu crecimiento y evoluciona antes que nadie', Titulo: 'Mide tu crecimiento y evoluciona antes que nadie'},
+                ]}
+                height={550}
+                intervalMs={6000}
+            />
+        </div>
         <Desarrollo/>
         <section>
             <hr />
@@ -59,6 +86,9 @@ export default function Portafolio() {
                 </div>
             </div>
         </section>
+        <section className="img-pie-pag" data-aos="fade-up" data-aos-anchor-placement="center-center">
+            <img src={Banner.PermanenciaUsuarios} alt="Tranquilidad es confiar en los mejores" title="Tranquilidad es confiar en los mejores" loading="lazy"/>
+        </section>
         <Planes
             TitulH="Planes de renta mensual para tu sitio web, con mantenimiento incluido"
             plans={[
@@ -67,6 +97,20 @@ export default function Portafolio() {
                 {id: "plan3", titulo: "Medianas Empresas", presio1: 2000, datos: ["Hosting", "Dominio", "Correo", "Sitio Completo", "SEO básico", "Diseño Premium", "SEO avanzado", "Reportes mensuales", "Prioridad en soporte"], tipo: false}
             ]}
         />
+        <section className="section-servicios-text">
+            <div className="main-services-div">
+                <h2>
+                    ¿Por qué trabajar con nosotros?
+                </h2>
+                <p>
+                    Mira cómo otros negocios han logrado destacar en Google 
+                    y aumentar sus conversiones gracias a nuestras soluciones.
+                </p>
+            </div>
+        </section>
+        <section className="img-pie-pag">
+            <img src={Banner.EscritorioTomaPicada} alt="Tranquilidad es confiar en los mejores" title="Tranquilidad es confiar en los mejores" loading="lazy"/>
+        </section>
         <Formulario/>
         <Footer/>
         </>

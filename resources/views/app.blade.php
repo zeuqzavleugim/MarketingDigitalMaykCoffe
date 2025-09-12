@@ -17,14 +17,14 @@
 
 <!--  -->
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5F0NLRKDPR"></script>
+        {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-5F0NLRKDPR"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-5F0NLRKDPR');
-        </script>
+        </script> --}}
 <!--  -->
         {{-- <script src="https://www.google.com/recaptcha/api.js"></script>
         <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdnXKQrAAAAADBHSwFz-v9ocj3g5KKA95VHa0I5"></script> --}}

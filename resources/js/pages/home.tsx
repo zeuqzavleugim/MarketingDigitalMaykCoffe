@@ -2,13 +2,13 @@ import { Head } from "@inertiajs/react";
 import Navbar from "../layouts/navbar";
 import Footer from "@/layouts/footer";
 import Info from "@/layouts/Info";
-import Desarrollo from "@/layouts/desarrollos";
 import Planes from "@/layouts/planes";
 import Formulario from "@/layouts/formulario";
 import Servicios from "@/layouts/servicios";
 import Carrousel from "@/components/carrousel";
 import { Paginas } from "@/imgs/pag";
 import { General } from "@/imgs/general";
+import { Banner } from "@/imgs/banners";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -30,14 +30,15 @@ export default function Home() {
             <Navbar />
             <Carrousel
                 Banners={[
-                    {Img: Paginas.Decoracion, Alt: 'Diseño de página web para empresa de decoración corporativa enfocada en medianas y grandes empresas', Titulo: 'Decoración de Oficinas', Parrafo: 'Diseño web para empresa de decoración que transforma espacios corporativos. ¡Descubre el proyecto!'},
-                    {Img: Paginas.Beckman, Alt: 'Diseño de tienda en línea para venta de mochilas en México', Titulo: 'Beckman Mexico', Parrafo: 'Así luce un e-commerce para mochilas hecho a medida para el mercado mexicano. ¡Descúbrelo!'},
-                    {Img: Paginas.Textiles, Alt: 'Página web para venta de textiles industriales a empresas', Titulo: 'Textiles', Parrafo: 'Sitio web para empresa de textiles industriales, orientado a ventas B2B. ¡Conoce el proyecto!'},
-                    {Img: Paginas.Romo, Alt: 'Diseño de página web para firma de abogados en Estados Unidos', Titulo: 'Romo & Becerril', Parrafo: 'Página web para firma de abogados ofreciendo servicios legales en Estados Unidos.'},
-                    {Img: Paginas.Impresos, Alt: 'Página web para empresa de decoración dirigida a pequeñas empresas', Titulo: 'Magic pop Impresos', Parrafo: 'Así luce una página web creada para negocios de decoración que venden a pymes.'},
-                    {Img: Paginas.TuDesarrollo, Alt: 'Ejemplo de página web, tu próximo proyecto puede lucir así', Titulo: '¿Listo para ver cómo puede lucir tu próximo proyecto digital?', Parrafo: 'Tu próximo sitio web podría verse así. ¡Descúbrelo!'}
+                    {Img: Banner.BusquedaGoogle, Alt: 'Tu pagina en Google', Titulo: 'Tu pagina en Google'},
+                    {Img: Banner.BocetoUnaPaginaPapel, Alt: 'Del papel a la web', Titulo: 'Del papel a la web'},
+                    {Img: Banner.DisenoFigmaUnaPagina, Alt: 'Desde el siseño hasta la implementación', Titulo: 'Desde el siseño hasta la implementación'},
+                    {Img: Banner.PaginaAnaliticaGraficas, Alt: 'Medimos todo para tu facilidad', Titulo: 'Medimos todo para tu tranquilidad'},
+                    {Img: Banner.GraficasPermanencia, Alt: 'Que tu pagina llegue a tu publico objetivo', Titulo: 'Tu pagina llega a tus clientes'},
+                    {Img: Paginas.TuDesarrollo, Alt: 'Ejemplo de página web, tu próximo proyecto puede lucir así', Titulo: '¿Listo para ver cómo aumentar tus ventas?'}
                 ]}
                 height={420}
+                intervalMs={6000}
             />
             <section className="desarrollos">
                 <h1>
@@ -53,7 +54,8 @@ export default function Home() {
                 </h2>
             </section>
             <section className="desarrollos" data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
-                <img src={General.Analytics} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" />
+                <img src={General.Analytics} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" loading="lazy" />
+                <img src={Banner.AnalisisMetricasGoogle} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" loading="lazy" />
             </section>
             <div className="desarrollos">
                 <ButonContacto
@@ -76,7 +78,8 @@ export default function Home() {
                 </h2>
             </section>
             <section className="desarrollos" data-aos="fade-up" data-aos-anchor-placement="center-bottom" >
-                <img src={General.MonitorBienIluminado} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" />
+                <img src={General.MonitorBienIluminado} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" loading="lazy" />
+                <img src={Banner.PaginaLapTomaPicada} alt="SEO Técnico en CDMX para posicionarte en Google" title="SEO Técnico en CDMX para posicionarte en Google" loading="lazy" />
             </section>
             <div className="desarrollos">
                 <ButonContacto

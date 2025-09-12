@@ -13,6 +13,9 @@ export default function LandingPage() {
             <Head title="Landing Pages que Venden | Diseño SEO y Conversiones" />
             <Navbar/>
             <main className="pag-landing">
+                <div className="banner-pag-servces">
+                    <img src={Banner.PaginaLapSencilla} alt="La Facilidad de encontrarte" title="La Facilidad de encontrarte" />
+                </div>
                 <div className="main-servises">
                     <div className="main-services-info">
                         <div>

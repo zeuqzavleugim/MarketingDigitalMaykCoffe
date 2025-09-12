@@ -13,6 +13,9 @@ export default function ConsultoriaSEO() {
         <Head title="Consultoría SEO Técnica y Estratégica" />
         <Navbar />
         <main className="pag-landing">
+            <div className="banner-pag-servces">
+                <img src={Banner.BusquedaGoogle} alt="Tu pagina en Google" title="Tu pagina en Google" />
+            </div>
             <div className="main-servises">
                 <div className="main-services-info">
                     <div>

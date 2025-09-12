@@ -8,6 +8,7 @@ import Planes from "@/layouts/planes";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Banner } from "@/imgs/banners";
 
 export default function CreacionSitiosWeb() {
 
@@ -24,6 +25,9 @@ export default function CreacionSitiosWeb() {
         <Head title="Diseño Web Profesional en México | Páginas que Venden" />
         <Navbar />
         <main className="pag-landing">
+            <div className="banner-pag-servces">
+                <img src={Banner.PaginaLapModerna} alt="¿Ya viste tu negocio en linea?" title="¿Ya viste tu negocio en linea?" />
+            </div>
             <div className="main-servises" ata-aos="fade-up">
                 <div className="main-services-info" data-aos="fade-right">
                     <div>
@@ -86,6 +90,17 @@ export default function CreacionSitiosWeb() {
                     negocio destaque frente a la competencia.
                 </p>
             </div>
+            <section className="img-pie-pag" data-aos="fade-up" >
+                <img src={Banner.EscritorioTomaPicada} alt="Tranquilidad es confiar en los mejores" title="Tranquilidad es confiar en los mejores" loading="lazy"/>
+            </section>
+            <section className="section-servicios-text">
+                <div className="main-services-div-buton">
+                    <ButonContacto
+                        Ruta="contacto"
+                        Texto="Cotiza YA"
+                    />
+                </div>
+            </section>
             <div className="main-servises" ata-aos="fade-up">
                 <div className="main-services-info" data-aos="fade-right">
                     <div>
@@ -181,6 +196,9 @@ export default function CreacionSitiosWeb() {
                     />
                 </div>
             </div>
+            <section className="img-pie-pag" data-aos="fade-up" >
+                <img src={Banner.PaginaLapSencillaPicada} alt="Tranquilidad es confiar en los mejores" title="Tranquilidad es confiar en los mejores" loading="lazy"/>
+            </section>
             <div className="main-servises" ata-aos="fade-up">
                 <div className="img-services" data-aos="zoom-in">
                     <img src={servicio.SitioWebBanner} 
@@ -348,6 +366,9 @@ export default function CreacionSitiosWeb() {
                     </div>
                 </div>
             </div>
+            <section className="img-pie-pag" data-aos="fade-up" >
+                <img src={Banner.GraficasPermanencia} alt="Tranquilidad es confiar en los mejores" title="Tranquilidad es confiar en los mejores" loading="lazy"/>
+            </section>
             <div className="main-fute-page-services" ata-aos="fade-up" data-aos="fade-down">
                 <h2>
                     Diseño Web Profesional en México: tu 

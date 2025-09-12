@@ -10,6 +10,7 @@ import { servicio } from "@/imgs/servises"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Carrousel from "@/components/carrousel"
 
 export default function Servicios() {
 
@@ -26,6 +27,16 @@ export default function Servicios() {
         <Head title="Servicios de Desarrollo Web, Landing Pages y SEO" />
         <Navbar/>
         <main className="pag-service" >
+            <Carrousel
+                Banners={[
+                    {Img: Banner.OrganizacionUnEquipo, Alt: 'La organizacion es clave para cada uno de nosotros', Titulo: 'La organizacion es clave para cada uno de nosotros'},
+                    {Img: Banner.PaginaLapSencilla, Alt: 'La Facilidad de encontrarte', Titulo: 'La Facilidad de encontrarte', Url: 'landingPage'},
+                    {Img: Banner.PaginaLapModerna, Alt: '¿Ya viste tu negocio en linea?', Titulo: '¿Ya viste tu negocio en linea?', Url: 'creacionDeSitiosWeb'},
+                    {Img: Banner.BusquedaGoogle, Alt: 'Tu pagina en Google', Titulo: 'Tu pagina en Google', Url: 'consultoriaSEO'},
+                    {Img: Banner.AnalisisMostradasLap, Alt: 'Si no lo puedes medir, no lo puedes vender', Titulo: 'Si no lo puedes medir, no lo puedes vender', Url: 'optimizacionSEO'},
+                ]}
+                intervalMs={6000}
+            />
             <div className="main-servises">
                 <div className="main-services-info">
                     <div>
@@ -120,7 +131,7 @@ export default function Servicios() {
                 </div>
             </section>
             <section className="img-pie-pag" data-aos="fade-up" data-aos-anchor-placement="center-center">
-                <img src={General.FuncoEnOficinaDePie} alt="Tranquilidad se confiar en los mejores" title="Tranquilidad se confiar en los mejores" loading="lazy"/>
+                <img src={General.FuncoEnOficinaDePie} alt="Tranquilidad es confiar en los mejores" title="Tranquilidad es confiar en los mejores" loading="lazy"/>
             </section>
         </main>
         <Formulario/>

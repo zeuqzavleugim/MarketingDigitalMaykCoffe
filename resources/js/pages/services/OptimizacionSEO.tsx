@@ -26,6 +26,9 @@ export default function ConsultoriaSEO() {
         <Head title="Optimización SEO On-Page y Técnica en México | Posiciona tu Negocio en Google" />
         <Navbar />
         <main className="pag-landing" ata-aos="fade-up">
+            <div className="banner-pag-servces">
+                <img src={Banner.AnalisisMostradasLap} alt="Si no lo puedes medir, no lo puedes vender" title="Si no lo puedes medir, no lo puedes vender" />
+            </div>
             <div className="main-servises" >
                 <div className="main-services-info" data-aos="fade-right">
                     <div>

@@ -40,6 +40,8 @@ Route::get('/blogs/SEO-el-activo-invisible-que-genera-ventas-a-largo-plazo', fun
     return Inertia::render('blogs/SEOActivoInvisible'); })->name('SEOActivoInvisible');
 Route::get('/blogs/razones-para-contratar-una-agencia-de-marketing-digital', function () {
     return Inertia::render('blogs/RazonesContratarAgencia'); })->name('RazonesContratarAgencia');
+Route::get('/blogs/marketing-digital-organico', function () {
+    return Inertia::render('blogs/MarketingDigitalOrganico'); })->name('MarketingDigitalOrganico');
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');
 

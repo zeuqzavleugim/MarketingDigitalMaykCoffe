@@ -147,6 +147,19 @@
         <meta property="og:url" content="https://maykcoffe.com.mx/blogs/razones-para-contratar-una-agencia-de-marketing-digital" />
         <link rel="canonical" href="https://maykcoffe.com.mx/blogs/razones-para-contratar-una-agencia-de-marketing-digital" />
         @break
+    @case("blogs/marketing-digital-organico")
+        <meta name="description" content="Descubre qué es el marketing digital orgánico, sus diferencias frente al marketing pagado y cómo aplicarlo para aumentar la visibilidad, confianza y ventas de tu negocio en México." />
+        <meta name="keywords" content="marketing digital orgánico, marketing orgánico vs pagado, beneficios del marketing digital, SEO orgánico, estrategias de marketing digital, aumentar ventas online México" />
+        <meta property="og:title" content="Marketing Digital Orgánico | Qué es, diferencias y cómo aplicarlo en tu negocio" />
+        <meta property="og:description" content="Aprende qué es el marketing digital orgánico, sus beneficios frente al pagado y cómo implementarlo para atraer clientes, mejorar tu posicionamiento y crecer online." />
+        <meta name="twitter:title" content="Marketing Digital Orgánico | Beneficios frente al pago y cómo aplicarlo" />
+        <meta name="twitter:description" content="Descubre cómo el marketing digital orgánico puede darle visibilidad, credibilidad y ventas sostenibles a tu negocio en México." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/marketing-digital-organico" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/marketing-digital-organico" />
+        @break
 
     @default
         <meta name="description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />

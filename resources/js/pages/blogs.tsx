@@ -5,6 +5,7 @@ import Formulario from "@/layouts/formulario";
 import TarjetaBlog from "@/components/tarjetaBlog";
 import { Paginas } from "@/imgs/pag";
 import { General } from "@/imgs/general";
+import { Banner } from "@/imgs/banners";
 
 export default function Blogs() {
     return(
@@ -31,6 +32,11 @@ export default function Blogs() {
                 Tit="Razones para contratar una agencia de marketing digital"
                 Img= {General.Analytics}
                 Rut= "RazonesContratarAgencia"
+            />
+            <TarjetaBlog
+                Tit="Marketing Digital Orgánico: qué es, diferencias y cómo aplicarlo en tu negocio"
+                Img= {Banner.AnalisisGoogle}
+                Rut= "MarketingDigitalOrganico"
             />
         </main>
         <Formulario/>

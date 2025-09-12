@@ -986,11 +986,13 @@ form > .formulario-div{
 .blogs-tarjet{
     display: grid;
     max-width: 100%;
+    width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 4rem;
     padding: 4rem;
     justify-items: center;
     justify-self: center;
+    justify-content: space-between;
     background-image: url('/img/imagenHambiental.png') !important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1002,7 +1004,7 @@ form > .formulario-div{
     mask-size: cover;
 }
 .tarjet-blog{
-    width: 50vh;
+    width: 45vh;
     border-radius: 20px;
     padding: 1rem;
     border: 1px solid #10151A;
@@ -1013,6 +1015,10 @@ form > .formulario-div{
     gap: 1rem;
     box-shadow: 4px 4px 10px 2px #1F2937;
     background: #FFFFFF;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
     &:hover{
         transform: translateY(-10px);
         box-shadow: 0px 6px 5px 0px #1F2937;

@@ -42,6 +42,12 @@ class GenerateSitemap extends Command
             ->add(Url::create('/blogs/SEO-el-activo-invisible-que-genera-ventas-a-largo-plazo'))
             ->add(Url::create('/blogs/razones-para-contratar-una-agencia-de-marketing-digital'))
             ->add(Url::create('/blogs/marketing-digital-organico'))
+            ->add(Url::create('/blogs/marketing-digital-B2B-en-2025'))
+            ->add(Url::create('/blogs/Marketing-digital-para-PyMES-en-2025'))
+            ->add(Url::create('/blogs/Instagram-para-empresas-en-2025'))
+            ->add(Url::create('/blogs/Diferencias-entre-una-Agencia-de-Marketing-y-una-Agencia-de-Publicidad'))
+            ->add(Url::create('/blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2025'))
+            ->add(Url::create('/blogs/Paginas-Web-No-Seguras-Que-Son-y-Como-Protegerte-en-2025'))
             ->writeToFile(public_path('sitemap.xml'));
 
         $this->info('✅ Sitemap generado correctamente en public/sitemap.xml');

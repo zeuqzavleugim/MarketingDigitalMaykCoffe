@@ -42,6 +42,11 @@ Route::get('/blogs/razones-para-contratar-una-agencia-de-marketing-digital', fun
     return Inertia::render('blogs/RazonesContratarAgencia'); })->name('RazonesContratarAgencia');
 Route::get('/blogs/marketing-digital-organico', function () {
     return Inertia::render('blogs/MarketingDigitalOrganico'); })->name('MarketingDigitalOrganico');
+Route::get('/blogs/marketing-digital-B2B-en-2025', function () {
+    return Inertia::render('blogs/MarketingDigitalB2B'); })->name('MarketingDigitalB2B');
+Route::get('/blogs/Marketing-digital-para-PyMES-en-2025', function () {
+    return Inertia::render('blogs/MaketingDigitalPymes'); })->name('MaketingDigitalPymes');
+
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');
 

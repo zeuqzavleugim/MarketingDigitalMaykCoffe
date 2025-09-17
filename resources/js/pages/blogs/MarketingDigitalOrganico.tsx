@@ -4,9 +4,8 @@ import Footer from "@/layouts/footer";
 import Formulario from "@/layouts/formulario";
 import { Banner } from "@/imgs/banners";
 import LineaRuta from "@/components/lineaRuta";
-import { General } from "@/imgs/general";
 
-export default function RazonesContratarAgencia() {
+export default function MarketingDigitalOrganico() {
     return(
         <>
             <Head title="Marketing Digital Orgánico | Qué es, diferencias con el pago y beneficios para tu negocio" />
@@ -168,7 +167,7 @@ export default function RazonesContratarAgencia() {
                 <br />
                 <small className="text-center">
                     <strong>¿Listo para dar el siguiente paso?</strong> <br />
-                    Escríbenos y agenda una <em>asesoría gratuita</em> 
+                    Escríbenos y agenda una <em>asesoría gratuita </em> 
                     con nuestros expertos. Tu crecimiento digital comienza 
                     hoy.
                 </small>

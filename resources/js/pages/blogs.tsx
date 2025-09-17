@@ -38,6 +38,16 @@ export default function Blogs() {
                 Img= {Banner.AnalisisGoogle}
                 Rut= "MarketingDigitalOrganico"
             />
+            <TarjetaBlog
+                Tit="Marketing digital B2B en 2025: estrategias que sí generan resultados"
+                Img= {Banner.OrganizacionUnEquipo}
+                Rut= "MarketingDigitalB2B"
+            />
+            <TarjetaBlog
+                Tit="Marketing digital para PyMES en 2025: guía práctica para crecer en línea"
+                Img= {Banner.AnalisisMetricasGoogle}
+                Rut= "MaketingDigitalPymes"
+            />
         </main>
         <Formulario/>
         <Footer/>

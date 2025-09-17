@@ -160,6 +160,32 @@
         <meta property="og:url" content="https://maykcoffe.com.mx/blogs/marketing-digital-organico" />
         <link rel="canonical" href="https://maykcoffe.com.mx/blogs/marketing-digital-organico" />
         @break
+    @case("blogs/marketing-digital-B2B-en-2025")
+        <meta name="description" content="Descubre las mejores estrategias de marketing digital B2B en 2025: SEO, PPC, redes sociales, integración online-offline y contenido que genera confianza y ventas sostenibles." />
+        <meta name="keywords" content="marketing digital B2B 2025, estrategias B2B, SEO B2B, PPC B2B, marketing de contenidos, redes sociales B2B, marketing online empresas, lead generation B2B" />
+        <meta property="og:title" content="Marketing digital B2B en 2025: estrategias que sí generan resultados" />
+        <meta property="og:description" content="Conoce las 6 estrategias clave de marketing digital B2B en 2025: SEO, PPC, contenido, integración online-offline y más para lograr confianza y ventas sostenibles." />
+        <meta name="twitter:title" content="Marketing digital B2B en 2025: estrategias que sí generan resultados" />
+        <meta name="twitter:description" content="Aprende las estrategias más efectivas de marketing digital B2B en 2025: SEO, PPC, redes sociales, contenido y data-driven marketing para escalar tu negocio." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/marketing-digital-B2B-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/marketing-digital-B2B-en-2025" />
+        @break
+    @case("blogs/Marketing-digital-para-PyMES-en-2025")
+        <meta name="description" content="Guía práctica de marketing digital para PyMES en 2025: SEO, SEM, redes sociales, marketing de contenidos y estrategias locales para crecer en línea con clientes recurrentes." />
+        <meta name="keywords" content="marketing digital PyMES 2025, estrategias PyMES online, SEO para PyMES, SEM PyMES, marketing digital México, redes sociales para PyMES, marketing de contenidos, marketing local" />
+        <meta property="og:title" content="Marketing digital para PyMES en 2025: guía práctica para crecer en línea" />
+        <meta property="og:description" content="Descubre cómo tu PyME puede crecer en 2025 con estrategias de marketing digital: SEO, SEM, marketing local, redes sociales y contenido de valor que genera ventas sostenibles." />
+        <meta name="twitter:title" content="Marketing digital para PyMES en 2025: guía práctica para crecer en línea" />
+        <meta name="twitter:description" content="Estrategias clave de marketing digital para PyMES en 2025: SEO, SEM, marketing local, redes sociales y contenido de valor para lograr clientes recurrentes y ventas sostenibles." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Marketing-digital-para-PyMES-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Marketing-digital-para-PyMES-en-2025" />
+        @break
 
     @default
         <meta name="description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />

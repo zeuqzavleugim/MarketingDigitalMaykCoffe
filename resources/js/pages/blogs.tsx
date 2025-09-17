@@ -48,6 +48,21 @@ export default function Blogs() {
                 Img= {Banner.AnalisisMetricasGoogle}
                 Rut= "MaketingDigitalPymes"
             />
+            <TarjetaBlog
+                Tit="Instagram para empresas en 2025: cómo aprovechar su potencial al máximo"
+                Img= {Banner.SocialMedia}
+                Rut= "InstagramEmpresas"
+            />
+            <TarjetaBlog
+                Tit="Diferencias entre una Agencia de Marketing y una Agencia de Publicidad"
+                Img= {Banner.EscritorioTomaPicada}
+                Rut= "MarketingVSPublicidad"
+            />
+            <TarjetaBlog
+                Tit="¿Qué es el eCommerce y por qué es clave para los negocios en 2025?"
+                Img= {Banner.PaginaLapSencillaPicada}
+                Rut= "QueEsEcommerce"
+            />
         </main>
         <Formulario/>
         <Footer/>

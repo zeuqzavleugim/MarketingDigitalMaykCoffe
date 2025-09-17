@@ -21,7 +21,7 @@ import PaginaLapTomaPicada from '@assets/banners/services/pagina-en-lap-toma-pic
 import PaginaModernaLap from '@assets/banners/services/Pagina-moderna-en-lap.jpg';
 import PaginaAnaliticaGraficas from '@assets/banners/services/Pagina-y-analitica-con-graficas.jpg';
 import PermanenciaUsuarios from '@assets/banners/services/Permanencia-de-usuarios.jpg';
-
+import SocialMedia from '@assets/banners/services/socialMedia.jpg';
 export const Banner = {
     Servicios,
     ArbolYHorizonte,
@@ -35,4 +35,5 @@ export const Banner = {
     ImagenBorrosaMostrandoUnaParteAnalitics,
     OrganizacionUnEquipo,
     PaginaAnaliticaGraficas, PaginaLapModerna, PaginaLapSencilla, PaginaLapSencillaPicada, PaginaLapTomaPicada, PaginaModernaLap, PermanenciaUsuarios,
+    SocialMedia,
 };

@@ -186,6 +186,45 @@
         <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Marketing-digital-para-PyMES-en-2025" />
         <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Marketing-digital-para-PyMES-en-2025" />
         @break
+    @case("blogs/Instagram-para-empresas-en-2025")
+        <meta name="description" content="Descubre cómo aprovechar Instagram para empresas en 2025: estrategias, herramientas de Meta, influencers y ventas en línea para potenciar tu marca." />
+        <meta name="keywords" content="Instagram para empresas 2025, marketing en Instagram, estrategias Instagram negocios, Instagram Ads PyMES, redes sociales 2025, influencers en Instagram, tienda en Instagram" />
+        <meta property="og:title" content="Instagram para empresas en 2025: cómo aprovechar su potencial al máximo" />
+        <meta property="og:description" content="Instagram supera los 2 mil millones de usuarios en 2025 y es clave para los negocios. Aprende cómo usarlo con influencers, Ads, reels y tiendas para aumentar ventas y branding." />
+        <meta name="twitter:title" content="Instagram para empresas en 2025: cómo aprovechar su potencial al máximo" />
+        <meta name="twitter:description" content="Estrategias efectivas en Instagram para empresas en 2025: herramientas de Meta, influencers, Ads y tiendas online para crecer y fidelizar clientes." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Instagram-para-empresas-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Instagram-para-empresas-en-2025" />
+        @break
+    @case("blogs/Diferencias-entre-una-Agencia-de-Marketing-y-una-Agencia-de-Publicidad")
+        <meta name="description" content="Conoce las diferencias entre una agencia de marketing y una agencia de publicidad en CDMX. Descubre cuál es la mejor opción para tu negocio según tus objetivos." />
+        <meta name="keywords" content="agencia de marketing CDMX, agencia de publicidad CDMX, diferencias marketing publicidad, marketing digital Ciudad de México, publicidad en CDMX, agencia SEO CDMX" />
+        <meta property="og:title" content="Diferencias entre una Agencia de Marketing y una Agencia de Publicidad en CDMX" />
+        <meta property="og:description" content="¿Publicidad o marketing? Aprende las diferencias clave entre una agencia de marketing y una agencia de publicidad en CDMX y elige la mejor opción para tu negocio." />
+        <meta name="twitter:title" content="Diferencias entre una Agencia de Marketing y una Agencia de Publicidad en CDMX" />
+        <meta name="twitter:description" content="Descubre qué distingue a una agencia de marketing de una de publicidad en CDMX y cómo elegir la mejor para hacer crecer tu empresa." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Diferencias-entre-una-Agencia-de-Marketing-y-una-Agencia-de-Publicidad" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Diferencias-entre-una-Agencia-de-Marketing-y-una-Agencia-de-Publicidad" />
+        @break
+    @case("blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2025")
+        <meta name="description" content="Descubre qué es el eCommerce, cómo funciona y por qué es clave para los negocios en 2025. Conoce beneficios, tendencias y el impacto del social commerce en México." />
+        <meta name="keywords" content="eCommerce México 2025, qué es eCommerce, beneficios del eCommerce, comercio electrónico México, social commerce, tiendas en línea México, negocios digitales 2025" />
+        <meta property="og:title" content="¿Qué es el eCommerce y por qué es clave para los negocios en 2025?" />
+        <meta property="og:description" content="El eCommerce es el motor del crecimiento empresarial en 2025. Aprende cómo funciona, sus beneficios y el impacto del social commerce en México." />
+        <meta name="twitter:title" content="¿Qué es el eCommerce y por qué es clave para los negocios en 2025?" />
+        <meta name="twitter:description" content="Descubre cómo el eCommerce transforma los negocios en México en 2025 con beneficios, escalabilidad y social commerce." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2025" />
+        @break
 
     @default
         <meta name="description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />

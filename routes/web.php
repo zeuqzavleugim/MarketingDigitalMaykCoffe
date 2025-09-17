@@ -46,6 +46,12 @@ Route::get('/blogs/marketing-digital-B2B-en-2025', function () {
     return Inertia::render('blogs/MarketingDigitalB2B'); })->name('MarketingDigitalB2B');
 Route::get('/blogs/Marketing-digital-para-PyMES-en-2025', function () {
     return Inertia::render('blogs/MaketingDigitalPymes'); })->name('MaketingDigitalPymes');
+Route::get('/blogs/Instagram-para-empresas-en-2025', function () {
+    return Inertia::render('blogs/InstagramEmpresas'); })->name('InstagramEmpresas');
+Route::get('/blogs/Diferencias-entre-una-Agencia-de-Marketing-y-una-Agencia-de-Publicidad', function () {
+    return Inertia::render('blogs/MarketingVSPublicidad'); })->name('MarketingVSPublicidad');
+Route::get('/blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2025', function () {
+    return Inertia::render('blogs/QueEsEcommerce'); })->name('QueEsEcommerce');
 
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');

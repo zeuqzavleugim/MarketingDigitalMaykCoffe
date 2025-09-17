@@ -5,7 +5,7 @@ import Formulario from "@/layouts/formulario";
 import { Banner } from "@/imgs/banners";
 import LineaRuta from "@/components/lineaRuta";
 
-export default function MarketingVSPublicidad() {
+export default function QueEsEcommerce() {
     return(
         <>
             <Head title="¿Qué es el eCommerce y por qué es clave para los negocios en 2025?" />

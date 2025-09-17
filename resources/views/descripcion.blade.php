@@ -225,6 +225,19 @@
         <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2025" />
         <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2025" />
         @break
+    @case("blogs/Paginas-Web-No-Seguras-Que-Son-y-Como-Protegerte-en-2025")
+        <meta name="description" content="Aprende qué son las páginas web no seguras, cómo identificarlas y protegerte en 2025. Descubre la importancia del HTTPS, certificados SSL y buenas prácticas de seguridad en línea." />
+        <meta name="keywords" content="páginas web no seguras, qué es una página no segura, HTTPS vs HTTP, certificado SSL, seguridad en internet 2025, cómo protegerse en línea, sitios no seguros México" />
+        <meta property="og:title" content="Páginas Web No Seguras: Qué Son y Cómo Protegerte en 2025" />
+        <meta property="og:description" content="Descubre cómo identificar páginas web no seguras y proteger tus datos en 2025. Aprende la importancia del HTTPS, certificados SSL y consejos de seguridad en línea." />
+        <meta name="twitter:title" content="Páginas Web No Seguras: Qué Son y Cómo Protegerte en 2025" />
+        <meta name="twitter:description" content="Aprende a detectar páginas web no seguras y evita riesgos en 2025. Consejos prácticos sobre HTTPS, SSL y protección en línea." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Paginas-Web-No-Seguras-Que-Son-y-Como-Protegerte-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Paginas-Web-No-Seguras-Que-Son-y-Como-Protegerte-en-2025" />
+        @break
 
     @default
         <meta name="description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />

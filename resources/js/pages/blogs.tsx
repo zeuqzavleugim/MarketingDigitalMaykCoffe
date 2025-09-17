@@ -63,6 +63,11 @@ export default function Blogs() {
                 Img= {Banner.PaginaLapSencillaPicada}
                 Rut= "QueEsEcommerce"
             />
+            <TarjetaBlog
+                Tit="Páginas Web No Seguras: Qué Son y Cómo Protegerte en 2025"
+                Img= {Banner.BusquedaGoogle}
+                Rut= "PaginasNoSeguras"
+            />
         </main>
         <Formulario/>
         <Footer/>

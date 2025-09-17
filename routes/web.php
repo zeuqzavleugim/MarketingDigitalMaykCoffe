@@ -52,6 +52,8 @@ Route::get('/blogs/Diferencias-entre-una-Agencia-de-Marketing-y-una-Agencia-de-P
     return Inertia::render('blogs/MarketingVSPublicidad'); })->name('MarketingVSPublicidad');
 Route::get('/blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2025', function () {
     return Inertia::render('blogs/QueEsEcommerce'); })->name('QueEsEcommerce');
+Route::get('/blogs/Paginas-Web-No-Seguras-Que-Son-y-Como-Protegerte-en-2025', function () {
+    return Inertia::render('blogs/PaginasNoSeguras'); })->name('PaginasNoSeguras');
 
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');

@@ -238,6 +238,84 @@
         <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Paginas-Web-No-Seguras-Que-Son-y-Como-Protegerte-en-2025" />
         <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Paginas-Web-No-Seguras-Que-Son-y-Como-Protegerte-en-2025" />
         @break
+    @case("blogs/Paginas-web-ventajas-y-desventajas-en-2025")
+        <meta name="description" content="Descubre las ventajas y desventajas de tener una página web en 2025. Analizamos beneficios como ventas en línea, credibilidad, SEO y retos como seguridad y mantenimiento." />
+        <meta name="keywords" content="páginas web ventajas y desventajas, ventajas de una página web 2025, desventajas de tener un sitio web, beneficios de una página web, importancia de un sitio web, páginas web empresas México" />
+        <meta property="og:title" content="Páginas Web: Ventajas y Desventajas en 2025" />
+        <meta property="og:description" content="Conoce los beneficios y retos de tener una página web en 2025. Desde ventas en línea y SEO hasta costos, seguridad y mantenimiento." />
+        <meta name="twitter:title" content="Páginas Web: Ventajas y Desventajas en 2025" />
+        <meta name="twitter:description" content="Descubre por qué una página web es clave en 2025. Ventajas, desventajas y cómo aprovechar al máximo tu sitio." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Paginas-web-ventajas-y-desventajas-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Paginas-web-ventajas-y-desventajas-en-2025" />
+        @break
+    @case("blogs/Tipos-de-paginas-web-guia-completa-2025")
+        <meta name="description" content="Descubre los tipos de páginas web más importantes en 2025: eCommerce, blogs, corporativas, foros y más. Aprende sus características, ventajas y cómo elegir la mejor para tu negocio." />
+        <meta name="keywords" content="tipos de páginas web 2025, eCommerce, blogs, páginas corporativas, foros, características de una página web, páginas dinámicas y estáticas, cómo hacer una página web, diseño web México" />
+        <meta property="og:title" content="Tipos de Páginas Web: Guía Completa 2025" />
+        <meta property="og:description" content="Guía completa de tipos de páginas web en 2025: eCommerce, blogs, corporativas, foros y más. Conoce sus características y cómo elegir la ideal para tu negocio." />
+        <meta name="twitter:title" content="Tipos de Páginas Web: Guía Completa 2025" />
+        <meta name="twitter:description" content="Conoce los principales tipos de páginas web en 2025: tiendas online, blogs, páginas corporativas y más. Descubre cómo elegir la mejor opción para tu negocio." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Tipos-de-paginas-web-guia-completa-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Tipos-de-paginas-web-guia-completa-2025" />
+        @break
+    @case("blogs/Publicidad-para-negocios-conoce-los-tipos-que-existen-en-2025")
+        <meta name="description" content="Descubre los principales tipos de publicidad para negocios en 2025: online y offline. Aprende sus beneficios, ejemplos prácticos y cómo elegir la mejor estrategia para hacer crecer tu empresa." />
+        <meta name="keywords" content="publicidad para negocios 2025, tipos de publicidad, publicidad online, publicidad offline, Google Ads, redes sociales, branded content, publicidad exterior, estrategias de marketing digital" />
+        <meta property="og:title" content="Publicidad para negocios: conoce los tipos que existen en 2025" />
+        <meta property="og:description" content="Conoce los distintos tipos de publicidad online y offline en 2025: Google Ads, redes sociales, blogs patrocinados, medios tradicionales y más. Diseña una estrategia que convierta inversión en resultados." />
+        <meta name="twitter:title" content="Publicidad para negocios: conoce los tipos que existen en 2025" />
+        <meta name="twitter:description" content="Explora los tipos de publicidad más efectivos en 2025: online, offline y estrategias híbridas. Aprende cómo aprovecharlos para escalar tu negocio." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Publicidad-para-negocios-conoce-los-tipos-que-existen-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Publicidad-para-negocios-conoce-los-tipos-que-existen-en-2025" />
+        @break
+    @case("blogs/...")
+        <meta name="description" content="..." />
+        <meta name="keywords" content="..." />
+        <meta property="og:title" content="..." />
+        <meta property="og:description" content="..." />
+        <meta name="twitter:title" content="..." />
+        <meta name="twitter:description" content="..." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/..." />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/..." />
+        @break
+    @case("blogs/...")
+        <meta name="description" content="..." />
+        <meta name="keywords" content="..." />
+        <meta property="og:title" content="..." />
+        <meta property="og:description" content="..." />
+        <meta name="twitter:title" content="..." />
+        <meta name="twitter:description" content="..." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/..." />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/..." />
+        @break
+    @case("blogs/...")
+        <meta name="description" content="..." />
+        <meta name="keywords" content="..." />
+        <meta property="og:title" content="..." />
+        <meta property="og:description" content="..." />
+        <meta name="twitter:title" content="..." />
+        <meta name="twitter:description" content="..." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/..." />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/..." />
+        @break
 
     @default
         <meta name="description" content="Agencia digital en CDMX. Creamos páginas web, landing pages y estrategias SEO para que tu negocio aparezca primero en Google y aumentes tus ventas. Cotiza gratis con MaykCoffe." />

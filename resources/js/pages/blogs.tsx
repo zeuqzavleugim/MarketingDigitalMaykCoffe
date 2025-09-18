@@ -68,6 +68,21 @@ export default function Blogs() {
                 Img= {Banner.BusquedaGoogle}
                 Rut= "PaginasNoSeguras"
             />
+            <TarjetaBlog
+                Tit="Páginas web: ventajas y desventajas en 2025"
+                Img= {Banner.PaginaAnaliticaGraficas}
+                Rut= "PaginasVentajasDesventajas"
+            />
+            <TarjetaBlog
+                Tit="Tipos de páginas web: guía completa 2025"
+                Img= {Banner.PaginaLapTomaPicada}
+                Rut= "TiposDePaginas"
+            />
+            <TarjetaBlog
+                Tit="Publicidad para negocios: conoce los tipos que existen en 2025"
+                Img= {Banner.GraficasResultadosMedibles}
+                Rut= "PublicidadNegocios"
+            />
         </main>
         <Formulario/>
         <Footer/>

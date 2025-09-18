@@ -54,6 +54,12 @@ Route::get('/blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2
     return Inertia::render('blogs/QueEsEcommerce'); })->name('QueEsEcommerce');
 Route::get('/blogs/Paginas-Web-No-Seguras-Que-Son-y-Como-Protegerte-en-2025', function () {
     return Inertia::render('blogs/PaginasNoSeguras'); })->name('PaginasNoSeguras');
+Route::get('/blogs/Paginas-web-ventajas-y-desventajas-en-2025', function () {
+    return Inertia::render('blogs/PaginasVentajasDesventajas'); })->name('PaginasVentajasDesventajas');
+Route::get('/blogs/Tipos-de-paginas-web-guia-completa-2025', function () {
+    return Inertia::render('blogs/TiposDePaginas'); })->name('TiposDePaginas');
+Route::get('/blogs/Publicidad-para-negocios-conoce-los-tipos-que-existen-en-2025', function () {
+    return Inertia::render('blogs/PublicidadNegocios'); })->name('PublicidadNegocios');
 
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');

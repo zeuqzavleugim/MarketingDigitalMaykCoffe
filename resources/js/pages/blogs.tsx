@@ -83,6 +83,21 @@ export default function Blogs() {
                 Img= {Banner.GraficasResultadosMedibles}
                 Rut= "PublicidadNegocios"
             />
+            <TarjetaBlog
+                Tit="Diseño de páginas web: ¿de qué se trata y cuáles son sus elementos esenciales?"
+                Img= {Banner.DisenoFigmaUnaPagina}
+                Rut= "DisenoPaginasWeb"
+            />
+            <TarjetaBlog
+                Tit="¿Cuánto cuesta anunciarse en Google Ads en 2025?"
+                Img= {Banner.GraficasPermanencia}
+                Rut= "AnunciarseenGoogle"
+            />
+            <TarjetaBlog
+                Tit="¿Qué hacen realmente los desarrolladores de páginas web en 2025?"
+                Img= {Banner.Servicios}
+                Rut= "DesarrolladoresDePginas"
+            />
         </main>
         <Formulario/>
         <Footer/>

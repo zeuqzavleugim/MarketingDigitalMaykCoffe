@@ -277,31 +277,31 @@
         <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Publicidad-para-negocios-conoce-los-tipos-que-existen-en-2025" />
         <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Publicidad-para-negocios-conoce-los-tipos-que-existen-en-2025" />
         @break
-    @case("blogs/...")
-        <meta name="description" content="..." />
-        <meta name="keywords" content="..." />
-        <meta property="og:title" content="..." />
-        <meta property="og:description" content="..." />
-        <meta name="twitter:title" content="..." />
-        <meta name="twitter:description" content="..." />
+    @case("blogs/Diseno-de-paginas-web-de-que-se-trata-y-cuales-son-sus-elementos-esenciales")
+        <meta name="description" content="Descubre qué es el diseño de páginas web y cuáles son sus elementos esenciales en 2025: diseño responsivo, velocidad de carga, tipografía, navegación y branding. Mejora tu presencia digital con un sitio profesional." />
+        <meta name="keywords" content="diseño de páginas web 2025, elementos de diseño web, diseño web profesional, páginas web responsivas, velocidad de carga web, tipografía web, diseño UX UI, branding digital, importancia del diseño web" />
+        <meta property="og:title" content="Diseño de páginas web: ¿de qué se trata y cuáles son sus elementos esenciales?" />
+        <meta property="og:description" content="En 2025 el diseño web es clave para atraer y convertir clientes. Conoce sus elementos esenciales: diseño mobile-first, velocidad, tipografía clara, navegación intuitiva y branding profesional." />
+        <meta name="twitter:title" content="Diseño de páginas web: elementos esenciales en 2025" />
+        <meta name="twitter:description" content="Conoce qué es el diseño web y sus elementos clave: sitios responsivos, velocidad de carga, tipografía, navegación intuitiva y branding. Impulsa tu negocio digital en 2025." />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="index, follow">
         <meta property="og:type" content="article">
-        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/..." />
-        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/..." />
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Diseno-de-paginas-web-de-que-se-trata-y-cuales-son-sus-elementos-esenciales" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Diseno-de-paginas-web-de-que-se-trata-y-cuales-son-sus-elementos-esenciales" />
         @break
-    @case("blogs/...")
-        <meta name="description" content="..." />
-        <meta name="keywords" content="..." />
-        <meta property="og:title" content="..." />
-        <meta property="og:description" content="..." />
-        <meta name="twitter:title" content="..." />
-        <meta name="twitter:description" content="..." />
+    @case("blogs/Cuanto-cuesta-anunciarse-en-Google-Ads-en-2025")
+        <meta name="description" content="Descubre cuánto cuesta anunciarse en Google Ads en 2025. Conoce cómo funciona el sistema de pujas, el CPC, los factores que influyen en el costo y cómo optimizar tu inversión para generar más clientes." />
+        <meta name="keywords" content="cuánto cuesta Google Ads 2025, precio Google Ads, costo por clic Google Ads, CPC Google Ads 2025, publicidad en Google Ads, invertir en Google Ads, presupuesto Google Ads, marketing digital 2025" />
+        <meta property="og:title" content="¿Cuánto cuesta anunciarse en Google Ads en 2025?" />
+        <meta property="og:description" content="El costo de Google Ads en 2025 depende de factores como puja, calidad del anuncio y keywords. Aprende cómo funciona el CPC y cómo controlar tu inversión para obtener mejores resultados." />
+        <meta name="twitter:title" content="¿Cuánto cuesta anunciarse en Google Ads en 2025?" />
+        <meta name="twitter:description" content="Conoce el costo real de Google Ads en 2025: CPC, sistema de pujas, factores clave y cómo optimizar tu presupuesto para atraer más clientes y aumentar ventas." />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="index, follow">
         <meta property="og:type" content="article">
-        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/..." />
-        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/..." />
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Cuanto-cuesta-anunciarse-en-Google-Ads-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Cuanto-cuesta-anunciarse-en-Google-Ads-en-2025" />
         @break
     @case("blogs/...")
         <meta name="description" content="..." />

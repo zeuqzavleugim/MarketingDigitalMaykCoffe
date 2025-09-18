@@ -60,6 +60,12 @@ Route::get('/blogs/Tipos-de-paginas-web-guia-completa-2025', function () {
     return Inertia::render('blogs/TiposDePaginas'); })->name('TiposDePaginas');
 Route::get('/blogs/Publicidad-para-negocios-conoce-los-tipos-que-existen-en-2025', function () {
     return Inertia::render('blogs/PublicidadNegocios'); })->name('PublicidadNegocios');
+Route::get('/blogs/Diseno-de-paginas-web-de-que-se-trata-y-cuales-son-sus-elementos-esenciales', function () {
+    return Inertia::render('blogs/DisenoPaginasWeb'); })->name('DisenoPaginasWeb');
+Route::get('/blogs/Cuanto-cuesta-anunciarse-en-Google-Ads-en-2025', function () {
+    return Inertia::render('blogs/AnunciarseenGoogle'); })->name('AnunciarseenGoogle');
+Route::get('/blogs/Que-hacen-realmente-los-desarrolladores-de-paginas-web-en-2025', function () {
+    return Inertia::render('blogs/DesarrolladoresDePginas'); })->name('DesarrolladoresDePginas');
 
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');

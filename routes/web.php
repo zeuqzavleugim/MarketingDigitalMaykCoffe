@@ -66,6 +66,8 @@ Route::get('/blogs/Cuanto-cuesta-anunciarse-en-Google-Ads-en-2025', function () 
     return Inertia::render('blogs/AnunciarseenGoogle'); })->name('AnunciarseenGoogle');
 Route::get('/blogs/Que-hacen-realmente-los-desarrolladores-de-paginas-web-en-2025', function () {
     return Inertia::render('blogs/DesarrolladoresDePginas'); })->name('DesarrolladoresDePginas');
+Route::get('/blogs/Que-importancia-tiene-Google-en-el-Marketing-Digital-en-2025', function () {
+    return Inertia::render('blogs/ImportanciaGoogleMarketing'); })->name('ImportanciaGoogleMarketing');
 
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');

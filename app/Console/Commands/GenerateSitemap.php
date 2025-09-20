@@ -48,6 +48,13 @@ class GenerateSitemap extends Command
             ->add(Url::create('/blogs/Diferencias-entre-una-Agencia-de-Marketing-y-una-Agencia-de-Publicidad'))
             ->add(Url::create('/blogs/Que-es-el-eCommerce-y-por-que-es-clave-para-los-negocios-en-2025'))
             ->add(Url::create('/blogs/Paginas-Web-No-Seguras-Que-Son-y-Como-Protegerte-en-2025'))
+            ->add(Url::create('/blogs/Paginas-web-ventajas-y-desventajas-en-2025'))
+            ->add(Url::create('/blogs/Tipos-de-paginas-web-guia-completa-2025'))
+            ->add(Url::create('/blogs/Publicidad-para-negocios-conoce-los-tipos-que-existen-en-2025'))
+            ->add(Url::create('/blogs/Diseno-de-paginas-web-de-que-se-trata-y-cuales-son-sus-elementos-esenciales'))
+            ->add(Url::create('/blogs/Cuanto-cuesta-anunciarse-en-Google-Ads-en-2025'))
+            ->add(Url::create('/blogs/Que-hacen-realmente-los-desarrolladores-de-paginas-web-en-2025'))
+            ->add(Url::create('/blogs/Que-importancia-tiene-Google-en-el-Marketing-Digital-en-2025'))
             ->writeToFile(public_path('sitemap.xml'));
 
         $this->info('✅ Sitemap generado correctamente en public/sitemap.xml');

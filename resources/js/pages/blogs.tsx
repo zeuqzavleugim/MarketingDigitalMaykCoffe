@@ -98,6 +98,11 @@ export default function Blogs() {
                 Img= {Banner.Servicios}
                 Rut= "DesarrolladoresDePginas"
             />
+            <TarjetaBlog
+                Tit="¿Qué importancia tiene Google en el Marketing Digital en 2025?"
+                Img= {Banner.ImagenBorrosaMostrandoUnaParteAnalitics}
+                Rut= "ImportanciaGoogleMarketing"
+            />
         </main>
         <Formulario/>
         <Footer/>

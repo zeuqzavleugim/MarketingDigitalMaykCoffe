@@ -303,18 +303,31 @@
         <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Cuanto-cuesta-anunciarse-en-Google-Ads-en-2025" />
         <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Cuanto-cuesta-anunciarse-en-Google-Ads-en-2025" />
         @break
-    @case("blogs/...")
-        <meta name="description" content="..." />
-        <meta name="keywords" content="..." />
-        <meta property="og:title" content="..." />
-        <meta property="og:description" content="..." />
-        <meta name="twitter:title" content="..." />
-        <meta name="twitter:description" content="..." />
+    @case("blogs/Que-hacen-realmente-los-desarrolladores-de-paginas-web-en-2025")
+        <meta name="description" content="Descubre qué hacen realmente los desarrolladores web en 2025: frontend, backend y full-stack. Aprende por qué son clave para la seguridad, velocidad, SEO y crecimiento de tu negocio online." />
+        <meta name="keywords" content="desarrolladores web 2025, qué hace un desarrollador web, frontend backend full-stack, desarrollo de páginas web, SEO técnico, crear página web profesional, importancia desarrollador web" />
+        <meta property="og:title" content="¿Qué hacen realmente los desarrolladores de páginas web en 2025?" />
+        <meta property="og:description" content="Los desarrolladores web son aliados estratégicos para el éxito digital. Conoce sus funciones, tipos y cómo impulsan tu negocio en internet." />
+        <meta name="twitter:title" content="¿Qué hacen realmente los desarrolladores de páginas web en 2025?" />
+        <meta name="twitter:description" content="Descubre las funciones clave de un desarrollador web y cómo ayudan a que tu marca digital crezca en 2025." />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="robots" content="index, follow">
         <meta property="og:type" content="article">
-        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/..." />
-        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/..." />
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Que-hacen-realmente-los-desarrolladores-de-paginas-web-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Que-hacen-realmente-los-desarrolladores-de-paginas-web-en-2025" />
+        @break
+    @case("blogs/Que-importancia-tiene-Google-en-el-Marketing-Digital-en-2025")
+        <meta name="description" content="En 2025, Google es la columna vertebral del marketing digital. Descubre cómo herramientas como GA4, Search Console, Business Profile y Google Ads ayudan a tu negocio a crecer y destacar online." />
+        <meta name="keywords" content="Google marketing digital 2025, importancia de Google, GA4, Google Search Console, Google Business Profile, Google Ads, SEO 2025, marketing digital herramientas Google" />
+        <meta property="og:title" content="¿Qué importancia tiene Google en el Marketing Digital en 2025?" />
+        <meta property="og:description" content="Más del 90% de las búsquedas pasan por Google. Descubre por qué es clave en tu estrategia digital y cómo usar sus herramientas para hacer crecer tu negocio." />
+        <meta name="twitter:title" content="¿Qué importancia tiene Google en el Marketing Digital en 2025?" />
+        <meta name="twitter:description" content="Google es el corazón del marketing digital en 2025. Conoce las herramientas que pueden potenciar tu negocio y asegurar tu visibilidad online." />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index, follow">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://maykcoffe.com.mx/blogs/Que-importancia-tiene-Google-en-el-Marketing-Digital-en-2025" />
+        <link rel="canonical" href="https://maykcoffe.com.mx/blogs/Que-importancia-tiene-Google-en-el-Marketing-Digital-en-2025" />
         @break
 
     @default

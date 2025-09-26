@@ -180,10 +180,9 @@ export default function Formulario() {
                                 onChange={handleChange}
                                 className={`form-control ${errors.asunto ? 'is-invalid' : ''}`}
                             >
-                                <option value="">-- Selecciona Asunto --</option>
-                                <option value="Creación de sitio web">Creación de sitio web</option>
-                                <option value="Landing Pages">Landing Pages</option>
-                                <option value="Maquetación de Sitio web">Maquetación de Sitio web</option>
+                                <option value="">-- Selecciona el Servicio --</option>
+                                <option value="Creación de sitio web">Desarrollo de Sitio Web Profesional</option>
+                                <option value="Landing Pages">Landing Pages de Alto Rendimiento</option>
                                 <option value="Consultoría SEO">Consultoría SEO</option>
                                 <option value="Optimización para motores de búsqueda">Optimización SEO</option>
                                 <option value="Otra">Otra</option>

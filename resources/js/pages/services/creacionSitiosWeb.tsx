@@ -15,7 +15,7 @@ export default function CreacionSitiosWeb() {
     useEffect(() => {
         AOS.init({
             duration: 1200, // duración de animación en ms
-            once: false,    // animacion
+            once: true,    // animacion
             easing: "ease-in-out"
         });
     }, []);

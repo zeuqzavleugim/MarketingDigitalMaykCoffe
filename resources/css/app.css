@@ -1270,6 +1270,9 @@ form > .formulario-div{
     }
 }
 @media (max-width: 747px){
+    .carousel{
+        width: 100%;
+    }
     .nav-var-expain .navbar-nava{
         display: none;
     }
@@ -1640,6 +1643,9 @@ form > .formulario-div{
     .background-imag h3{
         color: #fff; /* asegura contraste */
         text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* sombra negra difusa */
+    }
+    .carousel{
+        width: 100%;
     }
     .carousel-inner{
         justify-self: center;

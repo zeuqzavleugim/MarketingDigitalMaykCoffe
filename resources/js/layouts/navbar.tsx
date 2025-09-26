@@ -45,8 +45,7 @@ export default function Navbar() {
                 <div className="offcanvas offcanvas-end" tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div className="offcanvas-header">
                         <h4 className="offcanvas-title" id="offcanvasNavbarLabel">
-                            <img 
-                            src={Icons.Logo} 
+                            <img src={Icons.Logo} 
                             className="iconsLogo" 
                             alt="Logotipo" 
                             title="Logotipo" 

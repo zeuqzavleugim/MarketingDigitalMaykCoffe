@@ -7,6 +7,7 @@ import Planes from "@/layouts/planes";
 import ButonContacto from "@/components/butonContacto";
 import Carrousel from "@/components/carrousel";
 import { Banner } from "@/imgs/banners";
+import ProcesoDeTrabajo from "@/layouts/ProcesoDeTrabajo";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -108,6 +109,7 @@ export default function Portafolio() {
                 </p>
             </div>
         </section>
+        <ProcesoDeTrabajo/>
         <section className="img-pie-pag">
             <img src={Banner.EscritorioTomaPicada} alt="Tranquilidad es confiar en los mejores" title="Tranquilidad es confiar en los mejores" loading="lazy"/>
         </section>

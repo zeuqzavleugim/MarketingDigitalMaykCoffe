@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Banner } from "@/imgs/banners";
+import ProcesoDeTrabajo from "@/layouts/ProcesoDeTrabajo";
 
 export default function CreacionSitiosWeb() {
 
@@ -397,6 +398,18 @@ export default function CreacionSitiosWeb() {
                 </div>
             </div>
         </main>
+        <section className="section-servicios-text">
+            <div className="main-services-div">
+                <h2>
+                    ¿Por qué trabajar con nosotros?
+                </h2>
+                <p>
+                    Mira cómo otros negocios han logrado destacar en Google 
+                    y aumentar sus conversiones gracias a nuestras soluciones.
+                </p>
+            </div>
+        </section>
+        <ProcesoDeTrabajo/>
         <Formulario />
         <Footer />
         </>

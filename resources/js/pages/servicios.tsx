@@ -6,6 +6,7 @@ import { Banner } from "@/imgs/banners"
 import ButonContacto from "@/components/butonContacto"
 import { General } from "@/imgs/general"
 import ServiciosTipo from "@/components/servicesTipo"
+import ProcesoDeTrabajo from "@/layouts/ProcesoDeTrabajo";
 import { servicio } from "@/imgs/servises"
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -130,6 +131,7 @@ export default function Servicios() {
                     />
                 </div>
             </section>
+            <ProcesoDeTrabajo/>
             <section className="img-pie-pag" data-aos="fade-up" data-aos-anchor-placement="center-center">
                 <img src={General.FuncoEnOficinaDePie} alt="Tranquilidad es confiar en los mejores" title="Tranquilidad es confiar en los mejores" loading="lazy"/>
             </section>

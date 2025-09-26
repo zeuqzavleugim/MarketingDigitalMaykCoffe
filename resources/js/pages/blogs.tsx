@@ -6,6 +6,8 @@ import TarjetaBlog from "@/components/tarjetaBlog";
 import { Paginas } from "@/imgs/pag";
 import { General } from "@/imgs/general";
 import { Banner } from "@/imgs/banners";
+import ProcesoDeTrabajo from "@/layouts/ProcesoDeTrabajo";
+import ButonContacto from "@/components/butonContacto"
 
 export default function Blogs() {
     return(
@@ -104,6 +106,18 @@ export default function Blogs() {
                 Rut= "ImportanciaGoogleMarketing"
             />
         </main>
+        <section className="section-servicios-text">
+            <div className="main-services-div">
+                <h2>
+                    ¿Por qué trabajar con nosotros?
+                </h2>
+                <p>
+                    Mira cómo otros negocios han logrado destacar en Google 
+                    y aumentar sus conversiones gracias a nuestras soluciones.
+                </p>
+            </div>
+        </section>
+        <ProcesoDeTrabajo/>
         <Formulario/>
         <Footer/>
         </>

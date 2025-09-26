@@ -6,6 +6,7 @@ import ButonContacto from "@/components/butonContacto";
 import { servicio } from "@/imgs/servises";
 import Planes from "@/layouts/planes";
 import { Banner } from "@/imgs/banners";
+import ProcesoDeTrabajo from "@/layouts/ProcesoDeTrabajo";
 
 export default function ConsultoriaSEO() {
     return (
@@ -158,6 +159,18 @@ export default function ConsultoriaSEO() {
                 </div>
             </div>
         </main>
+        <section className="section-servicios-text">
+            <div className="main-services-div">
+                <h2>
+                    ¿Por qué trabajar con nosotros?
+                </h2>
+                <p>
+                    Mira cómo otros negocios han logrado destacar en Google 
+                    y aumentar sus conversiones gracias a nuestras soluciones.
+                </p>
+            </div>
+        </section>
+        <ProcesoDeTrabajo/>
         <Formulario />
         <Footer />
         </>

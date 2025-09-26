@@ -9,6 +9,7 @@ import Carrousel from "@/components/carrousel";
 import { Paginas } from "@/imgs/pag";
 import { General } from "@/imgs/general";
 import { Banner } from "@/imgs/banners";
+import ProcesoDeTrabajo from "@/layouts/ProcesoDeTrabajo";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -88,6 +89,18 @@ export default function Home() {
                 />
             </div>
             <Servicios/>
+            <section className="section-servicios-text">
+                <div className="main-services-div">
+                    <h2>
+                        ¿Por qué trabajar con nosotros?
+                    </h2>
+                    <p>
+                        Mira cómo otros negocios han logrado destacar en Google 
+                        y aumentar sus conversiones gracias a nuestras soluciones.
+                    </p>
+                </div>
+            </section>
+            <ProcesoDeTrabajo/>
             <section className="desarrollos">
                 <h2>
                     ¿Listo para vender más con tu sitio web?

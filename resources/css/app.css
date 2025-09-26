@@ -1083,6 +1083,34 @@ form > .formulario-div{
 .breadcrumb-item+.breadcrumb-item::before {
     content: var(--bs-breadcrumb-divider, ">");
 }
+.procesoDeTrabajo{
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+.tarjeta{
+    display: grid;
+    justify-content: center;
+    width: 90%;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    padding: 1.5rem;
+}
+.tarjeta img{
+    width: 50%;
+}
+.tarjeta h3{
+    text-align: center;
+    font-size: 2.3vh;
+}
+.tarjeta p{
+    font-size: 1.5vh;
+}
 @media (min-width: 748px) and (max-width: 1025px){
     footer{
         font-size: 3vh;
@@ -1705,5 +1733,8 @@ form > .formulario-div{
     .banner-pag-servces{
         height: 19vh;
         margin: 0 0 1rem 0;
+    }
+    .procesoDeTrabajo{
+        gap: 0;
     }
 }

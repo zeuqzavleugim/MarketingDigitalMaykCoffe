@@ -1,9 +1,9 @@
-import Romo from '@assets/desarrollos/abogados.png';
-import Decoracion from '@assets/desarrollos/decoracion-de-oficinas.png';
-import Impresos from '@assets/desarrollos/impresos.png';
-import Beckman from '@assets/desarrollos/mochilas-beckman-mexico.png';
-import Textiles from '@assets/desarrollos/Textiles.png';
-import TuDesarrollo from '@assets/desarrollos/tuDesarrollo.png';
+import Romo from '@assets/desarrollos/abogados.webp';
+import Decoracion from '@assets/desarrollos/decoracion-de-oficinas.webp';
+import Impresos from '@assets/desarrollos/impresos.webp';
+import Beckman from '@assets/desarrollos/mochilas-beckman-mexico.webp';
+import Textiles from '@assets/desarrollos/Textiles.webp';
+import TuDesarrollo from '@assets/desarrollos/tuDesarrollo.webp';
 
 export const Paginas = {
     Decoracion,

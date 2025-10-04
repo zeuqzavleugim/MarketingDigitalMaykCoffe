@@ -17,9 +17,9 @@ export default function Navbar() {
                     <li className="nav-item">
                         <a className="nav-link" href={route("portafolio")} title="portafolios">Portafolios</a>
                     </li>
-                    <li className="nav-item">
-                    <a className="nav-link" href={route("construccion")} title="conoceme">Conoceme</a>
-                    </li>
+                    {/* <li className="nav-item">
+                        <a className="nav-link" href={route("construccion")} title="conoceme">Conoceme</a>
+                    </li> */}
                     <li className="nav-item">
                         <a className="nav-link dropdown-toggle" id="navbarDropdown" href={route("servicios")} title="servicios">Servicios</a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -29,6 +29,12 @@ export default function Navbar() {
                             <li><a className="dropdown-item" href={route("optimizacionSEO")} title="Optimización para motores de búsqueda">Optimización para motores de búsqueda</a></li>
                         </ul>
                     </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href={route("blogs")} title="conoceme">Blogs</a>
+                    </li>
+                    {/* <li className="nav-item">
+                        <a className="nav-link" href={route("construccion")} title="conoceme">Otros Servicios</a>
+                    </li> */}
                     <li className="navbar-blue">
                         <a className="nav-link" href={route("contacto")} title="contacto">Contacto</a>
                     </li>
@@ -39,8 +45,7 @@ export default function Navbar() {
                 <div className="offcanvas offcanvas-end" tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div className="offcanvas-header">
                         <h4 className="offcanvas-title" id="offcanvasNavbarLabel">
-                            <img 
-                            src={Icons.Logo} 
+                            <img src={Icons.Logo} 
                             className="iconsLogo" 
                             alt="Logotipo" 
                             title="Logotipo" 
@@ -56,12 +61,18 @@ export default function Navbar() {
                             <li className="nav-item">
                                 <a className="nav-link" href={route('portafolio')} title="desarrollos">Desarrollos</a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link" href={route('construccion')} title="conoceme">Conoceme</a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <a className="nav-link" href={route('servicios')} title="servicios">Servicios</a>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href={route("blogs")} title="conoceme">Blogs</a>
+                            </li>
+                            {/* <li className="nav-item">
+                                <a className="nav-link" href={route("construccion")} title="conoceme">Otros Servicios</a>
+                            </li> */}
                             <li className="nav-item">
                                 <a className="nav-link" href={route("contacto")} title="contacto">Contacto</a>
                             </li>

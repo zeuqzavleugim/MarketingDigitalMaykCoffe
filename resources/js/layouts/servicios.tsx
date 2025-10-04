@@ -6,6 +6,7 @@ export default function Servicios() {
         <>
             <section className="services-in-home">
                 <h2>¿Listo para vender mas con tu sitio web?</h2>
+                <h3>Mira nuestros servicios</h3>
                 <ServiciosTipo
                     Tipo={true}
                     Imagen={servicio.LandingPage}

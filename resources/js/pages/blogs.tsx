@@ -1,50 +1,123 @@
-import { Head, Link } from "@inertiajs/react";
+import { Head } from "@inertiajs/react";
 import Navbar from "@/layouts/navbar";
 import Footer from "@/layouts/footer";
 import Formulario from "@/layouts/formulario";
-import Desarrollo from "@/layouts/desarrollos";
-import Planes from "@/layouts/planes";
-import ButonContacto from "@/components/butonContacto";
+import TarjetaBlog from "@/components/tarjetaBlog";
+import { Paginas } from "@/imgs/pag";
+import { General } from "@/imgs/general";
+import { Banner } from "@/imgs/banners";
+import ProcesoDeTrabajo from "@/layouts/ProcesoDeTrabajo";
+import ButonContacto from "@/components/butonContacto"
 
 export default function Blogs() {
     return(
         <>
-        <Head title="..."/>
+        <Head title="Blog de Marketing Digital"/>
         <Navbar/>
         <main className="banner-portafolio">
             <div className="banner-portafolio-title">
                 <h1>
-                    ...
+                    Blog
                 </h1>
-            </div>
-            <div className="banner-portafolio-text">
-                <p>
-                    ...
-                </p>
-                <p>
-                    ...
-                </p>
+                <h2>
+                    ¿Listo para transformar tu negocio? 
+                </h2>
             </div>
         </main>
-        <section>
-            <hr />
-            <div className="container info-pryect">
-                <div className="info-pryect-text">
-                    <h2>¿Quieres un sitio?</h2>
-                    <p>
-                        Agenda una llamada y empieza tu proyecto hoy, 
-                        Cotización gratuita y asesoramiento inicial 
-                        incluida.
-                    </p>
-                </div>
-                <div className="info-pryect-button">
-                    <ButonContacto 
-                        Ruta="contacto"
-                        Texto="Cotiza ¡YA!"
-                    />
-                </div>
+        <main className="blogs-tarjet">
+            <TarjetaBlog
+                Tit="SEO: el activo invisible que genera ventas a largo plazo"
+                Img= {Paginas.TuDesarrollo}
+                Rut= "SEOActivoInvisible"
+            />
+            <TarjetaBlog
+                Tit="Razones para contratar una agencia de marketing digital"
+                Img= {General.Analytics}
+                Rut= "RazonesContratarAgencia"
+            />
+            <TarjetaBlog
+                Tit="Marketing Digital Orgánico: qué es, diferencias y cómo aplicarlo en tu negocio"
+                Img= {Banner.AnalisisGoogle}
+                Rut= "MarketingDigitalOrganico"
+            />
+            <TarjetaBlog
+                Tit="Marketing digital B2B en 2025: estrategias que sí generan resultados"
+                Img= {Banner.OrganizacionUnEquipo}
+                Rut= "MarketingDigitalB2B"
+            />
+            <TarjetaBlog
+                Tit="Marketing digital para PyMES en 2025: guía práctica para crecer en línea"
+                Img= {Banner.AnalisisMetricasGoogle}
+                Rut= "MaketingDigitalPymes"
+            />
+            <TarjetaBlog
+                Tit="Instagram para empresas en 2025: cómo aprovechar su potencial al máximo"
+                Img= {Banner.SocialMedia}
+                Rut= "InstagramEmpresas"
+            />
+            <TarjetaBlog
+                Tit="Diferencias entre una Agencia de Marketing y una Agencia de Publicidad"
+                Img= {Banner.EscritorioTomaPicada}
+                Rut= "MarketingVSPublicidad"
+            />
+            <TarjetaBlog
+                Tit="¿Qué es el eCommerce y por qué es clave para los negocios en 2025?"
+                Img= {Banner.PaginaLapSencillaPicada}
+                Rut= "QueEsEcommerce"
+            />
+            <TarjetaBlog
+                Tit="Páginas Web No Seguras: Qué Son y Cómo Protegerte en 2025"
+                Img= {Banner.BusquedaGoogle}
+                Rut= "PaginasNoSeguras"
+            />
+            <TarjetaBlog
+                Tit="Páginas web: ventajas y desventajas en 2025"
+                Img= {Banner.PaginaAnaliticaGraficas}
+                Rut= "PaginasVentajasDesventajas"
+            />
+            <TarjetaBlog
+                Tit="Tipos de páginas web: guía completa 2025"
+                Img= {Banner.PaginaLapTomaPicada}
+                Rut= "TiposDePaginas"
+            />
+            <TarjetaBlog
+                Tit="Publicidad para negocios: conoce los tipos que existen en 2025"
+                Img= {Banner.GraficasResultadosMedibles}
+                Rut= "PublicidadNegocios"
+            />
+            <TarjetaBlog
+                Tit="Diseño de páginas web: ¿de qué se trata y cuáles son sus elementos esenciales?"
+                Img= {Banner.DisenoFigmaUnaPagina}
+                Rut= "DisenoPaginasWeb"
+            />
+            <TarjetaBlog
+                Tit="¿Cuánto cuesta anunciarse en Google Ads en 2025?"
+                Img= {Banner.GraficasPermanencia}
+                Rut= "AnunciarseenGoogle"
+            />
+            <TarjetaBlog
+                Tit="¿Qué hacen realmente los desarrolladores de páginas web en 2025?"
+                Img= {Banner.Servicios}
+                Rut= "DesarrolladoresDePginas"
+            />
+            <TarjetaBlog
+                Tit="¿Qué importancia tiene Google en el Marketing Digital en 2025?"
+                Img= {Banner.ImagenBorrosaMostrandoUnaParteAnalitics}
+                Rut= "ImportanciaGoogleMarketing"
+            />
+        </main>
+        <section className="section-servicios-text">
+            <div className="main-services-div">
+                <h2>
+                    ¿Por qué trabajar con nosotros?
+                </h2>
+                <p>
+                    Mira cómo otros negocios han logrado destacar en Google 
+                    y aumentar sus conversiones gracias a nuestras soluciones.
+                </p>
             </div>
         </section>
+        <ProcesoDeTrabajo/>
         <Formulario/>
         <Footer/>
         </>

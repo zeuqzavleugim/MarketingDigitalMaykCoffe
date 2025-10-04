@@ -1,23 +1,30 @@
 import { General } from "@/imgs/general";
-import { Link } from "@inertiajs/react";
-import { Icons } from "@/imgs/Icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
-export default function Info() {
+export default function Info(props: {Tit: string;}) {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200, // duración de animación en ms
+            once: true,    // animacion
+            easing: "ease-in-out"
+            });
+    }, []);
     return(
         <>
-            <header className="first-seccion" id="conoceme">
-                <div className="seccion-img-perfil">
+            <header className="first-seccion" id="conoceme" data-aos="fade-up">
+                <div className="seccion-img-perfil" data-aos="zoom-in" >
                     <img 
                         src={General.Perfil} 
                         alt="Foto estilo Funco" 
                         title="Foto estilo Funco" 
                         loading="lazy" />
                 </div>
-                <div className="seccion-info-perfil">
-                    <h1>
-                        Agencia de Desarrollo Web y SEO en CDMX para 
-                        Impulsar tu Negocio Online
-                    </h1>
+                <div className="seccion-info-perfil" data-aos="fade-left">
+                    <h2>
+                        {props.Tit}
+                    </h2>
                     <p>
                         Creamos páginas web y aplicaciones modernas, 
                         rápidas y optimizadas para Google. 

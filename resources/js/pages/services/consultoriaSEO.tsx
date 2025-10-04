@@ -6,6 +6,7 @@ import ButonContacto from "@/components/butonContacto";
 import { servicio } from "@/imgs/servises";
 import Planes from "@/layouts/planes";
 import { Banner } from "@/imgs/banners";
+import ProcesoDeTrabajo from "@/layouts/ProcesoDeTrabajo";
 
 export default function ConsultoriaSEO() {
     return (
@@ -13,6 +14,9 @@ export default function ConsultoriaSEO() {
         <Head title="Consultoría SEO Técnica y Estratégica" />
         <Navbar />
         <main className="pag-landing">
+            <div className="banner-pag-servces">
+                <img src={Banner.BusquedaGoogle} alt="Tu pagina en Google" title="Tu pagina en Google" />
+            </div>
             <div className="main-servises">
                 <div className="main-services-info">
                     <div>
@@ -118,9 +122,9 @@ export default function ConsultoriaSEO() {
             <Planes
                 TitulH="Planes de renta mensual para tu Consultoria"
                 plans={[
-                    {id: "plan1ConsultoriaSEO", titulo: "Estrategia inicial", presio1: 1000, presio2: 1100, datos: ["Diagnóstico único con recomendaciones escritas", "sin mantenimiento"], tipo: false},
-                    {id: "plan2ConsultoriaSEO", titulo: "SEO Growth", presio1: 2000, presio2: 4000, datos: ["Plan estratégico con objetivos", "Ajustes mensuales", "Seguimiento de ranking", "Capacitaciones express"], tipo: true},
-                    {id: "plan3ConsultoriaSEO", titulo: "Consultoría mensual", presio1: 1200, presio2: 1900, datos: ["Asesoría continua", "Seguimiento de ranking", "Ajustes mensuales"], tipo: false}
+                    {id: "plan1ConsultoriaSEO", titulo: "Estrategia inicial", presio1: 1000, datos: ["Diagnóstico único con recomendaciones escritas", "sin mantenimiento"], tipo: false},
+                    {id: "plan2ConsultoriaSEO", titulo: "SEO Growth", presio1: 2000, datos: ["Plan estratégico con objetivos", "Ajustes mensuales", "Seguimiento de ranking", "Capacitaciones express"], tipo: true},
+                    {id: "plan3ConsultoriaSEO", titulo: "Consultoría mensual", presio1: 1200, datos: ["Asesoría continua", "Seguimiento de ranking", "Ajustes mensuales"], tipo: false}
                 ]}
                 bakColor="background-sin"
             />
@@ -155,6 +159,18 @@ export default function ConsultoriaSEO() {
                 </div>
             </div>
         </main>
+        <section className="section-servicios-text">
+            <div className="main-services-div">
+                <h2>
+                    ¿Por qué trabajar con nosotros?
+                </h2>
+                <p>
+                    Mira cómo otros negocios han logrado destacar en Google 
+                    y aumentar sus conversiones gracias a nuestras soluciones.
+                </p>
+            </div>
+        </section>
+        <ProcesoDeTrabajo/>
         <Formulario />
         <Footer />
         </>

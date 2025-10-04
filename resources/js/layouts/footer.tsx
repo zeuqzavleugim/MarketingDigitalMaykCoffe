@@ -1,5 +1,4 @@
 import { Icons } from "@/imgs/Icons";
-import { Link } from "@inertiajs/react";
 import WhatsButon from "./whatsButon";
 
 export default function Footer() {
@@ -27,7 +26,8 @@ export default function Footer() {
                     <div className="footer-sitio">
                         {/* <a href={route("construccion")} title="Planes">Planes</a> */}
                         <a href={route("contacto")} title="contacto">Contacto</a>
-                        <a href={route("construccion")} title="Blogs">Blogs</a>
+                        <a href={route("blogs")} title="Blogs">Blogs</a>
+                        <a href={route("politicas")} title="Terminos y condiciones">Terminos y condiciones</a>
                     </div>
                 </div>
             </footer>

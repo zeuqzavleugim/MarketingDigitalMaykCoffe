@@ -1,4 +1,4 @@
-export default function CartPlans(props: {Titulo: string, Presio1: number, Presio2: number, Datos: Array<string>, Tipo: Boolean}) {
+export default function CartPlans(props: {Titulo: string, Presio1: number, Datos: Array<string>, Tipo: Boolean}) {
     
     if (props.Tipo === false) {
         return(
@@ -7,7 +7,7 @@ export default function CartPlans(props: {Titulo: string, Presio1: number, Presi
                     <h2>{props.Titulo}</h2>
                     <p>Desde</p>
                     <div className="cartTipoPrecio">
-                        <p><b>${props.Presio1}</b> - <b>${props.Presio2}</b></p><span>MX</span> 
+                        <p><b>${props.Presio1}</b></p><span>MX</span> 
                     </div>
                     <div className="cartTipoLista">
                         <ul>
@@ -29,7 +29,7 @@ export default function CartPlans(props: {Titulo: string, Presio1: number, Presi
                     <h2>{props.Titulo}</h2>
                     <p>Desde</p>
                     <div className="cartTipoPrecio">
-                        <p><b>${props.Presio1}</b> - <b>${props.Presio2}</b></p><span>MX</span>
+                        <p><b>${props.Presio1}</b></p><span>MX</span>
                     </div>
                     <div className="cartTipoListaB">
                         <ul>
